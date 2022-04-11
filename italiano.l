@@ -87,10 +87,10 @@
      * Global variables.
      */
 
-    bool    american        = false;
-    bool    british         = false;
-    bool    german          = false;
     bool    language_unset  = true;
+    bool    to_american     = false;
+    bool    to_british      = false;
+    bool    to_german       = false;
 %}
 
 %% /***************************************************************************/
@@ -163,8 +163,8 @@ void eval (const int argc, char * const * const args)
                 case 0x8:
                     if (memcmp (current, "--german", 0x8) == 0x0)
                     {
-                        german          = true;
                         language_unset  = false;
+                        to_german       = true;
                     }
                     else
                         unresolvable_argument (current);
@@ -173,8 +173,8 @@ void eval (const int argc, char * const * const args)
                 case 0x9:
                     if (memcmp (current, "--british", 0x9) == 0x0)
                     {
-                        british         = true;
                         language_unset  = false;
+                        to_british      = true;
                     }
                     else
                         unresolvable_argument (current);
@@ -183,8 +183,8 @@ void eval (const int argc, char * const * const args)
                 case 0xA:
                     if (memcmp (current, "--american", 0xA) == 0x0)
                     {
-                        american        = true;
                         language_unset  = false;
+                        to_american     = true;
                     }
                     else
                         unresolvable_argument (current);
