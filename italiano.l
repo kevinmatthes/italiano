@@ -114,7 +114,7 @@
  * English to `yyout`.
  */
 
-inline void american (const char * const translation)
+void american (const char * const translation)
 {
     if (to_american)
         echo (translation);
@@ -132,7 +132,7 @@ inline void american (const char * const translation)
  * to `yyout`.
  */
 
-inline void british (const char * const translation)
+void british (const char * const translation)
 {
     if (to_british)
         echo (translation);
@@ -278,7 +278,7 @@ void eval (const int argc, char * const * const args)
  * `yyout`.
  */
 
-inline void german (const char * const translation)
+void german (const char * const translation)
 {
     if (to_german)
         echo (translation);
