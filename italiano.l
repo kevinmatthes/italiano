@@ -49,6 +49,16 @@
 
     extern void echo (const char * const string);
     extern int  main (void);
+    extern void license ( const int             year
+                        , const int             year_this
+                        , const char * const    people
+                        , const char * const    license
+                        );
+    extern void version ( const char * const    app_name
+                        , const int             major
+                        , const int             minor
+                        , const int             fix_level
+                        );
 %}
 
 %% /***************************************************************************/
