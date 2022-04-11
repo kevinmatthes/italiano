@@ -42,7 +42,7 @@
 ################################################################################
 
 title:
-  - untab
+  - italiano
 
 subtitle:
   - A Simple Lexer which Removes Tab Characters from a Given File
