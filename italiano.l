@@ -37,6 +37,7 @@
      * Includes.
      */
 
+    #include <stdbool.h>
     #include <sysexits.h>
 
     #include "GPL_2_0.h"
