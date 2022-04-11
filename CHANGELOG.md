@@ -50,6 +50,7 @@
 * function `echo`
 * function `eval`
 * function `license`
+* function `unresolvable_argument`
 * function `version`
 * header `GPL_2_0.h`
 * include `stdbool.h`
