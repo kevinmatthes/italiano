@@ -100,6 +100,11 @@
 
 %% /***************************************************************************/
 
+[Aa]rrivederci  {
+                    english ("good bye");
+                    german ("auf Wiedersehen");
+                };
+
 [Bb]uonasera    {
                     english ("good evening");
                     german ("guten Abend");
@@ -109,15 +114,33 @@
                     german ("guten Tag");
                 };
 
+[Cc]osa         {
+                    english ("what");
+                    german ("was");
+                };
+
 [Ii]talian[ao]  {
                     english ("Italian");
                     german ("italienisch");
                 };
 
-[Ss]ono {
-            english ("I am");
-            german ("ich bin");
-        };
+[Ss]ignifica    {
+                    english ("means");
+                    german ("bedeutet");
+                };
+[Ss]ono         {
+                    english ("I am");
+                    german ("ich bin");
+                };
+[Ss]pagnol[ao]  {
+                    english ("Spanish");
+                    german ("spanisch");
+                };
+
+[Tt]edesc[ao]   {
+                    english ("German");
+                    german ("deutsch");
+                };
 
 .   ECHO;
 
