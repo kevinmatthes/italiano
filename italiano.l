@@ -235,6 +235,25 @@ int main (const int argc, char * const * const args)
 
 
 /**
+ * \brief   Quit the application because of unset target languages.
+ *
+ * This lexer needs at least one language it can translate to.  If no one is
+ * configurated, there is no need to keep this translator running.
+ *
+ * This function will write a brief error message to `stderr` and quit the
+ * application with code 64.
+ */
+
+inline void no_language_set (void)
+{
+    fprintf (stderr, "At least one language needs to be specified!\n");
+    exit (EX_USAGE);
+    return;
+}
+
+
+
+/**
  * \brief   Quit the application because of an unresolvable argument.
  * \param   argument    The argument which cannot be resolved.
  *
