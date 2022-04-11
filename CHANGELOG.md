@@ -42,4 +42,20 @@
 
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+* add GPL 2.0 license
+* create repository README
+* create this changelog
+* create this repository
+* submodule `docs-snippets`
+* submodule `routines`
+* submodule `untab`
+
+### Deprecated
+
+* submodule `untab`
+
 <!----------------------------------------------------------------------------->
