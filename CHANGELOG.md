@@ -50,6 +50,7 @@
 * word:  arrivederci
 * word:  buonasera
 * word:  buongiorno
+* word:  cinese
 * word:  cosa
 * word:  italiana, italiano
 * word:  significa

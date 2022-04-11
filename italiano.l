@@ -114,6 +114,10 @@
                     german ("guten Tag");
                 };
 
+[Cc]inese       {
+                    english ("Chinese");
+                    german ("chinesisch");
+                };
 [Cc]osa         {
                     english ("what");
                     german ("was");
