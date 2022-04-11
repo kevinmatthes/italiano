@@ -48,6 +48,7 @@
 
 * create `define.dox`
 * function `echo`
+* function `version`
 * header `GPL_2_0.h`
 
 ### Changed
