@@ -121,6 +121,24 @@ inline void american (const char * const translation)
 
 
 /**
+ * \brief   Translation into British English.
+ * \param   translation The meaning in the output language.
+ *
+ * If configurated, this lexer will write the given meaning in British English
+ * to `yyout`.
+ */
+
+inline void british (const char * const translation)
+{
+    if (to_british)
+        echo (translation);
+
+    return;
+}
+
+
+
+/**
  * \brief   Write a string to the configurated output stream.
  * \param   string  The string to write to the output stream.
  *
