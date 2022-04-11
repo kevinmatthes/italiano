@@ -122,8 +122,25 @@ octave-cli install-app.m
 untab --american
 ```
 
-Set the output language to US American language.  Only one target language is
+Set the output language to US American English.  Only one target language is
 allowed.
+
+### `--british`
+
+```
+untab --british
+```
+
+Set the output language to British English.  Only one target language is
+allowed.
+
+### `--german`
+
+```
+untab --german
+```
+
+Set the output language to German.  Only one target language is allowed.
 
 ### `-l`
 
