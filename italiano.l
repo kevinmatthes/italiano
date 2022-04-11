@@ -62,13 +62,17 @@
      */
 
     extern void echo                    (const char * const string);
-    extern void eval                    (const int argc, char * const * const args);
+    extern void eval                    ( const int             argc
+                                        , char * const * const  args
+                                        );
     extern void license                 ( const int             year
                                         , const int             year_this
                                         , const char * const    people
                                         , const char * const    license
                                         );
-    extern int  main                    (void);
+    extern int  main                    ( const int             argc
+                                        , char * const * const  args
+                                        );
     extern void unresolvable_argument   (const char * const argument);
     extern void version                 ( const char * const    app_name
                                         , const int             major
