@@ -183,6 +183,26 @@ int main (const int argc, char * const * const args)
 
 
 /**
+ * \brief   Quit the application because of an unresolvable argument.
+ * \param   argument    The argument which cannot be resolved.
+ *
+ * In case some extra arguments are passed to the lexer, it cannot deduce what
+ * it should do with them.  Hence, it will consider them unresolvable and quit.
+ *
+ * This function will write a brief error message to `stderr` and quit the
+ * application with code 64.
+ */
+
+inline void unresolvable_argument (const char * const argument)
+{
+    fprintf (stderr, "Unresolvable argument:  '%s'.\n", argument);
+    exit (EX_USAGE);
+    return;
+}
+
+
+
+/**
  * \brief   The version information.
  * \param   app_name    This lexer's name.
  * \param   major       This lexer's major version.
