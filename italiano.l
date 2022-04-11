@@ -61,6 +61,7 @@
      */
 
     extern void echo    (const char * const string);
+    extern void eval    (const int argc, char * const * const args);
     extern void license ( const int             year
                         , const int             year_this
                         , const char * const    people
@@ -90,6 +91,22 @@
 inline void echo (const char * const string)
 {
     fprintf (yyout, "%s", string);
+    return;
+}
+
+
+
+/**
+ * \brief   Evaluate the command line arguments and set the environment.
+ * \param   argc    The count of passed command line arguments.
+ * \param   args    The passed command line arguments.
+ *
+ * This function will evaluate the passed command line arguments and set the
+ * environment of this lexer accordingly.
+ */
+
+void eval (const int argc, char * const * const args)
+{
     return;
 }
 
