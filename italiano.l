@@ -25,6 +25,9 @@
  * \file        italiano.l
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
+ *
+ * This lexer "translates" Italian to a given other language by replacing the
+ * recognised vocabs by the predefined translation to the respective language.
  */
 
 /******************************************************************************/
