@@ -47,6 +47,9 @@
 ### Added
 
 * add GPL 2.0 license
+* build routine:  compilation
+* build routine:  installation
+* build routine:  repository manual
 * create repository README
 * create this changelog
 * create this repository
