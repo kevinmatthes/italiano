@@ -162,21 +162,30 @@ void eval (const int argc, char * const * const args)
 
                 case 0x8:
                     if (! memcmp (current, "--german", 0x8))
-                        german = true;
+                    {
+                        german          = true;
+                        language_unset  = false;
+                    }
                     else
                         unresolvable_argument (current);
                     break;
 
                 case 0x9:
                     if (! memcmp (current, "--british", 0x9))
-                        british = true;
+                    {
+                        british         = true;
+                        language_unset  = false;
+                    }
                     else
                         unresolvable_argument (current);
                     break;
 
                 case 0xA:
                     if (! memcmp (current, "--american", 0xA))
-                        american = true;
+                    {
+                        american        = true;
+                        language_unset  = false;
+                    }
                     else
                         unresolvable_argument (current);
                     break;
