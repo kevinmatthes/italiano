@@ -61,10 +61,13 @@
      * Function declarations.
      */
 
+    extern void american                (const char * const string);
+    extern void british                 (const char * const string);
     extern void echo                    (const char * const string);
     extern void eval                    ( const int             argc
                                         , char * const * const  args
                                         );
+    extern void german                  (const char * const string);
     extern void license                 ( const int             year
                                         , const int             year_this
                                         , const char * const    people
