@@ -46,6 +46,7 @@
 
 ### Added
 
+* basic option parsing
 * create `define.dox`
 * function `echo`
 * function `eval`
