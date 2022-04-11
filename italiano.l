@@ -45,6 +45,7 @@
      * Function declarations.
      */
 
+    extern void echo (const char * const string);
     extern int  main (void);
 %}
 
