@@ -161,12 +161,24 @@ void eval (const int argc, char * const * const args)
                     break;
 
                 case 0x8:
+                    if (! memcmp (current, "--german", 0x8))
+                        german = true;
+                    else
+                        unresolvable_argument (current);
                     break;
 
                 case 0x9:
+                    if (! memcmp (current, "--british", 0x9))
+                        british = true;
+                    else
+                        unresolvable_argument (current);
                     break;
 
                 case 0xA:
+                    if (! memcmp (current, "--american", 0xA))
+                        american = true;
+                    else
+                        unresolvable_argument (current);
                     break;
             };
         }
