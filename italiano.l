@@ -125,6 +125,11 @@
                     german ("was");
                 };
 
+[Gg]razie       {
+                    english ("thanks");
+                    german ("danke");
+                };
+
 [Ii]talian[ao]  {
                     english ("Italian");
                     german ("italienisch");
