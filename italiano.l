@@ -100,6 +100,15 @@
 
 %% /***************************************************************************/
 
+[Bb]uonasera    {
+                    english ("good evening");
+                    german ("guten Abend");
+                };
+[Bb]uongiorno   {
+                    english ("good morning");
+                    german ("guten Tag");
+                };
+
 [Ii]talian[ao]  {
                     english ("Italian");
                     german ("italienisch");
