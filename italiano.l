@@ -151,14 +151,17 @@ inline void license ( const int             year
 
 /**
  * \brief   The main function in order to control the behaviour of the lexer.
+ * \param   argc    The count of passed command line arguments.
+ * \param   args    The passed command line arguments.
  * \return  0x0
  *
  * This is the main function which controls the behaviour and configuration of
  * resulting application.
  */
 
-int main (void)
+int main (const int argc, char * const * const args)
 {
+    eval (argc, args);
     yylex ();
     yylex_destroy ();
     return EX_OK;
