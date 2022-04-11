@@ -222,7 +222,9 @@ void eval (const int argc, char * const * const args)
                     break;
 
                 case 0x8:
-                    if (memcmp (current, "--german", 0x8) == 0x0)
+                    if (  language_unset
+                       && memcmp (current, "--german", 0x8) == 0x0
+                       )
                     {
                         language_unset  = false;
                         to_german       = true;
@@ -232,7 +234,9 @@ void eval (const int argc, char * const * const args)
                     break;
 
                 case 0x9:
-                    if (memcmp (current, "--british", 0x9) == 0x0)
+                    if (  language_unset
+                       && memcmp (current, "--british", 0x9) == 0x0
+                       )
                     {
                         language_unset  = false;
                         to_british      = true;
@@ -242,7 +246,9 @@ void eval (const int argc, char * const * const args)
                     break;
 
                 case 0xA:
-                    if (memcmp (current, "--american", 0xA) == 0x0)
+                    if (  language_unset
+                       && memcmp (current, "--american", 0xA) == 0x0
+                       )
                     {
                         language_unset  = false;
                         to_american     = true;
