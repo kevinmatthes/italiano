@@ -73,12 +73,21 @@
     extern int  main                    ( const int             argc
                                         , char * const * const  args
                                         );
+    extern void no_language_set         (void);
     extern void unresolvable_argument   (const char * const argument);
     extern void version                 ( const char * const    app_name
                                         , const int             major
                                         , const int             minor
                                         , const int             fix_level
                                         );
+
+
+
+    /*
+     * Global variables.
+     */
+
+    bool    language_unset  = true;
 %}
 
 %% /***************************************************************************/
@@ -152,6 +161,9 @@ void eval (const int argc, char * const * const args)
         else
             unresolvable_argument (current);
     };
+
+    if (language_unset)
+        no_language_set ();
 
     return;
 }
