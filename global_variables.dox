@@ -39,4 +39,11 @@
  * It will be inverted as soon as at least one target language was specified.
  */
 
+/*! \var    to_american
+ * \brief   Set the output language to US American English.
+ *
+ * This flag controls whether this lexer will write its output in US American
+ * English.
+ */
+
 /******************************************************************************/
