@@ -50,6 +50,7 @@
 * build routine:  compilation
 * build routine:  installation
 * build routine:  repository manual
+* create `italiano.l`
 * create list of authors
 * create project meta data for repository manual
 * create repository README
