@@ -35,8 +35,8 @@
 /*! \var    language_unset
  * \brief   Whether the languages were already set.
  *
- * This flag indicates whether at least one output language was configurated.
- * It will be inverted as soon as at least one target language was specified.
+ * This flag indicates whether exactly one output language was configurated.  It
+ * will be inverted as soon as the target language was specified.
  */
 
 /*! \var    to_american
