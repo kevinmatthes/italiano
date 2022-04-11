@@ -49,7 +49,7 @@
 * include `ctype.h`
 * word:  buonasera
 * word:  buongiorno
-* word:  italiano
+* word:  italiana, italiano
 * word:  sono
 
 ### Fixed
