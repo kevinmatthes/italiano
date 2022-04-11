@@ -83,6 +83,43 @@ inline void echo (const char * const string)
 
 
 /**
+ * \brief   The license information.
+ * \param   year        The year of the first commit.
+ * \param   year_this   The year of the latest commit.
+ * \param   people      The people who contributed to this project.
+ * \param   license     The license text.
+ *
+ * This function will write a brief license information to `stdout`.
+ */
+
+inline void license ( const int             year
+                    , const int             year_this
+                    , const char * const    people
+                    , const char * const    license
+                    )
+{
+    if (year >= year_this)
+        fprintf ( stdout
+                , "Copyright (C) %d %s\n\n%s\n"
+                , year
+                , people
+                , license
+                );
+    else
+        fprintf ( stdout
+                , "Copyright (C) %d─%d %s\n\n%s\n"
+                , year
+                , year_this
+                , people
+                , license
+                );
+
+    return;
+}
+
+
+
+/**
  * \brief   The main function in order to control the behaviour of the lexer.
  * \return  0x0
  *
