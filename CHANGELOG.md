@@ -47,6 +47,7 @@
 ### Added
 
 * function `echo`
+* header `GPL_2_0.h`
 
 ### Changed
 
