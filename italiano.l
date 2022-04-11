@@ -243,6 +243,24 @@ void eval (const int argc, char * const * const args)
 
 
 /**
+ * \brief   Translation into German.
+ * \param   translation The meaning in the output language.
+ *
+ * If configurated, this lexer will write the given meaning in German to
+ * `yyout`.
+ */
+
+inline void german (const char * const translation)
+{
+    if (to_german)
+        echo (translation);
+
+    return;
+}
+
+
+
+/**
  * \brief   The license information.
  * \param   year        The year of the first commit.
  * \param   year_this   The year of the latest commit.
