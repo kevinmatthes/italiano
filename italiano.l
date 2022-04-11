@@ -88,6 +88,9 @@
      */
 
     bool    language_unset  = true;
+    bool    to_american     = false;
+    bool    to_british      = false;
+    bool    to_german       = false;
 %}
 
 %% /***************************************************************************/
