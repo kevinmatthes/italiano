@@ -108,6 +108,18 @@ inline void echo (const char * const string)
 
 void eval (const int argc, char * const * const args)
 {
+    for (int i = 0x1; i < argc; i++)
+    {
+        char * const current = args[i];
+
+        if (current[0x0] == '-')
+        {
+            ;
+        }
+        else
+            unresolvable_argument (current);
+    };
+
     return;
 }
 
