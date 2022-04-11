@@ -100,10 +100,10 @@
 
 %% /***************************************************************************/
 
-[Ii]taliano {
-                english ("Italian");
-                german ("italienisch");
-            };
+[Ii]talian[ao]  {
+                    english ("Italian");
+                    german ("italienisch");
+                };
 
 [Ss]ono {
             english ("I am");
