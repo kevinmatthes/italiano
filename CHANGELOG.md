@@ -48,6 +48,7 @@
 
 * create `define.dox`
 * function `echo`
+* function `eval`
 * function `license`
 * function `version`
 * header `GPL_2_0.h`
