@@ -47,10 +47,15 @@
 ### Added
 
 * include `ctype.h`
+* word:  arrivederci
 * word:  buonasera
 * word:  buongiorno
+* word:  cosa
 * word:  italiana, italiano
+* word:  significa
 * word:  sono
+* word:  spagnola, spagnolo
+* word:  tedesca, tedesco
 
 ### Fixed
 
