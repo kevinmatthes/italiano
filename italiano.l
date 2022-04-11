@@ -62,7 +62,7 @@
  * Write the given string to the configurated output stream.
  */
 
-void echo (const char * const string)
+inline void echo (const char * const string)
 {
     fprintf (yyout, "%s", string);
     return;
