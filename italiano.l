@@ -61,13 +61,13 @@
      * Function declarations.
      */
 
-    extern void american                (const char * const string);
-    extern void british                 (const char * const string);
+    extern void american                (const char * const translation);
+    extern void british                 (const char * const translation);
     extern void echo                    (const char * const string);
     extern void eval                    ( const int             argc
                                         , char * const * const  args
                                         );
-    extern void german                  (const char * const string);
+    extern void german                  (const char * const translation);
     extern void license                 ( const int             year
                                         , const int             year_this
                                         , const char * const    people
@@ -101,6 +101,24 @@
 .   ECHO;
 
 %% /***************************************************************************/
+
+/**
+ * \brief   Translation into US American English.
+ * \param   translation The meaning in the output language.
+ *
+ * If configurated, this lexer will write the given meaning in US American
+ * English to `yyout`.
+ */
+
+inline void american (const char * const translation)
+{
+    if (to_american)
+        echo (translation);
+
+    return;
+}
+
+
 
 /**
  * \brief   Write a string to the configurated output stream.
