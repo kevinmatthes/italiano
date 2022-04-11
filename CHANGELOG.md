@@ -47,6 +47,7 @@
 ### Added
 
 * include `ctype.h`
+* word:  italiano
 
 ### Fixed
 
