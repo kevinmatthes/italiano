@@ -51,6 +51,7 @@
 * function `american`
 * function `british`
 * function `echo`
+* function `english`
 * function `eval`
 * function `german`
 * function `license`
