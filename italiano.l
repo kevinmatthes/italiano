@@ -64,6 +64,7 @@
     extern void american                (const char * const translation);
     extern void british                 (const char * const translation);
     extern void echo                    (const char * const string);
+    extern void english                 (const char * const translation);
     extern void eval                    ( const int             argc
                                         , char * const * const  args
                                         );
@@ -148,6 +149,24 @@ inline void british (const char * const translation)
 inline void echo (const char * const string)
 {
     fprintf (yyout, "%s", string);
+    return;
+}
+
+
+
+/**
+ * \brief   Translation into English.
+ * \param   translation The meaning in the output language.
+ *
+ * If configurated, this lexer will write the given meaning in both US American
+ * and British English to `yyout`.
+ */
+
+inline void english (const char * const translation)
+{
+    american (translation);
+    british (translation);
+
     return;
 }
 
