@@ -32,21 +32,21 @@
 
 /******************************************************************************/
 
-/*! \var    american
+/*! \var    to_american
  * \brief   Set the output language to US American English.
  *
  * This flag controls whether this lexer will write its output in US American
  * English.
  */
 
-/*! \var    british
+/*! \var    to_british
  * \brief   Set the output language to British English.
  *
  * This flag controls whether this lexer will write its output in British
  * English.
  */
 
-/*! \var    german
+/*! \var    to_german
  * \brief   Set the output language to German.
  *
  * This flag controls whether this lexer will write its output in German.
