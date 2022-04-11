@@ -48,6 +48,7 @@
 
 * basic option parsing
 * create `define.dox`
+* create `global_variables.dox`
 * function `american`
 * function `british`
 * function `echo`
