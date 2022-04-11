@@ -101,8 +101,14 @@
 %% /***************************************************************************/
 
 [Ii]taliano {
-                english ("Italian"); german ("italienisch");
+                english ("Italian");
+                german ("italienisch");
             };
+
+[Ss]ono {
+            english ("I am");
+            german ("ich bin");
+        };
 
 .   ECHO;
 

@@ -48,6 +48,7 @@
 
 * include `ctype.h`
 * word:  italiano
+* word:  sono
 
 ### Fixed
 
