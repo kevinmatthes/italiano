@@ -246,7 +246,7 @@ int main (const int argc, char * const * const args)
 
 inline void no_language_set (void)
 {
-    fprintf (stderr, "At least one language needs to be specified!\n");
+    fprintf (stderr, "At least one target language needs to be specified!\n");
     exit (EX_USAGE);
     return;
 }
