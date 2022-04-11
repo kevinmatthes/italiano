@@ -199,10 +199,17 @@ inline void license ( const int             year
  * \brief   The main function in order to control the behaviour of the lexer.
  * \param   argc    The count of passed command line arguments.
  * \param   args    The passed command line arguments.
- * \return  0x0
+ * \return  The application status.
  *
  * This is the main function which controls the behaviour and configuration of
  * resulting application.
+ *
+ * The meaning of the return values are as follows:
+ *
+ * | Code   | Meaning                           |
+ * |:------:|:----------------------------------|
+ * | 0      | no problem occured                |
+ * | 64     | unknown / too many argument(s)    |
  */
 
 int main (const int argc, char * const * const args)
