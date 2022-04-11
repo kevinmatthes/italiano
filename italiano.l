@@ -100,7 +100,9 @@
 
 %% /***************************************************************************/
 
-[Ii]taliano {english ("Italian"); german ("italienisch");};
+[Ii]taliano {
+                english ("Italian"); german ("italienisch");
+            };
 
 .   ECHO;
 
