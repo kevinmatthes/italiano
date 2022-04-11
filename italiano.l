@@ -69,6 +69,7 @@
                         , const char * const    license
                         );
     extern int  main    (void);
+    extern void unresolvable_argument   (const char * const argument);
     extern void version ( const char * const    app_name
                         , const int             major
                         , const int             minor
