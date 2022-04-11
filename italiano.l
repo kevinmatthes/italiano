@@ -33,8 +33,18 @@
 /******************************************************************************/
 
 %{
+    /*
+     * Includes.
+     */
+
     #include <sysexits.h>
 
+
+
+    /*
+     * Function declarations.
+     */
+     
     extern int  main (void);
 %}
 
