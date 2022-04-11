@@ -39,6 +39,19 @@
  * English.
  */
 
+/*! \var    british
+ * \brief   Set the output language to British English.
+ *
+ * This flag controls whether this lexer will write its output in British
+ * English.
+ */
+
+/*! \var    german
+ * \brief   Set the output language to German.
+ *
+ * This flag controls whether this lexer will write its output in German.
+ */
+
 /*! \var    language_unset
  * \brief   Whether the languages were already set.
  *
