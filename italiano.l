@@ -104,7 +104,7 @@
 %% /***************************************************************************/
 
 /**
- * \brief   Translation into US American English.
+ * \brief   The translation into US American English.
  * \param   translation The meaning in the output language.
  *
  * If configurated, this lexer will write the given meaning in US American
@@ -122,7 +122,7 @@ inline void american (const char * const translation)
 
 
 /**
- * \brief   Translation into British English.
+ * \brief   The translation into British English.
  * \param   translation The meaning in the output language.
  *
  * If configurated, this lexer will write the given meaning in British English
@@ -155,7 +155,7 @@ inline void echo (const char * const string)
 
 
 /**
- * \brief   Translation into English.
+ * \brief   The translation into English.
  * \param   translation The meaning in the output language.
  *
  * If configurated, this lexer will write the given meaning in both US American
@@ -262,7 +262,7 @@ void eval (const int argc, char * const * const args)
 
 
 /**
- * \brief   Translation into German.
+ * \brief   The translation into German.
  * \param   translation The meaning in the output language.
  *
  * If configurated, this lexer will write the given meaning in German to
