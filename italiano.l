@@ -44,7 +44,7 @@
     /*
      * Function declarations.
      */
-     
+
     extern int  main (void);
 %}
 
@@ -53,6 +53,14 @@
 .   ECHO;
 
 %% /***************************************************************************/
+
+/**
+ * \brief   The main function in order to control the behaviour of the lexer.
+ * \return  0x0
+ *
+ * This is the main function which controls the behaviour and configuration of
+ * resulting application.
+ */
 
 int main (void)
 {
