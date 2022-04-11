@@ -57,6 +57,7 @@
 
 ### Changed
 
+* accept command line arguments
 * adjust README description
 
 ### Deprecated
