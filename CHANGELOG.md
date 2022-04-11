@@ -66,13 +66,13 @@
 * accept command line arguments
 * adjust README description
 
-### Deprecated
-
-* submodule `untab`
-
 ### Fixed
 
 * typos in README
+
+### Removed
+
+* submodule `untab`
 
 ## [0.0.1] -- 2022-04-11
 
