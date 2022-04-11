@@ -51,7 +51,6 @@
 ### Fixed
 
 * case handling
-* too much `const`
 
 ## [0.0.2] -- 2022-04-11
 

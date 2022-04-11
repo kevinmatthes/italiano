@@ -62,14 +62,14 @@
      * Function declarations.
      */
 
-    extern void american                (char * const translation);
-    extern void british                 (char * const translation);
+    extern void american                (const char * const translation);
+    extern void british                 (const char * const translation);
     extern void echo                    (const char * const string);
-    extern void english                 (char * const translation);
+    extern void english                 (const char * const translation);
     extern void eval                    ( const int             argc
                                         , char * const * const  args
                                         );
-    extern void german                  (char * const translation);
+    extern void german                  (const char * const translation);
     extern void license                 ( const int             year
                                         , const int             year_this
                                         , const char * const    people
@@ -100,6 +100,8 @@
 
 %% /***************************************************************************/
 
+[Ii]taliano {english ("Italian"); german ("italienisch");};
+
 .   ECHO;
 
 %% /***************************************************************************/
@@ -112,12 +114,12 @@
  * English to `yyout`.
  */
 
-void american (char * const translation)
+void american (const char * const translation)
 {
     if (to_american && isupper (yytext[0x0]))
     {
-        translation[0x0] = toupper (translation[0x0]);
-        echo (translation);
+        fprintf (yyout, "%c", toupper (translation[0x0]));
+        echo (& translation[0x1]);
     }
     else if (to_american)
         echo (translation);
@@ -135,12 +137,12 @@ void american (char * const translation)
  * to `yyout`.
  */
 
-void british (char * const translation)
+void british (const char * const translation)
 {
     if (to_british && isupper (yytext[0x0]))
     {
-        translation[0x0] = toupper (translation[0x0]);
-        echo (translation);
+        fprintf (yyout, "%c", toupper (translation[0x0]));
+        echo (& translation[0x1]);
     }
     else if (to_british)
         echo (translation);
@@ -173,7 +175,7 @@ inline void echo (const char * const string)
  * and British English to `yyout`.
  */
 
-inline void english (char * const translation)
+inline void english (const char * const translation)
 {
     american (translation);
     british (translation);
@@ -285,12 +287,12 @@ void eval (const int argc, char * const * const args)
  * `yyout`.
  */
 
-void german (char * const translation)
+void german (const char * const translation)
 {
     if (to_german && isupper (yytext[0x0]))
     {
-        translation[0x0] = toupper (translation[0x0]);
-        echo (translation);
+        fprintf (yyout, "%c", toupper (translation[0x0]));
+        echo (& translation[0x1]);
     }
     else if (to_german)
         echo (translation);
