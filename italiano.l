@@ -119,7 +119,35 @@ void eval (const int argc, char * const * const args)
 
         if (current[0x0] == '-')
         {
-            ;
+            switch (strlen (current))
+            {
+                default:
+                    unresolvable_argument (current);
+                    break;
+
+                case 0x2:
+                    switch (current[0x1])
+                    {
+                        default:
+                            unresolvable_argument (current);
+                            break;
+
+                        case 'l':
+                            license (0x7E6, VERSION_YEAR, AUTHOR, LICENSE);
+                            exit (EX_OK);
+                            break;
+
+                        case 'v':
+                            version ( args[0x0]
+                                    , VERSION_MAJOR
+                                    , VERSION_MINOR
+                                    , VERSION_FIX_LEVEL
+                                    );
+                            exit (EX_OK);
+                            break;
+                    };
+                    break;
+            };
         }
         else
             unresolvable_argument (current);
