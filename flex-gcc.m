@@ -52,12 +52,12 @@ compiler.flags  = [compiler.flags ' -DYY_NO_INPUT '];
 compiler.flags  = [compiler.flags ' -DYY_NO_UNPUT '];
 compiler.in     = '*.c';
 compiler.link   = ' -lfl ';
-compiler.out    = 'untab';
+compiler.out    = 'italiano';
 compiler.self   = ' gcc ';
 compiler.call   = [compiler.self ' ' compiler.flags ' ' compiler.in];
 compiler.call   = [compiler.call ' ' compiler.link ' -o ' compiler.out];
 
-scangen.in      = 'untab.l';
+scangen.in      = 'italiano.l';
 scangen.out     = 'lex.yy.c';
 scangen.self    = ' flex ';
 scangen.call    = [scangen.self ' ' scangen.in];
