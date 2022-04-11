@@ -22,59 +22,21 @@
  * \copyright   (C) 2022 Kevin Matthes.
  *              This file is licensed GPL 2 as of June 1991.
  * \date        2022
- * \file        define.dox
+ * \file        global_variables.dox
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
  *
- * This file contains all docstrings of the macros introduced by `define`
- * preprocessor instructions in order to keep the corresponding source files
- * more readable.
+ * This file contains all docstrings of the global variables in order to keep
+ * the corresponding source files more readable.
  */
 
 /******************************************************************************/
 
-/*! \def    __GPL_2_0_H__
- * \brief   Prevent this header from being included twice.
+/*! \var    language_unset
+ * \brief   Whether the languages were already set.
  *
- * In case this header file should be included more than just once, unexpected
- * side effects might take place.  This unintended behaviour will be avoided by
- * the definition of this macro.
- */
-
-/*! \def    AUTHORS
- * \brief   The list of contributors.
- *
- * This macro represents the list of all people who commited to this project.
- */
-
-/*! \def    LICENSE
- * \brief   This lexer's license.
- *
- * This macro assigns this lexer the intended license.
- */
-
-/*! \def    VERSION_FIX_LEVEL
- * \brief   This lexer's fix level.
- *
- * This macro represents the fix level of this lexer.
- */
-
-/*! \def    VERSION_MAJOR
- * \brief   This lexer's major version.
- *
- * This macro represents the major version of this lexer.
- */
-
-/*! \def    VERSION_MINOR
- * \brief   This lexer's minor version.
- *
- * This macro represents the minor version of this lexer.
- */
-
-/*! \def    VERSION_YEAR
- * \brief   This lexer's latest development year.
- *
- * This macro represents the latest year during which a commit was made.
+ * This indicates whether at least one output language was configurated.  It
+ * will be inverted as soon as at least one target language was specified.
  */
 
 /******************************************************************************/
