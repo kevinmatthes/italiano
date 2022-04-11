@@ -119,7 +119,7 @@ octave-cli install-app.m
 ### `--american`
 
 ```
-untab --american
+italiano --american
 ```
 
 Set the output language to US American English.  Only one target language is
@@ -128,7 +128,7 @@ allowed.
 ### `--british`
 
 ```
-untab --british
+italiano --british
 ```
 
 Set the output language to British English.  Only one target language is
@@ -137,7 +137,7 @@ allowed.
 ### `--german`
 
 ```
-untab --german
+italiano --german
 ```
 
 Set the output language to German.  Only one target language is allowed.
@@ -145,7 +145,7 @@ Set the output language to German.  Only one target language is allowed.
 ### `-l`
 
 ```
-untab -l
+italiano -l
 ```
 
 Show the license text and quit.  All further options will be ignored.
@@ -153,7 +153,7 @@ Show the license text and quit.  All further options will be ignored.
 ### `-v`
 
 ```
-untab -v
+italiano -v
 ```
 
 Show the version and quit.  All further options will be ignored.
