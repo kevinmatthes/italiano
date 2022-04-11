@@ -32,6 +32,13 @@
 
 /******************************************************************************/
 
+/*! \var    language_unset
+ * \brief   Whether the languages were already set.
+ *
+ * This flag indicates whether at least one output language was configurated.
+ * It will be inverted as soon as at least one target language was specified.
+ */
+
 /*! \var    to_american
  * \brief   Set the output language to US American English.
  *
@@ -50,13 +57,6 @@
  * \brief   Set the output language to German.
  *
  * This flag controls whether this lexer will write its output in German.
- */
-
-/*! \var    language_unset
- * \brief   Whether the languages were already set.
- *
- * This flag indicates whether at least one output language was configurated.
- * It will be inverted as soon as at least one target language was specified.
  */
 
 /******************************************************************************/
