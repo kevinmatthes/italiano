@@ -50,6 +50,8 @@
 * build routine:  compilation
 * build routine:  installation
 * build routine:  repository manual
+* create list of authors
+* create project meta data for repository manual
 * create repository README
 * create this changelog
 * create this repository
