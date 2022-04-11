@@ -48,8 +48,11 @@
 
 * basic option parsing
 * create `define.dox`
+* function `american`
+* function `british`
 * function `echo`
 * function `eval`
+* function `german`
 * function `license`
 * function `unresolvable_argument`
 * function `version`
