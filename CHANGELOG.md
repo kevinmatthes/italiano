@@ -52,6 +52,7 @@
 * function `license`
 * function `version`
 * header `GPL_2_0.h`
+* include `stdbool.h`
 
 ### Changed
 
