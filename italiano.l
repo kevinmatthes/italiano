@@ -133,7 +133,7 @@ void eval (const int argc, char * const * const args)
                             break;
 
                         case 'l':
-                            license (0x7E6, VERSION_YEAR, AUTHOR, LICENSE);
+                            license (0x7E6, VERSION_YEAR, AUTHORS, LICENSE);
                             exit (EX_OK);
                             break;
 
