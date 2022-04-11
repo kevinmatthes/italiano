@@ -56,6 +56,21 @@
 %% /***************************************************************************/
 
 /**
+ * \brief   Write a string to the configurated output stream.
+ * \param   string  The string to write to the output stream.
+ *
+ * Write the given string to the configurated output stream.
+ */
+
+void echo (const char * const string)
+{
+    fprintf (yyout, "%s", string);
+    return;
+}
+
+
+
+/**
  * \brief   The main function in order to control the behaviour of the lexer.
  * \return  0x0
  *
