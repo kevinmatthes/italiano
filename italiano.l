@@ -159,6 +159,15 @@ void eval (const int argc, char * const * const args)
                             break;
                     };
                     break;
+
+                case 0x8:
+                    break;
+
+                case 0x9:
+                    break;
+
+                case 0xA:
+                    break;
             };
         }
         else
