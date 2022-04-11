@@ -40,6 +40,10 @@
 ##
 ################################################################################
 
+# Build artifacts.
+italiano
+lex.*.c
+
 # Documentation artifacts.
 *.pdf
 
