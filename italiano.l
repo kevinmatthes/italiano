@@ -109,7 +109,7 @@
 
 [Bb]envenuti    {
                     english ("welcome");
-                    german ("willkommen")
+                    german ("willkommen");
                 };
 [Bb]uonasera    {
                     english ("good evening");
