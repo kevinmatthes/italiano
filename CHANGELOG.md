@@ -51,6 +51,7 @@
 * word:  buonasera
 * word:  buongiorno
 * word:  cinese
+* word:  come
 * word:  cosa
 * word:  grazie
 * word:  italiana, italiano

@@ -120,6 +120,10 @@
                     english ("Chinese");
                     german ("chinesisch");
                 };
+[Cc]ome         {
+                    english ("how");
+                    german ("wie");
+                };
 [Cc]osa         {
                     english ("what");
                     german ("was");
