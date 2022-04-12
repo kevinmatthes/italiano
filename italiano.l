@@ -146,6 +146,11 @@
                     german ("für ");
                 };
 
+[Ee]            {
+                    english ("and");
+                    german ("und");
+                };
+
 [Gg]razie       {
                     english ("thanks");
                     german ("danke");
