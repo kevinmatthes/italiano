@@ -141,6 +141,11 @@
                     german ("was");
                 };
 
+[Dd]'           {
+                    english ("of");
+                    german ("für");
+                };
+
 [Gg]razie       {
                     english ("thanks");
                     german ("danke");

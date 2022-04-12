@@ -56,6 +56,7 @@
 * word:  come
 * word:  corso
 * word:  cosa
+* word:  d'
 * word:  grazie
 * word:  italiana, italiano
 * word:  prego
