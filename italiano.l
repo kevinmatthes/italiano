@@ -142,8 +142,8 @@
                 };
 
 [Dd]'           {
-                    english ("of");
-                    german ("für");
+                    english ("of ");
+                    german ("für ");
                 };
 
 [Gg]razie       {
