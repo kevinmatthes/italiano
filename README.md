@@ -158,4 +158,22 @@ italiano -v
 
 Show the version and quit.  All further options will be ignored.
 
+## Hints
+
+### Unique Word Protection
+
+In order to protect a unique word from being replaced, `%` needs to be given as
+a prefix to the respective word.
+
+Due to the defined replacement rules, unknown words might be misunderstood and,
+thus, translated incorrectly.  This affects words such as names which contain
+a configurated vocab.
+
+```
+$ echo %Io | italiano --british
+Io
+$ echo  | italiano --british
+I
+```
+
 <!----------------------------------------------------------------------------->
