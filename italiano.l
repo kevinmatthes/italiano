@@ -132,6 +132,10 @@
                     english ("how");
                     german ("wie");
                 };
+[Cc]orso        {
+                    english ("course");
+                    german ("Kurs");
+                };
 [Cc]osa         {
                     english ("what");
                     german ("was");
