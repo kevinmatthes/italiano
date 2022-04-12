@@ -164,6 +164,10 @@
                     german ("danke");
                 };
 
+[Ii]o           {
+                    english ("I");
+                    german ("ich");
+                };
 [Ii]talian[ao]  {
                     english ("Italian");
                     german ("italienisch");

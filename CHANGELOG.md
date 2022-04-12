@@ -62,6 +62,7 @@
 * word:  d'
 * word:  e
 * word:  grazie
+* word:  io
 * word:  italiana, italiano
 * word:  prego
 * word:  significa
