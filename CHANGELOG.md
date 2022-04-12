@@ -48,6 +48,7 @@
 
 * include `ctype.h`
 * word:  arrivederci
+* word:  benvenuti
 * word:  buonasera
 * word:  buongiorno
 * word:  cinese

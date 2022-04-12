@@ -107,6 +107,10 @@
                     german ("auf Wiedersehen");
                 };
 
+[Bb]envenuti    {
+                    english ("welcome");
+                    german ("willkommen")
+                };
 [Bb]uonasera    {
                     english ("good evening");
                     german ("guten Abend");
