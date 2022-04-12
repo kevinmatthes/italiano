@@ -124,6 +124,10 @@
                     german ("guten Tag");
                 };
 
+[Cc]hiami       {
+                    english ("are called");
+                    german ("nennt man");
+                };
 [Cc]inese       {
                     english ("Chinese");
                     german ("chinesisch");

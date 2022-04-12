@@ -53,6 +53,7 @@
 * word:  benvenuti
 * word:  buonasera
 * word:  buongiorno
+* word:  chiami
 * word:  cinese
 * word:  come
 * word:  corso
