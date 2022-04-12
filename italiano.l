@@ -128,6 +128,10 @@
                     english ("are called");
                     german ("nennt man");
                 };
+[Cc]hiamo       {
+                    english ("is called");
+                    german ("nennt man");
+                };
 [Cc]inese       {
                     english ("Chinese");
                     german ("chinesisch");
