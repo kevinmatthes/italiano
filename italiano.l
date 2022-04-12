@@ -102,6 +102,10 @@
 
 .   ECHO;
 
+[Aa]l           {
+                    english ("in");
+                    german ("in");
+                };
 [Aa]rrivederci  {
                     english ("good bye");
                     german ("auf Wiedersehen");

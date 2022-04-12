@@ -47,6 +47,7 @@
 ### Added
 
 * include `ctype.h`
+* word:  al
 * word:  arrivederci
 * word:  benvenuti
 * word:  buonasera
