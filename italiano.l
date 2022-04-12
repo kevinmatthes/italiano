@@ -168,6 +168,10 @@
                     english ("I");
                     german ("ich");
                 };
+[Ii]o\ sono     {
+                    english ("I am");
+                    german ("ich bin");
+                };
 [Ii]talian[ao]  {
                     english ("Italian");
                     german ("italienisch");
