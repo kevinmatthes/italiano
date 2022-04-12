@@ -47,6 +47,7 @@
 ### Added
 
 * include `ctype.h`
+* protector for unique words
 * word:  al
 * word:  arrivederci
 * word:  benvenuti
