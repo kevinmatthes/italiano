@@ -54,6 +54,7 @@
 * word:  cosa
 * word:  grazie
 * word:  italiana, italiano
+* word:  prego
 * word:  significa
 * word:  sono
 * word:  spagnola, spagnolo

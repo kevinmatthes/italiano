@@ -135,6 +135,11 @@
                     german ("italienisch");
                 };
 
+[Pp]rego        {
+                    english ("please");
+                    german ("bitte");
+                };
+
 [Ss]ignifica    {
                     english ("means");
                     german ("bedeutet");
