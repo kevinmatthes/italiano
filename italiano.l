@@ -158,6 +158,10 @@
                     english ("and");
                     german ("und");
                 };
+[Ee]ssere       {
+                    english ("to be");
+                    german ("sein");
+                };
 
 [Gg]razie       {
                     english ("thanks");

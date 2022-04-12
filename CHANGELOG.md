@@ -61,6 +61,7 @@
 * word:  cosa
 * word:  d'
 * word:  e
+* word:  essere
 * word:  grazie
 * word:  io
 * word:  italiana, italiano
