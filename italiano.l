@@ -183,8 +183,8 @@
                     german ("bedeutet");
                 };
 [Ss]ono         {
-                    english ("I am");
-                    german ("ich bin");
+                    english ("[ am | are ]");
+                    german ("[ bin | sind ]");
                 };
 [Ss]pagnol[ao]  {
                     english ("Spanish");
