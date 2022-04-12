@@ -173,6 +173,11 @@
                     german ("italienisch");
                 };
 
+[Ll]oro\ sono   {
+                    english ("they are");
+                    german ("sie sind");
+                };
+
 [Pp]rego        {
                     english ("please");
                     german ("bitte");
@@ -183,8 +188,8 @@
                     german ("bedeutet");
                 };
 [Ss]ono         {
-                    english ("[ am | are ]");
-                    german ("[ bin | sind ]");
+                    english ("I am");
+                    german ("ich bin");
                 };
 [Ss]pagnol[ao]  {
                     english ("Spanish");

@@ -64,6 +64,7 @@
 * word:  grazie
 * word:  io
 * word:  italiana, italiano
+* word:  loro
 * word:  prego
 * word:  significa
 * word:  sono
