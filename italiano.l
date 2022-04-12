@@ -183,6 +183,10 @@
                     english ("German");
                     german ("deutsch");
                 };
+[Tt]i           {
+                    english ("you");
+                    german ("dich");
+                };
 
 .   ECHO;
 

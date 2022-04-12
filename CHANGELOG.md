@@ -66,6 +66,7 @@
 * word:  sono
 * word:  spagnola, spagnolo
 * word:  tedesca, tedesco
+* word:  ti
 
 ### Fixed
 
