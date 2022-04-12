@@ -136,6 +136,10 @@
                     english ("Chinese");
                     german ("chinesisch");
                 };
+[Cc]inque       {
+                    english ("five");
+                    german ("fünf");
+                };
 [Cc]ome         {
                     english ("how");
                     german ("wie");
@@ -152,6 +156,14 @@
 [Dd]'           {
                     english ("of ");
                     german ("für ");
+                };
+[Dd]ieci        {
+                    english ("ten");
+                    german ("zehn");
+                };
+[Dd]ue          {
+                    english ("two");
+                    german ("zwei");
                 };
 
 [Ee]            {
@@ -186,11 +198,34 @@
                     german ("sie sind");
                 };
 
+[Nn]ove         {
+                    english ("nine");
+                    german ("neun");
+                };
+
+[Oo]tto         {
+                    english ("eight");
+                    german ("acht");
+                };
+
 [Pp]rego        {
                     english ("please");
                     german ("bitte");
                 };
 
+[Qq]uattro      {
+                    english ("four");
+                    german ("vier");
+                };
+
+[Ss]ei          {
+                    english ("six");
+                    german ("sechs");
+                };
+[Ss]ette        {
+                    english ("seven");
+                    german ("sieben");
+                };
 [Ss]ignifica    {
                     english ("means");
                     german ("bedeutet");
@@ -211,6 +246,15 @@
 [Tt]i           {
                     english ("you");
                     german ("dich");
+                };
+[Tt]re          {
+                    english ("three");
+                    german ("drei");
+                };
+
+[Uu]no          {
+                    english ("one");
+                    german ("eins");
                 };
 
 .   ECHO;

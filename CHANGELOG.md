@@ -56,22 +56,32 @@
 * word:  chiami
 * word:  chiamo
 * word:  cinese
+* word:  cinque
 * word:  come
 * word:  corso
 * word:  cosa
 * word:  d'
+* word:  dieci
+* word:  due
 * word:  e
 * word:  essere
 * word:  grazie
 * word:  io
 * word:  italiana, italiano
 * word:  loro
+* word:  nove
+* word:  otto
 * word:  prego
+* word:  quattro
+* word:  sei
+* word:  sette
 * word:  significa
 * word:  sono
 * word:  spagnola, spagnolo
 * word:  tedesca, tedesco
 * word:  ti
+* word:  tre
+* word:  uno
 
 ### Fixed
 
