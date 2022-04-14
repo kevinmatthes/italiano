@@ -64,6 +64,7 @@
 * word:  dieci
 * word:  due
 * word:  e
+* word:  è
 * word:  essere
 * word:  grazie
 * word:  io
@@ -79,6 +80,8 @@
 * word:  quattro
 * word:  sei
 * word:  sette
+* word:  siamo
+* word:  siete
 * word:  significa
 * word:  sono
 * word:  spagnola, spagnolo

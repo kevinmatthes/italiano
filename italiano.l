@@ -170,6 +170,10 @@
                     english ("and");
                     german ("und");
                 };
+[Èè]            {
+                    english ("is");
+                    german ("ist");
+                };
 [Ee]ssere       {
                     english ("to be");
                     german ("sein");
@@ -196,6 +200,10 @@
 Lei             {
                     english ("you");
                     german ("Sie");
+                };
+Lei\ è          {
+                    english ("you are");
+                    german ("Sie sind");
                 };
 lei             {
                     english ("she");
@@ -246,6 +254,14 @@ lei             {
                     english ("seven");
                     german ("sieben");
                 };
+[Ss]iamo        {
+                    english ("are");
+                    german ("sind");
+                };
+[Ss]iete        {
+                    english ("are");
+                    german ("seid");
+                };
 [Ss]ignifica    {
                     english ("means");
                     german ("bedeutet");
@@ -274,6 +290,10 @@ lei             {
 [Tt]u           {
                     english ("you");
                     german ("Du");
+                };
+[Tt]u\ sei      {
+                    english ("you are");
+                    german ("Du bist");
                 };
 
 [Uu]no          {
