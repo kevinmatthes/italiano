@@ -172,7 +172,7 @@ a configurated vocab.
 ```
 $ echo %Io | italiano --british
 Io
-$ echo  | italiano --british
+$ echo Io | italiano --british
 I
 ```
 
