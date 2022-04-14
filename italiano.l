@@ -193,9 +193,21 @@
                     german ("italienisch");
                 };
 
+Lei             {
+                    english ("you");
+                    german ("Sie");
+                };
 [Ll]oro\ sono   {
                     english ("they are");
                     german ("sie sind");
+                };
+[Ll]ui          {
+                    english ("he");
+                    german ("er");
+                };
+lei             {
+                    english ("she");
+                    german ("sie");
                 };
 
 [Nn]ove         {

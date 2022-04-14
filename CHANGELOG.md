@@ -48,6 +48,7 @@
 
 * include `ctype.h`
 * protector for unique words
+* word:  Lei
 * word:  al
 * word:  arrivederci
 * word:  benvenuti
@@ -68,7 +69,9 @@
 * word:  grazie
 * word:  io
 * word:  italiana, italiano
+* word:  lei
 * word:  loro
+* word:  lui
 * word:  nove
 * word:  otto
 * word:  prego
