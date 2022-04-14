@@ -48,6 +48,7 @@
 
 * missing changelog itames
 * typos in docstrings
+* typos in README description
 
 ## [0.0.3] -- 2022-04-14
 
