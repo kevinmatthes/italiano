@@ -170,7 +170,7 @@
                     english ("and");
                     german ("und");
                 };
-[Èè]            {
+"È"|"è"         {
                     english ("is");
                     german ("ist");
                 };
