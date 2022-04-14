@@ -48,7 +48,7 @@
 
 ### Fixed
 
-* missing changelog itames
+* missing changelog items
 * typos in docstrings
 * typos in README description
 * typos in translations
