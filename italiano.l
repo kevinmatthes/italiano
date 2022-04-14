@@ -281,7 +281,7 @@ lei             {
                 };
 [Tt]i           {
                     english ("you");
-                    german ("dich");
+                    german ("Dich");
                 };
 [Tt]re          {
                     english ("three");
