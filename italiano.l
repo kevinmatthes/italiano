@@ -197,6 +197,10 @@ Lei             {
                     english ("you");
                     german ("Sie");
                 };
+lei             {
+                    english ("she");
+                    german ("sie");
+                };
 [Ll]oro         {
                     english ("they");
                     german ("sie");
@@ -208,10 +212,6 @@ Lei             {
 [Ll]ui          {
                     english ("he");
                     german ("er");
-                };
-lei             {
-                    english ("she");
-                    german ("sie");
                 };
 
 [Nn]oi          {
