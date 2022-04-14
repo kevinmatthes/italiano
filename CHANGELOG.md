@@ -46,6 +46,7 @@
 
 ### Fixed
 
+* missing changelog itames
 * typos in docstrings
 
 ## [0.0.3] -- 2022-04-14
@@ -117,6 +118,7 @@
 * function `eval`
 * function `german`
 * function `license`
+* function `no_language_set`
 * function `unresolvable_argument`
 * function `version`
 * header `GPL_2_0.h`
