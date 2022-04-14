@@ -552,7 +552,7 @@ inline void license ( const int             year
  * This is the main function which controls the behaviour and configuration of
  * resulting application.
  *
- * The meaning of the return values are as follows:
+ * The meanings of the return values are as follows:
  *
  * | Code   | Meaning                           |
  * |:------:|:----------------------------------|
