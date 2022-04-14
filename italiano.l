@@ -197,6 +197,10 @@ Lei             {
                     english ("you");
                     german ("Sie");
                 };
+[Ll]oro         {
+                    english ("they");
+                    german ("sie");
+                };
 [Ll]oro\ sono   {
                     english ("they are");
                     german ("sie sind");
@@ -210,6 +214,10 @@ lei             {
                     german ("sie");
                 };
 
+[Nn]oi          {
+                    english ("we");
+                    german ("wir");
+                };
 [Nn]ove         {
                     english ("nine");
                     german ("neun");
@@ -271,6 +279,11 @@ lei             {
 [Uu]no          {
                     english ("one");
                     german ("eins");
+                };
+
+[Vv]oi          {
+                    english ("you");
+                    german ("ihr");
                 };
 
 .   ECHO;

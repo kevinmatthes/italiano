@@ -72,6 +72,7 @@
 * word:  lei
 * word:  loro
 * word:  lui
+* word:  noi
 * word:  nove
 * word:  otto
 * word:  prego
@@ -86,6 +87,7 @@
 * word:  tre
 * word:  tu
 * word:  uno
+* word:  voi
 
 ### Fixed
 
