@@ -251,6 +251,10 @@
                     english ("three");
                     german ("drei");
                 };
+[Tt]u           {
+                    english ("you");
+                    german ("Du");
+                };
 
 [Uu]no          {
                     english ("one");

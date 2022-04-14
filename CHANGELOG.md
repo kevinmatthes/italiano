@@ -81,6 +81,7 @@
 * word:  tedesca, tedesco
 * word:  ti
 * word:  tre
+* word:  tu
 * word:  uno
 
 ### Fixed
