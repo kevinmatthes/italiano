@@ -47,15 +47,17 @@
 %%%%
 
 % Software.
-compiler.flags  = ' -Wall -Werror -Wextra -Wpedantic ';
-compiler.flags  = [compiler.flags ' -DYY_NO_INPUT '];
-compiler.flags  = [compiler.flags ' -DYY_NO_UNPUT '];
+compiler.flags  = [ ' -Wall -Werror -Wextra -Wpedantic '                     ...
+                    ' -DYY_NO_INPUT '                                        ...
+                    ' -DYY_NO_UNPUT '                                        ...
+                  ];
 compiler.in     = '*.c';
 compiler.link   = ' -lfl ';
 compiler.out    = 'italiano';
 compiler.self   = ' gcc ';
-compiler.call   = [compiler.self ' ' compiler.flags ' ' compiler.in];
-compiler.call   = [compiler.call ' ' compiler.link ' -o ' compiler.out];
+compiler.call   = [ compiler.self ' ' compiler.flags ' ' compiler.in ' '     ...
+                    compiler.link ' -o ' compiler.out                        ...
+                  ];
 
 scangen.in      = 'italiano.l';
 scangen.out     = 'lex.yy.c';
