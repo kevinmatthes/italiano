@@ -60,6 +60,10 @@
 * update `docs-snippets`
 * update `routines`
 
+### Fixed
+
+* strings in regex for word "è"
+
 ## [0.1.0] -- 2022-04-14
 
 ### Fixed
