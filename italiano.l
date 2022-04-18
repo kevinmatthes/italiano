@@ -219,6 +219,10 @@ lei\ vola       {
                     english ("she flies");
                     german ("sie fliegt");
                 };
+Londra          {
+                    english ("London");
+                    german ("London");
+                };
 [Ll]oro         {
                     english ("they");
                     german ("sie");

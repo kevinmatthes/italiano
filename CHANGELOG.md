@@ -46,6 +46,7 @@
 
 ### Added
 
+* word:  Londra
 * word:  vola
 * word:  volano
 * word:  volate
