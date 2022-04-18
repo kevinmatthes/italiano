@@ -172,7 +172,7 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("and");
                     german ("und");
                 };
-"È"|"è"         {
+È|è             {
                     english ("is");
                     german ("ist");
                 };
