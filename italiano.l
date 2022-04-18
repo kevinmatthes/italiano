@@ -254,6 +254,10 @@ Londra          {
                     german ("acht");
                 };
 
+[Pp]erché       {
+                    english ("why");
+                    german ("warum");
+                };
 [Pp]rego        {
                     english ("please");
                     german ("bitte");
