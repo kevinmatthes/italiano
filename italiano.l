@@ -51,7 +51,7 @@
 
     #define AUTHORS             "Kevin Matthes"
     #define LICENSE             GPL_2_0
-    #define VERSION_FIX_LEVEL   0x0
+    #define VERSION_FIX_LEVEL   0x1
     #define VERSION_MAJOR       0x0
     #define VERSION_MINOR       0x1
     #define VERSION_YEAR        0x7E6
