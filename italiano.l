@@ -205,9 +205,17 @@ Lei\ è          {
                     english ("you are");
                     german ("Sie sind");
                 };
+Lei\ vola       {
+                    english ("you fly");
+                    german ("Sie fliegen");
+                };
 lei             {
                     english ("she");
                     german ("sie");
+                };
+lei\ vola       {
+                    english ("she flies");
+                    german ("sie fliegt");
                 };
 [Ll]oro         {
                     english ("they");
@@ -220,6 +228,10 @@ lei             {
 [Ll]ui          {
                     english ("he");
                     german ("er");
+                };
+[Ll]ui\ vola    {
+                    english ("he flies");
+                    german ("er fliegt");
                 };
 
 [Nn]oi          {
@@ -304,6 +316,30 @@ lei             {
 [Vv]oi          {
                     english ("you");
                     german ("ihr");
+                };
+[Vv]olano       {
+                    english ("fly");
+                    german ("fliegen");
+                };
+[Vv]olare       {
+                    english ("fly");
+                    german ("fliegen");
+                };
+[Vv]olate       {
+                    english ("fly");
+                    german ("fliegt");
+                };
+[Vv]oli         {
+                    english ("fly");
+                    german ("fliegst");
+                };
+[Vv]oliamo      {
+                    english ("fly");
+                    german ("fliegen");
+                };
+[Vv]olo         {
+                    english ("fly");
+                    german ("fliege");
                 };
 
 .   ECHO;

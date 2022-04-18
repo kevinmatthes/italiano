@@ -44,6 +44,16 @@
 
 ## [Unreleased]
 
+### Added
+
+* word:  vola
+* word:  volano
+* word:  volate
+* word:  volare
+* word:  voli
+* word:  voliamo
+* word:  volo
+
 ### Changed
 
 * update `docs-snippets`
