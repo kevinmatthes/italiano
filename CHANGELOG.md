@@ -44,6 +44,11 @@
 
 ## [Unreleased]
 
+### Changed
+
+* update `docs-snippets`
+* update `routines`
+
 ## [0.1.0] -- 2022-04-14
 
 ### Fixed
