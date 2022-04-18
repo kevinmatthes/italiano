@@ -47,6 +47,7 @@
 ### Added
 
 * word:  Londra
+* word:  mirtillo
 * word:  perché
 * word:  vola
 * word:  volano
