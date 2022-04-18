@@ -98,6 +98,8 @@
     bool    to_german       = false;
 %}
 
+volare  [Vv]ol(a(no|re)|iamo)
+
 %% /***************************************************************************/
 
 %[^ \t\n]+[ \t\n]   echo (& yytext[0x1]);
@@ -317,11 +319,7 @@ lei\ vola       {
                     english ("you");
                     german ("ihr");
                 };
-[Vv]olano       {
-                    english ("fly");
-                    german ("fliegen");
-                };
-[Vv]olare       {
+{volare}        {
                     english ("fly");
                     german ("fliegen");
                 };
@@ -332,10 +330,6 @@ lei\ vola       {
 [Vv]oli         {
                     english ("fly");
                     german ("fliegst");
-                };
-[Vv]oliamo      {
-                    english ("fly");
-                    german ("fliegen");
                 };
 [Vv]olo         {
                     english ("fly");
