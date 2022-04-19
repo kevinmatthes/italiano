@@ -221,6 +221,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     german ("danke");
                 };
 
+[Ii]nteressante {
+                    english ("interesting");
+                    german ("interessant");
+                };
 [Ii]o           {
                     english ("I");
                     german ("ich");

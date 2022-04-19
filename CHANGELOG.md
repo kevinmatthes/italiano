@@ -52,6 +52,7 @@
 * word:  domanda
 * word:  domande
 * word:  dove
+* word:  interessante
 * word:  Londra
 * word:  mi
 * word:  mirtillo
