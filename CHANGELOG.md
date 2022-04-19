@@ -46,7 +46,7 @@
 
 ### Added
 
-* word:  austriacca, austriacco
+* word:  austriaca, austriaco
 * word:  francese
 * word:  inglese
 * word:  svizzera, svizzero
