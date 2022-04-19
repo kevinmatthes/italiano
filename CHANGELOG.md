@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.1] -- 2022-04-19
+
 ### Added
 
 * word:  bello
