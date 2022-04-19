@@ -74,6 +74,7 @@
 ### Fixed
 
 * strings in regex for word "è"
+* translation bugs in forms of "chiamarsi"
 
 ## [0.1.0] -- 2022-04-14
 
