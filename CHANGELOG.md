@@ -52,6 +52,8 @@
 * word:  Londra
 * word:  mi
 * word:  mirtillo
+* word:  no
+* word:  non
 * word:  perché
 * word:  piacere
 * word:  sì

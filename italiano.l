@@ -261,6 +261,14 @@ Londra          {
                     german ("Heidelbeere");
                 };
 
+[Nn]o           {
+                    english ("no");
+                    german ("nein");
+                };
+[Nn]on          {
+                    english ("not");
+                    german ("nicht");
+                };
 [Nn]oi          {
                     english ("we");
                     german ("wir");
