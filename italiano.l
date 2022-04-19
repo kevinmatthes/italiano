@@ -163,9 +163,17 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("of ");
                     german ("für ");
                 };
+[Dd]i           {
+                    english ("of");
+                    german ("von");
+                };
 [Dd]ieci        {
                     english ("ten");
                     german ("zehn");
+                };
+[Dd]ove         {
+                    english ("where");
+                    german ("wo");
                 };
 [Dd]omanda      {
                     english ("question");

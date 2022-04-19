@@ -47,8 +47,10 @@
 ### Added
 
 * word:  chiaro
+* word:  di
 * word:  domanda
 * word:  domande
+* word:  dove
 * word:  Londra
 * word:  mi
 * word:  mirtillo
