@@ -346,6 +346,10 @@ Londra          {
                     english ("you");
                     german ("Dich");
                 };
+[Tt]i\ chiami   {
+                    english ("are called");
+                    german ("Dich nennst");
+                };
 [Tt]re          {
                     english ("three");
                     german ("drei");
@@ -353,10 +357,6 @@ Londra          {
 [Tt]u           {
                     english ("you");
                     german ("Du");
-                };
-[Tt]u\ chiami   {
-                    english ("are called");
-                    german ("Dich nennst");
                 };
 [Tt]u\ sei      {
                     english ("you are");
