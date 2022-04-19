@@ -107,14 +107,14 @@ volare  [Vv]ol(a(no|re)|iamo)
 
 %[^ \t\n]+[ \t\n]   echo (& yytext[0x1]);
 
-[Aa]l           {
-                    english ("in");
-                    german ("in");
-                };
-[Aa]rrivederci  {
-                    english ("good bye");
-                    german ("auf Wiedersehen");
-                };
+[Aa]l               {
+                        english ("in");
+                        german ("in");
+                    };
+[Aa]rrivederci      {
+                        english ("good bye");
+                        german ("auf Wiedersehen");
+                    };
 [Aa]ustriacc[ao]    {
                         english ("Austrian");
                         german ("österreichisch");
