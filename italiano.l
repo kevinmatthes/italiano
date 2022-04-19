@@ -163,6 +163,14 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("ten");
                     german ("zehn");
                 };
+[Dd]omanda      {
+                    english ("question");
+                    german ("Frage");
+                };
+[Dd]omande      {
+                    english ("questions");
+                    german ("Fragen");
+                };
 [Dd]ue          {
                     english ("two");
                     german ("zwei");

@@ -46,6 +46,8 @@
 
 ### Added
 
+* word:  domanda
+* word:  domande
 * word:  Londra
 * word:  mi
 * word:  mirtillo
