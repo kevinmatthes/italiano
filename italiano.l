@@ -162,14 +162,14 @@ volare  [Vv]ol(a(no|re)|iamo)
                     german ("was");
                 };
 
-[Dd]'               {
-                        english ("of ");
-                        german ("für ");
-                    };
-[Dd]i               {
-                        english ("of");
-                        german ("von");
-                    };
+[Dd]'           {
+                    english ("of ");
+                    german ("für ");
+                };
+[Dd]i           {
+                    english ("of");
+                    german ("von");
+                };
 {didovee}       {
                     english ("where are you from");
                     german ("woher sind Sie");
@@ -178,26 +178,26 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("where are you from");
                     german ("woher bist Du");
                 };
-[Dd]ieci            {
-                        english ("ten");
-                        german ("zehn");
-                    };
-[Dd]ove             {
-                        english ("where");
-                        german ("wo");
-                    };
-[Dd]omanda          {
-                        english ("question");
-                        german ("Frage");
-                    };
-[Dd]omande          {
-                        english ("questions");
-                        german ("Fragen");
-                    };
-[Dd]ue              {
-                        english ("two");
-                        german ("zwei");
-                    };
+[Dd]ieci        {
+                    english ("ten");
+                    german ("zehn");
+                };
+[Dd]ove         {
+                    english ("where");
+                    german ("wo");
+                };
+[Dd]omanda      {
+                    english ("question");
+                    german ("Frage");
+                };
+[Dd]omande      {
+                    english ("questions");
+                    german ("Fragen");
+                };
+[Dd]ue          {
+                    english ("two");
+                    german ("zwei");
+                };
 
 [Ee]            {
                     english ("and");
