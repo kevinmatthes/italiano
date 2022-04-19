@@ -116,6 +116,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     german ("auf Wiedersehen");
                 };
 
+[Bb]ello        {
+                    english ("nice");
+                    german ("schön");
+                };
 [Bb]envenuti    {
                     english ("welcome");
                     german ("willkommen");

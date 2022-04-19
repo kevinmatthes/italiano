@@ -46,6 +46,7 @@
 
 ### Added
 
+* word:  bello
 * word:  chiaro
 * word:  di
 * word:  domanda
