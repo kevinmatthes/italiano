@@ -167,6 +167,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                         english ("of");
                         german ("von");
                     };
+[Dd]i\ dov'è        {
+                        english ("where are you from");
+                        german ("woher sind Sie");
+                    };
 [Dd]i\ dove\ sei    {
                         english ("where are you from");
                         german ("woher bist Du");
