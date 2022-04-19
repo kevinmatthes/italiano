@@ -203,6 +203,10 @@ Lei             {
                     english ("you");
                     german ("Sie");
                 };
+lei             {
+                    english ("she");
+                    german ("sie");
+                };
 Lei\ è          {
                     english ("you are");
                     german ("Sie sind");
@@ -210,10 +214,6 @@ Lei\ è          {
 Lei\ vola       {
                     english ("you fly");
                     german ("Sie fliegen");
-                };
-lei             {
-                    english ("she");
-                    german ("sie");
                 };
 lei\ vola       {
                     english ("she flies");
