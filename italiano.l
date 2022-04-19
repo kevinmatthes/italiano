@@ -220,6 +220,11 @@ volare  [Vv]ol(a(no|re)|iamo)
                     german ("sein");
                 };
 
+[Ff]rancese     {
+                    english ("French");
+                    german ("französisch");
+                };
+
 [Gg]razie       {
                     english ("thanks");
                     german ("danke");

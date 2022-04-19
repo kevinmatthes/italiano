@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* word:  francese
+
 ## [0.1.1] -- 2022-04-19
 
 ### Added
