@@ -115,6 +115,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("good bye");
                     german ("auf Wiedersehen");
                 };
+[Aa]ustriacc[ao]    {
+                        english ("Austrian");
+                        german ("österreichisch");
+                    };
 
 [Bb]ello        {
                     english ("nice");
