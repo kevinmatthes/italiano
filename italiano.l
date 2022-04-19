@@ -98,6 +98,9 @@
     bool    to_german       = false;
 %}
 
+didovesei   [Dd]i\ dove\ sei
+didovè      [Dd]i\ dov'è
+
 volare  [Vv]ol(a(no|re)|iamo)
 
 %% /***************************************************************************/
@@ -167,14 +170,14 @@ volare  [Vv]ol(a(no|re)|iamo)
                         english ("of");
                         german ("von");
                     };
-[Dd]i\ dov'è        {
-                        english ("where are you from");
-                        german ("woher sind Sie");
-                    };
-[Dd]i\ dove\ sei    {
-                        english ("where are you from");
-                        german ("woher bist Du");
-                    };
+{didovè}        {
+                    english ("where are you from");
+                    german ("woher sind Sie");
+                };
+{didovesei}     {
+                    english ("where are you from");
+                    german ("woher bist Du");
+                };
 [Dd]ieci            {
                         english ("ten");
                         german ("zehn");
