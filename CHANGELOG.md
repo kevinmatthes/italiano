@@ -48,6 +48,7 @@
 
 * word:  bello
 * word:  chiaro
+* word:  davvero
 * word:  di
 * word:  domanda
 * word:  domande

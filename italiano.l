@@ -170,6 +170,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("of ");
                     german ("für ");
                 };
+[Dd]avvero      {
+                    english ("really");
+                    german ("wirklich");
+                };
 [Dd]i           {
                     english ("of");
                     german ("von");
