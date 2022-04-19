@@ -240,6 +240,10 @@ Londra          {
                     german ("er fliegt");
                 };
 
+[Mm]i           {
+                    english ("me");
+                    german ("mich");
+                };
 [Mm]irtillo     {
                     english ("blueberry");
                     german ("Heidelbeere");
