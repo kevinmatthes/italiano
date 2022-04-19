@@ -301,6 +301,10 @@ Londra          {
                     english ("seven");
                     german ("sieben");
                 };
+[Ss]ì           {
+                    english ("yes");
+                    german ("ja");
+                };
 [Ss]iamo        {
                     english ("are");
                     german ("sind");

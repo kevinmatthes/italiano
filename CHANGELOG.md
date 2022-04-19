@@ -54,6 +54,7 @@
 * word:  mirtillo
 * word:  perché
 * word:  piacere
+* word:  sì
 * word:  tutto
 * word:  vola
 * word:  volano
