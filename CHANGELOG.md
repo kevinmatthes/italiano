@@ -49,6 +49,7 @@
 * word:  austriaca, austriaco
 * word:  francese
 * word:  inglese
+* word:  polacca, polacco
 * word:  svizzera, svizzero
 
 ## [0.1.1] -- 2022-04-19

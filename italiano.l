@@ -339,6 +339,10 @@ Londra          {
                     english ("splendid");
                     german ("sehr erfreut");
                 };
+[Pp]olacc[ao]   {
+                    english ("Polish");
+                    german ("polnisch");
+                };
 [Pp]rego        {
                     english ("please");
                     german ("bitte");
