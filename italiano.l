@@ -381,6 +381,10 @@ Londra          {
                     english ("Spanish");
                     german ("spanisch");
                 };
+[Ss]vizzer[ao]  {
+                    english ("Swiss");
+                    german ("schweizerisch");
+                };
 
 [Tt]edesc[ao]   {
                     english ("German");
