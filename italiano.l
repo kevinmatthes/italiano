@@ -230,6 +230,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     german ("danke");
                 };
 
+[Ii]nglese      {
+                    english ("English");
+                    german ("englisch");
+                };
 [Ii]nteressante {
                     english ("interesting");
                     german ("interessant");
