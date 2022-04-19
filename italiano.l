@@ -127,12 +127,12 @@ volare  [Vv]ol(a(no|re)|iamo)
                 };
 
 [Cc]hiami       {
-                    english ("are called");
-                    german ("nennt man");
+                    english ("call");
+                    german ("nennst");
                 };
 [Cc]hiamo       {
-                    english ("is called");
-                    german ("nennt man");
+                    english ("call");
+                    german ("nenne");
                 };
 [Cc]hiaro       {
                     english ("clear");
@@ -256,6 +256,10 @@ Londra          {
                     english ("me");
                     german ("mich");
                 };
+[Mm]i\ chiamo   {
+                    english ("am called");
+                    german ("mich nenne");
+                };
 [Mm]irtillo     {
                     english ("blueberry");
                     german ("Heidelbeere");
@@ -349,6 +353,10 @@ Londra          {
 [Tt]u           {
                     english ("you");
                     german ("Du");
+                };
+[Tt]u\ chiami   {
+                    english ("are called");
+                    german ("Dich nennst");
                 };
 [Tt]u\ sei      {
                     english ("you are");
