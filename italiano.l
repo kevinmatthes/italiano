@@ -99,7 +99,7 @@
 %}
 
 didovesei   [Dd]i\ dove\ sei
-didovè      [Dd]i\ dov'è
+didovee     [Dd]i\ dov'è
 
 volare  [Vv]ol(a(no|re)|iamo)
 
@@ -170,7 +170,7 @@ volare  [Vv]ol(a(no|re)|iamo)
                         english ("of");
                         german ("von");
                     };
-{didovè}        {
+{didovee}       {
                     english ("where are you from");
                     german ("woher sind Sie");
                 };
