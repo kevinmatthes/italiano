@@ -267,6 +267,10 @@ Londra          {
                     english ("why");
                     german ("warum");
                 };
+[Pp]iacere      {
+                    english ("splendid");
+                    german ("sehr erfreut");
+                };
 [Pp]rego        {
                     english ("please");
                     german ("bitte");

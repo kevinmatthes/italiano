@@ -50,6 +50,7 @@
 * word:  mi
 * word:  mirtillo
 * word:  perché
+* word:  piacere
 * word:  vola
 * word:  volano
 * word:  volate
