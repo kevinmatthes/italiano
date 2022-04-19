@@ -134,6 +134,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("is called");
                     german ("nennt man");
                 };
+[Cc]hiaro       {
+                    english ("clear");
+                    german ("klar");
+                };
 [Cc]inese       {
                     english ("Chinese");
                     german ("chinesisch");
@@ -337,6 +341,10 @@ Londra          {
 [Tt]u\ sei      {
                     english ("you are");
                     german ("Du bist");
+                };
+[Tt]utto        {
+                    english ("anything");
+                    german ("alles");
                 };
 
 [Uu]no          {

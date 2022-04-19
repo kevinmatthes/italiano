@@ -46,6 +46,7 @@
 
 ### Added
 
+* word:  chiaro
 * word:  domanda
 * word:  domande
 * word:  Londra
@@ -53,6 +54,7 @@
 * word:  mirtillo
 * word:  perché
 * word:  piacere
+* word:  tutto
 * word:  vola
 * word:  volano
 * word:  volate
