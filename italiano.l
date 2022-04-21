@@ -257,30 +257,30 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Ii]nglese      {
-                    english ("English");
-                    german ("englisch");
-                };
-[Ii]nteressante {
-                    english ("interesting");
-                    german ("interessant");
-                };
-[Ii]o           {
-                    english ("I");
-                    german ("ich");
-                };
-[Ii]o\ sono     {
-                    english ("I am");
-                    german ("ich bin");
-                };
-[Ii]o\ studio   {
-                    english ("I study");
-                    german ("ich studiere");
-                };
-[Ii]talian[ao]  {
-                    english ("Italian");
-                    german ("italienisch");
-                };
+[Ii]nglese                  {
+                                english ("English");
+                                german  ("englisch");
+                            };
+[Ii]nteressante             {
+                                english ("interesting");
+                                german  ("interessant");
+                            };
+[Ii]o                       {
+                                english ("I");
+                                german  ("ich");
+                            };
+[Ii]o\ sono                 {
+                                english ("I am");
+                                german  ("ich bin");
+                            };
+[Ii]o\ studio               {
+                                english ("I study");
+                                german  ("ich studiere");
+                            };
+[Ii]talian[ao]              {
+                                english ("Italian");
+                                german  ("italienisch");
+                            };
 
 
 
