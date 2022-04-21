@@ -150,6 +150,14 @@ italiano -l
 
 Show the license text and quit.  All further options will be ignored.
 
+### `-s`
+
+```
+italiano -s
+```
+
+Suppress verbose information.  Can be combined with any option.
+
 ### `-v`
 
 ```
