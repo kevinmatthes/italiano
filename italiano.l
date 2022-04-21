@@ -236,6 +236,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     german ("französisch");
                 };
 
+[Gg]iorno       {
+                    english ("day");
+                    german ("Tag");
+                };
 [Gg]razie       {
                     english ("thanks");
                     german ("danke");
@@ -363,6 +367,10 @@ Londra          {
 [Ss]ei          {
                     english ("six");
                     german ("sechs");
+                };
+[Ss]era         {
+                    english ("evening");
+                    german ("Abend");
                 };
 [Ss]ette        {
                     english ("seven");

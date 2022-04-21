@@ -49,8 +49,10 @@
 * word:  austriaca, austriaco
 * word:  buon, buona
 * word:  francese
+* word:  giorno
 * word:  inglese
 * word:  polacca, polacco
+* word:  sera
 * word:  svizzera, svizzero
 
 ### Fixed
