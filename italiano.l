@@ -98,6 +98,9 @@
     bool    to_german       = false;
 %}
 
+buonasera   [Bb]uona(\ )?sera
+buongiorno  [Bb]uon(\ )?giorno
+
 didovesei   [Dd]i\ dove\ sei
 didovee     [Dd]i\ dov'è
 
@@ -128,11 +131,11 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("welcome");
                     german ("willkommen");
                 };
-[Bb]uonasera    {
+{buonasera}     {
                     english ("good evening");
                     german ("guten Abend");
                 };
-[Bb]uongiorno   {
+{buongiorno}    {
                     english ("good morning");
                     german ("guten Tag");
                 };

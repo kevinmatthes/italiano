@@ -52,6 +52,11 @@
 * word:  polacca, polacco
 * word:  svizzera, svizzero
 
+### Fixed
+
+* enable alternative spelling for "buonasera"
+* enable alternative spelling for "buongiorno"
+
 ## [0.1.1] -- 2022-04-19
 
 ### Added
