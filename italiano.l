@@ -246,14 +246,14 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Gg]iorno       {
-                    english ("day");
-                    german ("Tag");
-                };
-[Gg]razie       {
-                    english ("thanks");
-                    german ("danke");
-                };
+[Gg]iorno                   {
+                                english ("day");
+                                german  ("Tag");
+                            };
+[Gg]razie                   {
+                                english ("thanks");
+                                german  ("danke");
+                            };
 
 
 
