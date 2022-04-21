@@ -32,6 +32,13 @@
 
 /******************************************************************************/
 
+/*! \var    chatty
+ * \brief   Whether this application always displays verbose information.
+ *
+ * This flag controls whether the resulting lexer will always show any piece of
+ * information to the user.
+ */
+
 /*! \var    language_unset
  * \brief   Whether the languages were already set.
  *
