@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.3] -- 2022-04-21
+
 ### Changed
 
 * adjusted spacing in sections
