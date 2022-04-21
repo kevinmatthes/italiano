@@ -71,6 +71,15 @@
                                         , char * const * const  args
                                         );
     extern void german                  (const char * const translation);
+    extern void information             ( FILE * const          stream
+                                        , const char * const    app_name
+                                        , const int             major
+                                        , const int             minor
+                                        , const int             fix_level
+                                        , const int             year
+                                        , const int             year_this
+                                        , const char * const    people
+                                        );
     extern void license                 ( FILE * const          stream
                                         , const int             year
                                         , const int             year_this
@@ -737,6 +746,85 @@ void german (const char * const translation)
 
 
 /**
+ * \brief   Write a minimal information to the given stream.
+ * \param   stream      The stream to write the information to.
+ * \param   app_name    This lexer's name.
+ * \param   major       This lexer's major version.
+ * \param   minor       This lexer's minor version.
+ * \param   fix_level   This lexer's fix level.
+ * \param   year        The year of the first commit.
+ * \param   year_this   The year of the latest commit.
+ * \param   people      The people who contributed to this project.
+ *
+ * This function writes a minimal information to the given stream.
+ */
+
+inline void information ( FILE * const          stream
+                        , const char * const    app_name
+                        , const int             major
+                        , const int             minor
+                        , const int             fix_level
+                        , const int             year
+                        , const int             year_this
+                        , const char * const    people
+                        )
+{
+    if (year >= year_this && fix_level >= 0x0)
+        fprintf ( stream
+                , "%s, version %x.%x.%x.  Copyright (C) %d %s\n"
+                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
+                  "Run `%s -w' for more information.\n"
+                , app_name
+                , major
+                , minor
+                , fix_level
+                , year
+                , people
+                );
+    else if (fix_level >= 0x0)
+        fprintf ( stream
+                , "%s, version %x.%x.%x.  Copyright (C) %d─%d %s\n"
+                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
+                  "Run `%s -w' for more information.\n"
+                , app_name
+                , major
+                , minor
+                , fix_level
+                , year
+                , year_this
+                , people
+                );
+    else if (year >= year_this)
+        fprintf ( stream
+                , "%s, version %x.%x.  Copyright (C) %d %s\n"
+                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
+                  "Run `%s -w' for more information.\n"
+                , app_name
+                , major
+                , minor
+                , year
+                , year_this
+                , people
+                );
+    else
+        fprintf ( stream
+                , "%s, version %x.%x.  Copyright (C) %d─%d %s\n"
+                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
+                  "Run `%s -w' for more information.\n"
+                , app_name
+                , major
+                , minor
+                , fix_level
+                , year
+                , year_this
+                , people
+                );
+    return;
+}
+
+
+
+/**
  * \brief   The license information.
  * \param   stream      The stream to write the information to.
  * \param   year        The year of the first commit.
@@ -806,7 +894,17 @@ int main (const int argc, char * const * const args)
                 );
         license (stderr, 0x7E6, VERSION_YEAR, AUTHORS, LICENSE);
         warranty (stderr, WARRANTY);
-    };
+    }
+    else
+        information ( stderr
+                    , args[0x0]
+                    , VERSION_MAJOR
+                    , VERSION_MINOR
+                    , VERSION_FIX_LEVEL
+                    , 0x736
+                    , VERSION_YEAR
+                    , AUTHORS
+                    );
 
     yylex ();
     yylex_destroy ();
