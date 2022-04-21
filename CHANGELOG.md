@@ -48,6 +48,10 @@
 
 * adjusted spacing in sections
 
+### Fixed
+
+* improved translation of "piacere"
+
 ## [0.1.2] -- 2022-04-21
 
 ### Added
