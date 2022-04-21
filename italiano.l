@@ -368,22 +368,22 @@ Londra                      {
 
 
 
-[Pp]erché       {
-                    english ("why");
-                    german ("warum");
-                };
-[Pp]iacere      {
-                    english ("splendid");
-                    german ("sehr erfreut");
-                };
-[Pp]olacc[ao]   {
-                    english ("Polish");
-                    german ("polnisch");
-                };
-[Pp]rego        {
-                    english ("please");
-                    german ("bitte");
-                };
+[Pp]erché                   {
+                                english ("why");
+                                german  ("warum");
+                            };
+[Pp]iacere                  {
+                                english ("splendid");
+                                german  ("sehr erfreut");
+                            };
+[Pp]olacc[ao]               {
+                                english ("Polish");
+                                german  ("polnisch");
+                            };
+[Pp]rego                    {
+                                english ("please");
+                                german  ("bitte");
+                            };
 
 
 
