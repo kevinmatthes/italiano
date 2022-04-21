@@ -60,6 +60,7 @@
 * duplicate entries for "vola"
 * enable alternative spelling for "buonasera"
 * enable alternative spelling for "buongiorno"
+* mismatching translation for "volano"
 
 ## [0.1.1] -- 2022-04-19
 
