@@ -489,30 +489,30 @@ Londra                      {
 
 
 
-[Vv]oi          {
-                    english ("you");
-                    german ("ihr");
-                };
-[Vv]ola         {
-                    english ("flies");
-                    german ("fliegt");
-                };
-{volare}        {
-                    english ("fly");
-                    german ("fliegen");
-                };
-[Vv]olate       {
-                    english ("fly");
-                    german ("fliegt");
-                };
-[Vv]oli         {
-                    english ("fly");
-                    german ("fliegst");
-                };
-[Vv]olo         {
-                    english ("fly");
-                    german ("fliege");
-                };
+[Vv]oi                      {
+                                english ("you");
+                                german  ("ihr");
+                            };
+[Vv]ola                     {
+                                english ("flies");
+                                german  ("fliegt");
+                            };
+{volare}                    {
+                                english ("fly");
+                                german  ("fliegen");
+                            };
+[Vv]olate                   {
+                                english ("fly");
+                                german  ("fliegt");
+                            };
+[Vv]oli                     {
+                                english ("fly");
+                                german  ("fliegst");
+                            };
+[Vv]olo                     {
+                                english ("fly");
+                                german  ("fliege");
+                            };
 
 
 
