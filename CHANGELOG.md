@@ -51,6 +51,10 @@
 * macro `WARRANTY`
 * option `-w`
 
+### Changed
+
+* adjust README description
+
 ## [0.1.3] -- 2022-04-21
 
 ### Changed
