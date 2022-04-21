@@ -114,18 +114,18 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Aa]l           {
-                    english ("in");
-                    german ("in");
-                };
-[Aa]rrivederci  {
-                    english ("good bye");
-                    german ("auf Wiedersehen");
-                };
-[Aa]ustriac[ao] {
-                    english ("Austrian");
-                    german ("österreichisch");
-                };
+[Aa]l                       {
+                                english ("in");
+                                german  ("in");
+                            };
+[Aa]rrivederci              {
+                                english ("good bye");
+                                german  ("auf Wiedersehen");
+                            };
+[Aa]ustriac[ao]             {
+                                english ("Austrian");
+                                german  ("österreichisch");
+                            };
 
 
 
