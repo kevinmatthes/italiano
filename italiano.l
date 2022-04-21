@@ -387,10 +387,10 @@ Londra                      {
 
 
 
-[Qq]uattro      {
-                    english ("four");
-                    german ("vier");
-                };
+[Qq]uattro                  {
+                                english ("four");
+                                german  ("vier");
+                            };
 
 
 
