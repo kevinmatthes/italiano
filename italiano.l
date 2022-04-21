@@ -41,7 +41,7 @@
     #include <stdbool.h>
     #include <sysexits.h>
 
-    #include "GPL_2_0.h"
+    #include "GPL_2.0.h"
 
 
 
@@ -55,6 +55,7 @@
     #define VERSION_MAJOR       0x0
     #define VERSION_MINOR       0x1
     #define VERSION_YEAR        0x7E6
+    #define WARRANTY            GPL_2_0__WARRANTY
 
 
 
@@ -85,6 +86,7 @@
                                         , const int             minor
                                         , const int             fix_level
                                         );
+    extern void warranty                (const char * const warranty);
 
 
 
@@ -849,6 +851,21 @@ inline void version ( const char * const    app_name
                 , minor
                 );
 
+    return;
+}
+
+
+
+/**
+ * \brief   The warranty information.
+ * \param   warranty    The warranty information to display.
+ *
+ * This function will write a brief warranty information to `stdout`.
+ */
+
+inline void warranty (const char * const warranty)
+{
+    fprintf (stdout, "%s\n", warranty);
     return;
 }
 
