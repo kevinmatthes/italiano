@@ -803,7 +803,6 @@ inline void information ( FILE * const          stream
                 , major
                 , minor
                 , year
-                , year_this
                 , people
                 );
     else
@@ -814,7 +813,6 @@ inline void information ( FILE * const          stream
                 , app_name
                 , major
                 , minor
-                , fix_level
                 , year
                 , year_this
                 , people
