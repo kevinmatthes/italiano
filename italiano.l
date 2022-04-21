@@ -112,6 +112,8 @@ volare  [Vv]ol(are|iamo)
 
 %[^ \t\n]+[ \t\n]   echo (& yytext[0x1]);
 
+
+
 [Aa]l           {
                     english ("in");
                     german ("in");
@@ -124,6 +126,8 @@ volare  [Vv]ol(are|iamo)
                     english ("Austrian");
                     german ("österreichisch");
                 };
+
+
 
 [Bb]ello        {
                     english ("nice");
@@ -145,6 +149,8 @@ volare  [Vv]ol(are|iamo)
                     english ("good morning");
                     german ("guten Tag");
                 };
+
+
 
 [Cc]hiami       {
                     english ("call");
@@ -178,6 +184,8 @@ volare  [Vv]ol(are|iamo)
                     english ("what");
                     german ("was");
                 };
+
+
 
 [Dd]'           {
                     english ("of ");
@@ -220,6 +228,8 @@ volare  [Vv]ol(are|iamo)
                     german ("zwei");
                 };
 
+
+
 [Ee]            {
                     english ("and");
                     german ("und");
@@ -233,10 +243,14 @@ volare  [Vv]ol(are|iamo)
                     german ("sein");
                 };
 
+
+
 [Ff]rancese     {
                     english ("French");
                     german ("französisch");
                 };
+
+
 
 [Gg]iorno       {
                     english ("day");
@@ -246,6 +260,8 @@ volare  [Vv]ol(are|iamo)
                     english ("thanks");
                     german ("danke");
                 };
+
+
 
 [Ii]nglese      {
                     english ("English");
@@ -271,6 +287,8 @@ volare  [Vv]ol(are|iamo)
                     english ("Italian");
                     german ("italienisch");
                 };
+
+
 
 Lei             {
                     english ("you");
@@ -313,6 +331,8 @@ Londra          {
                     german ("er");
                 };
 
+
+
 [Mm]i           {
                     english ("me");
                     german ("mich");
@@ -325,6 +345,8 @@ Londra          {
                     english ("blueberry");
                     german ("Heidelbeere");
                 };
+
+
 
 [Nn]o           {
                     english ("no");
@@ -343,10 +365,14 @@ Londra          {
                     german ("neun");
                 };
 
+
+
 [Oo]tto         {
                     english ("eight");
                     german ("acht");
                 };
+
+
 
 [Pp]erché       {
                     english ("why");
@@ -365,10 +391,14 @@ Londra          {
                     german ("bitte");
                 };
 
+
+
 [Qq]uattro      {
                     english ("four");
                     german ("vier");
                 };
+
+
 
 [Ss]ei          {
                     english ("six");
@@ -427,6 +457,8 @@ Londra          {
                     german ("schweizerisch");
                 };
 
+
+
 [Tt]edesc[ao]   {
                     english ("German");
                     german ("deutsch");
@@ -456,10 +488,14 @@ Londra          {
                     german ("alles");
                 };
 
+
+
 [Uu]no          {
                     english ("one");
                     german ("eins");
                 };
+
+
 
 [Vv]oi          {
                     english ("you");
@@ -485,6 +521,8 @@ Londra          {
                     english ("fly");
                     german ("fliege");
                 };
+
+
 
 .   ECHO;
 
