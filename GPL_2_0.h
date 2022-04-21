@@ -64,6 +64,16 @@
 
 
 
+/**
+ * \brief   The GPL 2.0 warranty.
+ *
+ * This macro represents the entire warranty section of the GPL 2.0 license.
+ */
+
+#define GPL_2_0__WARRANTY ""
+
+
+
 /*
  * End of header.
  */
