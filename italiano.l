@@ -98,8 +98,6 @@
     bool    to_german       = false;
 %}
 
-studiare    [Ss]tudia((m|n)o|re)
-
 volare  [Vv]ol(are|iamo)
 
 %% /***************************************************************************/
@@ -438,7 +436,7 @@ Londra                      {
                                 english ("studies");
                                 german  ("studiert");
                             };
-{studiare}                  {
+[Ss]tudia((m|n)o|re)        {
                                 english ("study");
                                 german  ("studieren");
                             };
