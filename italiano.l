@@ -898,15 +898,10 @@ int main (const int argc, char * const * const args)
 
     if (chatty)
     {
-        license ( stderr
-                , 0x7E6
-                , VERSION_YEAR
-                , AUTHORS
-                , LICENSE
-                );
+        license (stderr, 0x7E6, VERSION_YEAR, AUTHORS, LICENSE);
         fprintf (stderr, "\n");
     };
-    
+
     yylex ();
     yylex_destroy ();
     return EX_OK;
