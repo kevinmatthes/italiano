@@ -342,22 +342,22 @@ Londra                      {
 
 
 
-[Nn]o           {
-                    english ("no");
-                    german ("nein");
-                };
-[Nn]on          {
-                    english ("not");
-                    german ("nicht");
-                };
-[Nn]oi          {
-                    english ("we");
-                    german ("wir");
-                };
-[Nn]ove         {
-                    english ("nine");
-                    german ("neun");
-                };
+[Nn]o                       {
+                                english ("no");
+                                german  ("nein");
+                            };
+[Nn]on                      {
+                                english ("not");
+                                german  ("nicht");
+                            };
+[Nn]oi                      {
+                                english ("we");
+                                german  ("wir");
+                            };
+[Nn]ove                     {
+                                english ("nine");
+                                german  ("neun");
+                            };
 
 
 
