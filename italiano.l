@@ -71,7 +71,8 @@
                                         , char * const * const  args
                                         );
     extern void german                  (const char * const translation);
-    extern void license                 ( const int             year
+    extern void license                 ( FILE * const          stream
+                                        , const int             year
                                         , const int             year_this
                                         , const char * const    people
                                         , const char * const    license
@@ -81,7 +82,8 @@
                                         );
     extern void no_language_set         (void);
     extern void unresolvable_argument   (const char * const argument);
-    extern void version                 ( const char * const    app_name
+    extern void version                 ( FILE * const          stream
+                                        , const char * const    app_name
                                         , const int             major
                                         , const int             minor
                                         , const int             fix_level
@@ -96,6 +98,7 @@
      * Global variables.
      */
 
+    bool    chatty          = true;
     bool    language_unset  = true;
     bool    to_american     = false;
     bool    to_british      = false;
@@ -631,12 +634,22 @@ void eval (const int argc, char * const * const args)
                             break;
 
                         case 'l':
-                            license (0x7E6, VERSION_YEAR, AUTHORS, LICENSE);
+                            license ( stdout
+                                    , 0x7E6
+                                    , VERSION_YEAR
+                                    , AUTHORS
+                                    , LICENSE
+                                    );
                             exit (EX_OK);
                             break;
 
+                        case 's':
+                            chatty = false;
+                            break;
+
                         case 'v':
-                            version ( args[0x0]
+                            version ( stdout
+                                    , args[0x0]
                                     , VERSION_MAJOR
                                     , VERSION_MINOR
                                     , VERSION_FIX_LEVEL
@@ -725,29 +738,31 @@ void german (const char * const translation)
 
 /**
  * \brief   The license information.
+ * \param   stream      The stream to write the information to.
  * \param   year        The year of the first commit.
  * \param   year_this   The year of the latest commit.
  * \param   people      The people who contributed to this project.
  * \param   license     The license text.
  *
- * This function will write a brief license information to `stdout`.
+ * This function will write a brief license information to the given stream.
  */
 
-inline void license ( const int             year
+inline void license ( FILE * const          stream
+                    , const int             year
                     , const int             year_this
                     , const char * const    people
                     , const char * const    license
                     )
 {
     if (year >= year_this)
-        fprintf ( stdout
+        fprintf ( stream
                 , "Copyright (C) %d %s\n\n%s\n"
                 , year
                 , people
                 , license
                 );
     else
-        fprintf ( stdout
+        fprintf ( stream
                 , "Copyright (C) %d─%d %s\n\n%s\n"
                 , year
                 , year_this
@@ -780,6 +795,19 @@ inline void license ( const int             year
 int main (const int argc, char * const * const args)
 {
     eval (argc, args);
+
+    if (chatty)
+    {
+        version ( stderr
+                , args[0x0]
+                , VERSION_MAJOR
+                , VERSION_MINOR
+                , VERSION_FIX_LEVEL
+                );
+        license (stderr, 0x7E6, VERSION_YEAR, AUTHORS, LICENSE);
+        warranty (stderr, WARRANTY);
+    };
+
     yylex ();
     yylex_destroy ();
     return EX_OK;
@@ -828,22 +856,24 @@ inline void unresolvable_argument (const char * const argument)
 
 /**
  * \brief   The version information.
+ * \param   stream      The stream to write the information to.
  * \param   app_name    This lexer's name.
  * \param   major       This lexer's major version.
  * \param   minor       This lexer's minor version.
  * \param   fix_level   This lexer's fix level.
  *
- * This function will write a brief version information to `stdout`.
+ * This function will write a brief version information to the given stream.
  */
 
-inline void version ( const char * const    app_name
+inline void version ( FILE * const          stream
+                    , const char * const    app_name
                     , const int             major
                     , const int             minor
                     , const int             fix_level
                     )
 {
     if (fix_level >= 0x0)
-        fprintf ( stdout
+        fprintf ( stream
                 , "%s, version %x.%x.%x.\n"
                 , app_name
                 , major
@@ -851,7 +881,7 @@ inline void version ( const char * const    app_name
                 , fix_level
                 );
     else
-        fprintf ( stdout
+        fprintf ( stream
                 , "%s, version %x.%x.\n"
                 , app_name
                 , major
