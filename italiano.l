@@ -98,9 +98,6 @@
     bool    to_german       = false;
 %}
 
-didovesei   [Dd]i\ dove\ sei
-didovee     [Dd]i\ dov'è
-
 studiare    [Ss]tudia((m|n)o|re)
 
 volare  [Vv]ol(are|iamo)
@@ -196,11 +193,11 @@ volare  [Vv]ol(are|iamo)
                                 english ("of");
                                 german  ("von");
                             };
-{didovee}                   {
+[Dd]i\ dov'è                {
                                 english ("where are you from");
                                 german  ("woher sind Sie");
                             };
-{didovesei}                 {
+[Dd]i\ dove\ sei            {
                                 english ("where are you from");
                                 german  ("woher bist Du");
                             };
