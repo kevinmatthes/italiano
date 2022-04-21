@@ -104,6 +104,8 @@ buongiorno  [Bb]uon(\ )?giorno
 didovesei   [Dd]i\ dove\ sei
 didovee     [Dd]i\ dov'è
 
+studiare    [Ss]tudia((m|n)o|re)
+
 volare  [Vv]ol(are|iamo)
 
 %% /***************************************************************************/
@@ -261,6 +263,10 @@ volare  [Vv]ol(are|iamo)
                     english ("I am");
                     german ("ich bin");
                 };
+[Ii]o\ studio   {
+                    english ("I study");
+                    german ("ich studiere");
+                };
 [Ii]talian[ao]  {
                     english ("Italian");
                     german ("italienisch");
@@ -277,6 +283,10 @@ lei             {
 Lei\ è          {
                     english ("you are");
                     german ("Sie sind");
+                };
+Lei\ studia     {
+                    english ("you study");
+                    german ("Sie studieren");
                 };
 Lei\ vola       {
                     english ("you fly");
@@ -395,6 +405,22 @@ Londra          {
 [Ss]pagnol[ao]  {
                     english ("Spanish");
                     german ("spanisch");
+                };
+[Ss]tudi        {
+                    english ("study");
+                    german ("studierst");
+                };
+[Ss]tudia       {
+                    english ("studies");
+                    german ("studiert");
+                };
+{studiare}      {
+                    english ("study");
+                    german ("studieren");
+                };
+[Ss]tudiate     {
+                    english ("study");
+                    german ("studiert");
                 };
 [Ss]vizzer[ao]  {
                     english ("Swiss");

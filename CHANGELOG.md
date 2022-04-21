@@ -53,6 +53,13 @@
 * word:  inglese
 * word:  polacca, polacco
 * word:  sera
+* word:  studi
+* word:  studia
+* word:  studiamo
+* word:  studiano
+* word:  studiare
+* word:  studiate
+* word:  studio
 * word:  svizzera, svizzero
 
 ### Fixed
