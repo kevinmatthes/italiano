@@ -98,8 +98,6 @@
     bool    to_german       = false;
 %}
 
-volare  [Vv]ol(are|iamo)
-
 %% /***************************************************************************/
 
 %[^ \t\n]+[ \t\n]   echo (& yytext[0x1]);
@@ -497,7 +495,7 @@ Londra                      {
                                 english ("flies");
                                 german  ("fliegt");
                             };
-{volare}                    {
+[Vv]ol(are|iamo)            {
                                 english ("fly");
                                 german  ("fliegen");
                             };
