@@ -184,46 +184,46 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Dd]'           {
-                    english ("of ");
-                    german ("für ");
-                };
-[Dd]avvero      {
-                    english ("really");
-                    german ("wirklich");
-                };
-[Dd]i           {
-                    english ("of");
-                    german ("von");
-                };
-{didovee}       {
-                    english ("where are you from");
-                    german ("woher sind Sie");
-                };
-{didovesei}     {
-                    english ("where are you from");
-                    german ("woher bist Du");
-                };
-[Dd]ieci        {
-                    english ("ten");
-                    german ("zehn");
-                };
-[Dd]ove         {
-                    english ("where");
-                    german ("wo");
-                };
-[Dd]omanda      {
-                    english ("question");
-                    german ("Frage");
-                };
-[Dd]omande      {
-                    english ("questions");
-                    german ("Fragen");
-                };
-[Dd]ue          {
-                    english ("two");
-                    german ("zwei");
-                };
+[Dd]'                       {
+                                english ("of ");
+                                german  ("für ");
+                            };
+[Dd]avvero                  {
+                                english ("really");
+                                german  ("wirklich");
+                            };
+[Dd]i                       {
+                                english ("of");
+                                german  ("von");
+                            };
+{didovee}                   {
+                                english ("where are you from");
+                                german  ("woher sind Sie");
+                            };
+{didovesei}                 {
+                                english ("where are you from");
+                                german  ("woher bist Du");
+                            };
+[Dd]ieci                    {
+                                english ("ten");
+                                german  ("zehn");
+                            };
+[Dd]ove                     {
+                                english ("where");
+                                german  ("wo");
+                            };
+[Dd]omanda                  {
+                                english ("question");
+                                german  ("Frage");
+                            };
+[Dd]omande                  {
+                                english ("questions");
+                                german  ("Fragen");
+                            };
+[Dd]ue                      {
+                                english ("two");
+                                german  ("zwei");
+                            };
 
 
 
