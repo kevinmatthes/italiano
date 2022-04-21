@@ -46,6 +46,7 @@
 
 ### Added
 
+* function `information`
 * function `warranty`
 * global variable `chatty`
 * macro `GPL_2_0__WARRANTY`
