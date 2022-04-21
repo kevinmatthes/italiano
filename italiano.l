@@ -129,26 +129,26 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Bb]ello        {
-                    english ("nice");
-                    german ("schön");
-                };
-[Bb]envenuti    {
-                    english ("welcome");
-                    german ("willkommen");
-                };
-[Bb]uona?       {
-                    english ("good");
-                    german ("gut");
-                };
-{buonasera}     {
-                    english ("good evening");
-                    german ("guten Abend");
-                };
-{buongiorno}    {
-                    english ("good morning");
-                    german ("guten Tag");
-                };
+[Bb]ello                    {
+                                english ("nice");
+                                german  ("schön");
+                            };
+[Bb]envenuti                {
+                                english ("welcome");
+                                german  ("willkommen");
+                            };
+[Bb]uona?                   {
+                                english ("good");
+                                german  ("gut");
+                            };
+{buonasera}                 {
+                                english ("good evening");
+                                german  ("guten Abend");
+                            };
+{buongiorno}                {
+                                english ("good morning");
+                                german  ("guten Tag");
+                            };
 
 
 
