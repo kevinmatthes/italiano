@@ -771,9 +771,9 @@ inline void information ( FILE * const          stream
 {
     if (year >= year_this && fix_level >= 0x0)
         fprintf ( stream
-                , "%s, version %x.%x.%x.  Copyright (C) %d %s\n"
+                , "%s, version %x.%x.%x.  Copyright (C) %d %s.\n"
                   "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n"
+                  "Run `%s -w' for more information.\n\n"
                 , app_name
                 , major
                 , minor
@@ -784,9 +784,9 @@ inline void information ( FILE * const          stream
                 );
     else if (fix_level >= 0x0)
         fprintf ( stream
-                , "%s, version %x.%x.%x.  Copyright (C) %d─%d %s\n"
+                , "%s, version %x.%x.%x.  Copyright (C) %d─%d %s.\n"
                   "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n"
+                  "Run `%s -w' for more information.\n\n"
                 , app_name
                 , major
                 , minor
@@ -798,9 +798,9 @@ inline void information ( FILE * const          stream
                 );
     else if (year >= year_this)
         fprintf ( stream
-                , "%s, version %x.%x.  Copyright (C) %d %s\n"
+                , "%s, version %x.%x.  Copyright (C) %d %s.\n"
                   "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n"
+                  "Run `%s -w' for more information.\n\n"
                 , app_name
                 , major
                 , minor
@@ -810,9 +810,9 @@ inline void information ( FILE * const          stream
                 );
     else
         fprintf ( stream
-                , "%s, version %x.%x.  Copyright (C) %d─%d %s\n"
+                , "%s, version %x.%x.  Copyright (C) %d─%d %s.\n"
                   "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n"
+                  "Run `%s -w' for more information.\n\n"
                 , app_name
                 , major
                 , minor
@@ -886,29 +886,15 @@ inline void license ( FILE * const          stream
 int main (const int argc, char * const * const args)
 {
     eval (argc, args);
-
-    if (chatty)
-    {
-        version ( stderr
+    information ( stderr
                 , args[0x0]
                 , VERSION_MAJOR
                 , VERSION_MINOR
                 , VERSION_FIX_LEVEL
+                , 0x7E6
+                , VERSION_YEAR
+                , AUTHORS
                 );
-        license (stderr, 0x7E6, VERSION_YEAR, AUTHORS, LICENSE);
-        warranty (stderr, WARRANTY);
-    }
-    else
-        information ( stderr
-                    , args[0x0]
-                    , VERSION_MAJOR
-                    , VERSION_MINOR
-                    , VERSION_FIX_LEVEL
-                    , 0x7E6
-                    , VERSION_YEAR
-                    , AUTHORS
-                    );
-
     yylex ();
     yylex_destroy ();
     return EX_OK;
