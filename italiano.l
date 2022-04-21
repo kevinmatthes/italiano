@@ -224,18 +224,18 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Ee]            {
-                    english ("and");
-                    german ("und");
-                };
-È|è             {
-                    english ("is");
-                    german ("ist");
-                };
-[Ee]ssere       {
-                    english ("to be");
-                    german ("sein");
-                };
+[Ee]                        {
+                                english ("and");
+                                german  ("und");
+                            };
+È|è                         {
+                                english ("is");
+                                german  ("ist");
+                            };
+[Ee]ssere                   {
+                                english ("to be");
+                                german  ("sein");
+                            };
 
 
 
