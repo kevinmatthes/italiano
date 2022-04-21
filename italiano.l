@@ -104,7 +104,7 @@ buongiorno  [Bb]uon(\ )?giorno
 didovesei   [Dd]i\ dove\ sei
 didovee     [Dd]i\ dov'è
 
-volare  [Vv]ol(a(no|re)|iamo)
+volare  [Vv]ol(are|iamo)
 
 %% /***************************************************************************/
 
@@ -282,10 +282,6 @@ Lei\ vola       {
                     english ("you fly");
                     german ("Sie fliegen");
                 };
-lei\ vola       {
-                    english ("she flies");
-                    german ("sie fliegt");
-                };
 Londra          {
                     english ("London");
                     german ("London");
@@ -298,13 +294,13 @@ Londra          {
                     english ("they are");
                     german ("sie sind");
                 };
+[Ll]oro\ volano {
+                    english ("they fly");
+                    german ("sie fliegen");
+                };
 [Ll]ui          {
                     english ("he");
                     german ("er");
-                };
-[Ll]ui\ vola    {
-                    english ("he flies");
-                    german ("er fliegt");
                 };
 
 [Mm]i           {
@@ -442,6 +438,10 @@ Londra          {
 [Vv]oi          {
                     english ("you");
                     german ("ihr");
+                };
+[Vv]ola         {
+                    english ("flies");
+                    german ("fliegt");
                 };
 {volare}        {
                     english ("fly");
