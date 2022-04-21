@@ -482,10 +482,10 @@ Londra                      {
 
 
 
-[Uu]no          {
-                    english ("one");
-                    german ("eins");
-                };
+[Uu]no                      {
+                                english ("one");
+                                german  ("eins");
+                            };
 
 
 
