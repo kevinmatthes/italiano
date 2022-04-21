@@ -641,6 +641,11 @@ void eval (const int argc, char * const * const args)
                                     );
                             exit (EX_OK);
                             break;
+
+                        case 'w':
+                            warranty (WARRANTY);
+                            exit (EX_OK);
+                            break;
                     };
                     break;
 
