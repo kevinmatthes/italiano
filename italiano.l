@@ -361,10 +361,10 @@ Londra                      {
 
 
 
-[Oo]tto         {
-                    english ("eight");
-                    german ("acht");
-                };
+[Oo]tto                     {
+                                english ("eight");
+                                german  ("acht");
+                            };
 
 
 
