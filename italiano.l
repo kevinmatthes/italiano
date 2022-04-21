@@ -373,7 +373,7 @@ Londra                      {
                                 german  ("warum");
                             };
 [Pp]iacere                  {
-                                english ("splendid");
+                                english ("pleased to meet you");
                                 german  ("sehr erfreut");
                             };
 [Pp]olacc[ao]               {
