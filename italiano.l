@@ -131,6 +131,10 @@ volare  [Vv]ol(a(no|re)|iamo)
                     english ("welcome");
                     german ("willkommen");
                 };
+[Bb]uona?       {
+                    english ("good");
+                    german ("gut");
+                };
 {buonasera}     {
                     english ("good evening");
                     german ("guten Abend");

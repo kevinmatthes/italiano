@@ -47,6 +47,7 @@
 ### Added
 
 * word:  austriaca, austriaco
+* word:  buon, buona
 * word:  francese
 * word:  inglese
 * word:  polacca, polacco
