@@ -239,10 +239,10 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Ff]rancese     {
-                    english ("French");
-                    german ("französisch");
-                };
+[Ff]rancese                 {
+                                english ("French");
+                                german  ("französisch");
+                            };
 
 
 
