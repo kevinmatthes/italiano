@@ -327,18 +327,18 @@ Londra                      {
 
 
 
-[Mm]i           {
-                    english ("me");
-                    german ("mich");
-                };
-[Mm]i\ chiamo   {
-                    english ("am called");
-                    german ("mich nenne");
-                };
-[Mm]irtillo     {
-                    english ("blueberry");
-                    german ("Heidelbeere");
-                };
+[Mm]i                       {
+                                english ("me");
+                                german  ("mich");
+                            };
+[Mm]i\ chiamo               {
+                                english ("am called");
+                                german  ("mich nenne");
+                            };
+[Mm]irtillo                 {
+                                english ("blueberry");
+                                german  ("Heidelbeere");
+                            };
 
 
 
