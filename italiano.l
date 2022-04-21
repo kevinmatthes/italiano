@@ -149,38 +149,38 @@ volare  [Vv]ol(are|iamo)
 
 
 
-[Cc]hiami       {
-                    english ("call");
-                    german ("nennst");
-                };
-[Cc]hiamo       {
-                    english ("call");
-                    german ("nenne");
-                };
-[Cc]hiaro       {
-                    english ("clear");
-                    german ("klar");
-                };
-[Cc]inese       {
-                    english ("Chinese");
-                    german ("chinesisch");
-                };
-[Cc]inque       {
-                    english ("five");
-                    german ("fünf");
-                };
-[Cc]ome         {
-                    english ("how");
-                    german ("wie");
-                };
-[Cc]orso        {
-                    english ("course");
-                    german ("Kurs");
-                };
-[Cc]osa         {
-                    english ("what");
-                    german ("was");
-                };
+[Cc]hiami                   {
+                                english ("call");
+                                german  ("nennst");
+                            };
+[Cc]hiamo                   {
+                                english ("call");
+                                german  ("nenne");
+                            };
+[Cc]hiaro                   {
+                                english ("clear");
+                                german  ("klar");
+                            };
+[Cc]inese                   {
+                                english ("Chinese");
+                                german  ("chinesisch");
+                            };
+[Cc]inque                   {
+                                english ("five");
+                                german  ("fünf");
+                            };
+[Cc]ome                     {
+                                english ("how");
+                                german  ("wie");
+                            };
+[Cc]orso                    {
+                                english ("course");
+                                german  ("Kurs");
+                            };
+[Cc]osa                     {
+                                english ("what");
+                                german  ("was");
+                            };
 
 
 
