@@ -394,62 +394,62 @@ Londra                      {
 
 
 
-[Ss]ei          {
-                    english ("six");
-                    german ("sechs");
-                };
-[Ss]era         {
-                    english ("evening");
-                    german ("Abend");
-                };
-[Ss]ette        {
-                    english ("seven");
-                    german ("sieben");
-                };
-[Ss]ì           {
-                    english ("yes");
-                    german ("ja");
-                };
-[Ss]iamo        {
-                    english ("are");
-                    german ("sind");
-                };
-[Ss]iete        {
-                    english ("are");
-                    german ("seid");
-                };
-[Ss]ignifica    {
-                    english ("means");
-                    german ("bedeutet");
-                };
-[Ss]ono         {
-                    english ("I am");
-                    german ("ich bin");
-                };
-[Ss]pagnol[ao]  {
-                    english ("Spanish");
-                    german ("spanisch");
-                };
-[Ss]tudi        {
-                    english ("study");
-                    german ("studierst");
-                };
-[Ss]tudia       {
-                    english ("studies");
-                    german ("studiert");
-                };
-{studiare}      {
-                    english ("study");
-                    german ("studieren");
-                };
-[Ss]tudiate     {
-                    english ("study");
-                    german ("studiert");
-                };
-[Ss]vizzer[ao]  {
-                    english ("Swiss");
-                    german ("schweizerisch");
-                };
+[Ss]ei                      {
+                                english ("six");
+                                german  ("sechs");
+                            };
+[Ss]era                     {
+                                english ("evening");
+                                german  ("Abend");
+                            };
+[Ss]ette                    {
+                                english ("seven");
+                                german  ("sieben");
+                            };
+[Ss]ì                       {
+                                english ("yes");
+                                german  ("ja");
+                            };
+[Ss]iamo                    {
+                                english ("are");
+                                german  ("sind");
+                            };
+[Ss]iete                    {
+                                english ("are");
+                                german  ("seid");
+                            };
+[Ss]ignifica                {
+                                english ("means");
+                                german  ("bedeutet");
+                            };
+[Ss]ono                     {
+                                english ("I am");
+                                german  ("ich bin");
+                            };
+[Ss]pagnol[ao]              {
+                                english ("Spanish");
+                                german  ("spanisch");
+                            };
+[Ss]tudi                    {
+                                english ("study");
+                                german  ("studierst");
+                            };
+[Ss]tudia                   {
+                                english ("studies");
+                                german  ("studiert");
+                            };
+{studiare}                  {
+                                english ("study");
+                                german  ("studieren");
+                            };
+[Ss]tudiate                 {
+                                english ("study");
+                                german  ("studiert");
+                            };
+[Ss]vizzer[ao]              {
+                                english ("Swiss");
+                                german  ("schweizerisch");
+                            };
 
 
 
