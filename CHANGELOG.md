@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.2] -- 2022-04-21
+
 ### Added
 
 * word:  austriaca, austriaco
