@@ -284,46 +284,46 @@ volare  [Vv]ol(are|iamo)
 
 
 
-Lei             {
-                    english ("you");
-                    german ("Sie");
-                };
-lei             {
-                    english ("she");
-                    german ("sie");
-                };
-Lei\ è          {
-                    english ("you are");
-                    german ("Sie sind");
-                };
-Lei\ studia     {
-                    english ("you study");
-                    german ("Sie studieren");
-                };
-Lei\ vola       {
-                    english ("you fly");
-                    german ("Sie fliegen");
-                };
-Londra          {
-                    english ("London");
-                    german ("London");
-                };
-[Ll]oro         {
-                    english ("they");
-                    german ("sie");
-                };
-[Ll]oro\ sono   {
-                    english ("they are");
-                    german ("sie sind");
-                };
-[Ll]oro\ volano {
-                    english ("they fly");
-                    german ("sie fliegen");
-                };
-[Ll]ui          {
-                    english ("he");
-                    german ("er");
-                };
+Lei                         {
+                                english ("you");
+                                german  ("Sie");
+                            };
+lei                         {
+                                english ("she");
+                                german  ("sie");
+                            };
+Lei\ è                      {
+                                english ("you are");
+                                german  ("Sie sind");
+                            };
+Lei\ studia                 {
+                                english ("you study");
+                                german  ("Sie studieren");
+                            };
+Lei\ vola                   {
+                                english ("you fly");
+                                german  ("Sie fliegen");
+                            };
+Londra                      {
+                                english ("London");
+                                german  ("London");
+                            };
+[Ll]oro                     {
+                                english ("they");
+                                german  ("sie");
+                            };
+[Ll]oro\ sono               {
+                                english ("they are");
+                                german  ("sie sind");
+                            };
+[Ll]oro\ volano             {
+                                english ("they fly");
+                                german  ("sie fliegen");
+                            };
+[Ll]ui                      {
+                                english ("he");
+                                german  ("er");
+                            };
 
 
 
