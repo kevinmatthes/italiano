@@ -868,7 +868,7 @@ inline void version ( const char * const    app_name
  * \param   stream      The stream to write the information to.
  * \param   warranty    The warranty information to display.
  *
- * This function will write a brief warranty information to `stdout`.
+ * This function will write a brief warranty information to the given stream.
  */
 
 inline void warranty (FILE * const stream, const char * const warranty)
