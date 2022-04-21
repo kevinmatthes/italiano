@@ -158,6 +158,14 @@ italiano -v
 
 Show the version and quit.  All further options will be ignored.
 
+### `-w`
+
+```
+italiano -w
+```
+
+Show the warranty information and quit.  All further options will be ignored.
+
 ## Hints
 
 ### Unique Word Protection
