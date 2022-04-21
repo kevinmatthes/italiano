@@ -780,6 +780,7 @@ inline void information ( FILE * const          stream
                 , fix_level
                 , year
                 , people
+                , app_name
                 );
     else if (fix_level >= 0x0)
         fprintf ( stream
@@ -793,6 +794,7 @@ inline void information ( FILE * const          stream
                 , year
                 , year_this
                 , people
+                , app_name
                 );
     else if (year >= year_this)
         fprintf ( stream
@@ -804,6 +806,7 @@ inline void information ( FILE * const          stream
                 , minor
                 , year
                 , people
+                , app_name
                 );
     else
         fprintf ( stream
@@ -816,7 +819,9 @@ inline void information ( FILE * const          stream
                 , year
                 , year_this
                 , people
+                , app_name
                 );
+
     return;
 }
 
@@ -899,7 +904,7 @@ int main (const int argc, char * const * const args)
                     , VERSION_MAJOR
                     , VERSION_MINOR
                     , VERSION_FIX_LEVEL
-                    , 0x736
+                    , 0x7E6
                     , VERSION_YEAR
                     , AUTHORS
                     );
