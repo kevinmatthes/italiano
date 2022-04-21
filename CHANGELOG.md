@@ -57,6 +57,7 @@
 
 ### Fixed
 
+* duplicate entries for "vola"
 * enable alternative spelling for "buonasera"
 * enable alternative spelling for "buongiorno"
 
