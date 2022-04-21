@@ -451,34 +451,34 @@ Londra                      {
 
 
 
-[Tt]edesc[ao]   {
-                    english ("German");
-                    german ("deutsch");
-                };
-[Tt]i           {
-                    english ("you");
-                    german ("Dich");
-                };
-[Tt]i\ chiami   {
-                    english ("are called");
-                    german ("Dich nennst");
-                };
-[Tt]re          {
-                    english ("three");
-                    german ("drei");
-                };
-[Tt]u           {
-                    english ("you");
-                    german ("Du");
-                };
-[Tt]u\ sei      {
-                    english ("you are");
-                    german ("Du bist");
-                };
-[Tt]utto        {
-                    english ("anything");
-                    german ("alles");
-                };
+[Tt]edesc[ao]               {
+                                english ("German");
+                                german  ("deutsch");
+                            };
+[Tt]i                       {
+                                english ("you");
+                                german  ("Dich");
+                            };
+[Tt]i\ chiami               {
+                                english ("are called");
+                                german  ("Dich nennst");
+                            };
+[Tt]re                      {
+                                english ("three");
+                                german  ("drei");
+                            };
+[Tt]u                       {
+                                english ("you");
+                                german  ("Du");
+                            };
+[Tt]u\ sei                  {
+                                english ("you are");
+                                german  ("Du bist");
+                            };
+[Tt]utto                    {
+                                english ("anything");
+                                german  ("alles");
+                            };
 
 
 
