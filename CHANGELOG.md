@@ -44,6 +44,13 @@
 
 ## [Unreleased]
 
+### Added
+
+* function `warranty`
+* macro `GPL_2_0__WARRANTY`
+* macro `WARRANTY`
+* option `-w`
+
 ## [0.1.3] -- 2022-04-21
 
 ### Changed
