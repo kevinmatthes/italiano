@@ -46,6 +46,13 @@
  * will be inverted as soon as the target language was specified.
  */
 
+/*! \var    monosyllabic
+ * \brief   Whether the application shall only prompt the most important text.
+ *
+ * In some cases, the application should rather just show the most important
+ * status information to the user.  This flag activates this behaviour.
+ */
+
 /*! \var    to_american
  * \brief   Set the output language to US American English.
  *
