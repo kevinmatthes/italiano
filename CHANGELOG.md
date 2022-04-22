@@ -44,6 +44,14 @@
 
 ## [Unreleased]
 
+### Added
+
+* global variable `monosyllabic`
+
+### Changed
+
+* set `chatty` to `false` by default
+
 ## [0.1.4] -- 2022-04-22
 
 ### Added
