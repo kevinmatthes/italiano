@@ -107,8 +107,9 @@
      * Global variables.
      */
 
-    bool    chatty          = true;
+    bool    chatty          = false;
     bool    language_unset  = true;
+    bool    monosyllabic    = false;
     bool    to_american     = false;
     bool    to_british      = false;
     bool    to_german       = false;
