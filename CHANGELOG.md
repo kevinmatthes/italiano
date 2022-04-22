@@ -46,10 +46,12 @@
 
 ### Added
 
+* function `license_line`
 * global variable `monosyllabic`
 
 ### Changed
 
+* outsource license headline to `license_line`
 * set `chatty` to `false` by default
 
 ## [0.1.4] -- 2022-04-22
