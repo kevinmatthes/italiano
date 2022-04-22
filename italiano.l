@@ -790,9 +790,10 @@ inline void information ( FILE * const          stream
 
     fprintf ( stream
             , "This is free software, see the GPL 2.0 license for copying condi"
-              "tions.\nThis application comes with ABSOLUTELY NO WARRANTY, not "
-              "even for MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE; r"
-              "un `%s -w' for more details.\n\n"
+              "tions.\n"
+              "This application comes with ABSOLUTELY NO WARRANTY, not even for"
+              "MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE; run `%s -w"
+              "' for more details.\n\n"
             , app_name
             );
 
