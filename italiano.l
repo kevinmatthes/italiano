@@ -86,6 +86,11 @@
                                         , const char * const    people
                                         , const char * const    license
                                         );
+    extern void license_line            ( FILE * const          stream
+                                        , const int             year
+                                        , const int             year_this
+                                        , const char * const    people
+                                        );
     extern int  main                    ( const int             argc
                                         , char * const * const  args
                                         );
