@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.4] -- 2022-04-22
+
 ### Added
 
 * function `information`
