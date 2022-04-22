@@ -780,58 +780,16 @@ inline void information ( FILE * const          stream
                         , const char * const    people
                         )
 {
-    if (year >= year_this && fix_level >= 0x0)
-        fprintf ( stream
-                , "%s, version %x.%x.%x.  Copyright (C) %d %s.\n"
-                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n\n"
-                , app_name
-                , major
-                , minor
-                , fix_level
-                , year
-                , people
-                , app_name
-                );
-    else if (fix_level >= 0x0)
-        fprintf ( stream
-                , "%s, version %x.%x.%x.  Copyright (C) %d─%d %s.\n"
-                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n\n"
-                , app_name
-                , major
-                , minor
-                , fix_level
-                , year
-                , year_this
-                , people
-                , app_name
-                );
-    else if (year >= year_this)
-        fprintf ( stream
-                , "%s, version %x.%x.  Copyright (C) %d %s.\n"
-                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n\n"
-                , app_name
-                , major
-                , minor
-                , year
-                , people
-                , app_name
-                );
-    else
-        fprintf ( stream
-                , "%s, version %x.%x.  Copyright (C) %d─%d %s.\n"
-                  "This application comes with ABSOLUTELY NO WARRANTY.\n"
-                  "Run `%s -w' for more information.\n\n"
-                , app_name
-                , major
-                , minor
-                , year
-                , year_this
-                , people
-                , app_name
-                );
+    version (stream, app_name, major, minor, fix_level);
+    license_line (stream, year, year_this, people);
+
+    fprintf ( stream
+            , "This is free software, see the GPL 2.0 license for copying condi"
+              "tions.\nThis application comes with ABSOLUTELY NO WARRANTY, not "
+              "even for MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE; r"
+              "un `%s -w' for more details.\n\n"
+            , app_name
+            );
 
     return;
 }
