@@ -987,7 +987,8 @@ inline void version ( FILE * const          stream
 inline void warranty (FILE * const stream, const char * const warranty)
 {
     fprintf ( stream
-            , "This application comes with ABSOLUTELY NO WARRANTY.\n"
+            , "This application comes with ABSOLUTELY NO WARRANTY, not even for"
+              "MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE.\n\n"
               "The GPL 2.0 license specifies the following:\n\n"
               "%s\n"
             , warranty
