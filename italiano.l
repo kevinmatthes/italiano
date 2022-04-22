@@ -819,22 +819,8 @@ inline void license ( FILE * const          stream
                     , const char * const    license
                     )
 {
-    if (year >= year_this)
-        fprintf ( stream
-                , "Copyright (C) %d %s\n\n%s\n"
-                , year
-                , people
-                , license
-                );
-    else
-        fprintf ( stream
-                , "Copyright (C) %d─%d %s\n\n%s\n"
-                , year
-                , year_this
-                , people
-                , license
-                );
-
+    license_line (stream, year, year_this, people);
+    fprintf (stream, "%s\n", license);
     return;
 }
 
