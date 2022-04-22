@@ -841,6 +841,41 @@ inline void license ( FILE * const          stream
 
 
 /**
+ * \brief   The copyright information line.
+ * \param   stream      The stream to write the information to.
+ * \param   year        The year of the first commit.
+ * \param   year_this   The year of the latest commit.
+ * \param   people      The people who contributed to this project.
+ *
+ * This function will write a brief license information to the given stream.
+ */
+
+inline void license_line ( FILE * const          stream
+                         , const int             year
+                         , const int             year_this
+                         , const char * const    people
+                         )
+{
+    if (year >= year_this)
+        fprintf ( stream
+                , "Copyright (C) %d %s\n\n"
+                , year
+                , people
+                );
+    else
+        fprintf ( stream
+                , "Copyright (C) %d─%d %s\n\n"
+                , year
+                , year_this
+                , people
+                );
+
+    return;
+}
+
+
+
+/**
  * \brief   The main function in order to control the behaviour of the lexer.
  * \param   argc    The count of passed command line arguments.
  * \param   args    The passed command line arguments.
