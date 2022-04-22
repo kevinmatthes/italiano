@@ -142,6 +142,14 @@ italiano --german
 
 Set the output language to German.  Only one target language is allowed.
 
+### `-V`
+
+```
+italiano -V
+```
+
+Show verbose information.  Can be combined with any option.
+
 ### `-l`
 
 ```

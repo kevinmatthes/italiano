@@ -643,6 +643,13 @@ void eval (const int argc, char * const * const args)
                             unresolvable_argument (current);
                             break;
 
+                        case 'V':
+                            if (! monosyllabic)
+                                chatty = true;
+                            else
+                                unresolvable_argument (current);
+                            break;
+
                         case 'l':
                             license ( stdout
                                     , 0x7E6
@@ -654,7 +661,10 @@ void eval (const int argc, char * const * const args)
                             break;
 
                         case 's':
-                            chatty = false;
+                            if (! chatty)
+                                monosyllabic = true;
+                            else
+                                unresolvable_argument (current);
                             break;
 
                         case 'v':
