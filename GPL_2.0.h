@@ -41,6 +41,15 @@
 
 
 
+/*
+ * Includes.
+ */
+
+#include <stdbool.h>
+#include <stdio.h>
+
+
+
 /**
  * \brief   The GPL 2.0 license (brief version).
  *
@@ -92,6 +101,14 @@
 "YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"  \
 "PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"       \
 "POSSIBILITY OF SUCH DAMAGES."
+
+
+
+/*
+ * Function declarations.
+ */
+
+extern  bool    gpl2_warranty   (FILE * const stream);
 
 
 
