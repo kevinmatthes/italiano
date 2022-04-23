@@ -55,15 +55,27 @@
  * using **hexadecimal integer** numbers.
  */
 
-inline bool gpl2_license ( FILE * const          stream
-                         , const int             year_first
-                         , const int             year_latest
-                         , const char * const    people
+inline bool gpl2_version ( FILE * const          stream
+                         , const char * const    app_name
+                         , const int             major
+                         , const int             minor
+                         , const int             fix_level
                          )
 {
-    return gpl2_copyright_line (stream, year_first, year_latest, people)
-        &&             fprintf (stream, GPL_2_0)
-         ;
+    return fix_level < 0x0 ? fprintf ( stream
+                                     , "%s, version %x.%x.\n"
+                                     , app_name
+                                     , major
+                                     , minor
+                                     )
+                           : fprintf (stream
+                                     , "%s, version %x.%x.%x.\n"
+                                     , app_name
+                                     , major
+                                     , minor
+                                     , fix_level
+                                     )
+                           ;
 }
 
 /******************************************************************************/
