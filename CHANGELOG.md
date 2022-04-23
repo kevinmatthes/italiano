@@ -48,6 +48,7 @@
 
 * create `gpl2_copyright_line.c`
 * create `gpl2_license.c`
+* create `gpl2_version.c`
 * create `gpl2_warranty.c`
 
 ### Changed
