@@ -44,6 +44,11 @@
 
 ## [Unreleased]
 
+### Fixed
+
+* shorten pattern of "buonasera" / "buona sera"
+* shorten pattern of "buongiorno" / "buon giorno"
+
 ## [0.1.5] -- 2022-04-23
 
 ### Added

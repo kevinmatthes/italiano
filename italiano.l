@@ -153,11 +153,11 @@
                                 english ("good");
                                 german  ("gut");
                             };
-[Bb]uona(\ )?sera           {
+[Bb]uona[ ]?sera            {
                                 english ("good evening");
                                 german  ("guten Abend");
                             };
-[Bb]uon(\ )?giorno          {
+[Bb]uon[ ]?giorno           {
                                 english ("good morning");
                                 german  ("guten Tag");
                             };
