@@ -48,6 +48,10 @@
 
 * create `gpl2_warranty.c`
 
+### Changed
+
+* outsource warranty function to `gpl_warranty.c`
+
 ### Fixed
 
 * missing line breaks
