@@ -67,8 +67,18 @@ inline bool gpl2_information ( FILE * const          stream
                              , const char * const    people
                              )
 {
-    return gpl2_copyright_line (stream, year_first, year_latest, people)
-        &&             fprintf (stream, GPL_2_0)
+    return        gpl2_version ( stream, app_name,   major, minor, fix_level )
+        && gpl2_copyright_line ( stream, year_first, year_latest,  people    )
+        &&             fprintf ( stream
+                               , "This application is free software.  For copyi"
+                                 "ng details, see the\nGNU General Public Licen"
+                                 "se, version 2, as of June 1991.\n\nThis appli"
+                                 "cation comes with ABSOLUTELY NO WARRANTY, not"
+                                 " even for MERCHANTABILITY\nor FITNESS FOR A P"
+                                 "ARTICULAR PURPOSE; run `%s -w' for more detai"
+                                 "ls.\n\n"
+                               , app_name
+                               )
          ;
 }
 
