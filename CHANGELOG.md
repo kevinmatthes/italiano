@@ -46,6 +46,7 @@
 
 ### Fixed
 
+* missing line breaks
 * shorten pattern of "buonasera" / "buona sera"
 * shorten pattern of "buongiorno" / "buon giorno"
 
