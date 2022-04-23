@@ -53,7 +53,8 @@
 ### Changed
 
 * outsource copyright line function to `gpl2_copyright_line.c`
-* outsource warranty function to `gpl_warranty.c`
+* outsource license function to `gpl2_license.c`
+* outsource warranty function to `gpl2_warranty.c`
 
 ### Fixed
 
