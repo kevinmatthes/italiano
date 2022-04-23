@@ -792,8 +792,8 @@ inline void information ( FILE * const          stream
             , "This is free software, see the GPL 2.0 license for copying condi"
               "tions.\n"
               "This application comes with ABSOLUTELY NO WARRANTY, not even for"
-              "MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE; run `%s -w"
-              "' for more details.\n\n"
+              " MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE; run `%s -"
+              "w' for more details.\n\n"
             , app_name
             );
 
