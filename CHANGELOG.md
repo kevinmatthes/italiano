@@ -46,11 +46,12 @@
 
 ### Added
 
-* create `gpl2_license_line.c`
+* create `gpl2_copyright_line.c`
 * create `gpl2_warranty.c`
 
 ### Changed
 
+* outsource copyright line function to `gpl2_copyright_line.c`
 * outsource warranty function to `gpl_warranty.c`
 
 ### Fixed
