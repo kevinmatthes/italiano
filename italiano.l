@@ -84,12 +84,6 @@
                                         );
     extern void no_language_set         (void);
     extern void unresolvable_argument   (const char * const argument);
-    extern void version                 ( FILE * const          stream
-                                        , const char * const    app_name
-                                        , const int             major
-                                        , const int             minor
-                                        , const int             fix_level
-                                        );
 
 
 
@@ -657,12 +651,12 @@ void eval (const int argc, char * const * const args)
                             break;
 
                         case 'v':
-                            version ( stdout
-                                    , args[0x0]
-                                    , VERSION_MAJOR
-                                    , VERSION_MINOR
-                                    , VERSION_FIX_LEVEL
-                                    );
+                            gpl2_version ( stdout
+                                         , args[0x0]
+                                         , VERSION_MAJOR
+                                         , VERSION_MINOR
+                                         , VERSION_FIX_LEVEL
+                                         );
                             exit (EX_OK);
                             break;
 
@@ -769,7 +763,7 @@ inline void information ( FILE * const          stream
                         , const char * const    people
                         )
 {
-    version (stream, app_name, major, minor, fix_level);
+    gpl2_version (stream, app_name, major, minor, fix_level);
     gpl2_copyright_line (stream, year, year_this, people);
 
     fprintf ( stream
@@ -856,45 +850,6 @@ inline void unresolvable_argument (const char * const argument)
 {
     fprintf (stderr, "Unresolvable argument:  '%s'.\n", argument);
     exit (EX_USAGE);
-    return;
-}
-
-
-
-/**
- * \brief   The version information.
- * \param   stream      The stream to write the information to.
- * \param   app_name    This lexer's name.
- * \param   major       This lexer's major version.
- * \param   minor       This lexer's minor version.
- * \param   fix_level   This lexer's fix level.
- *
- * This function will write a brief version information to the given stream.
- */
-
-inline void version ( FILE * const          stream
-                    , const char * const    app_name
-                    , const int             major
-                    , const int             minor
-                    , const int             fix_level
-                    )
-{
-    if (fix_level >= 0x0)
-        fprintf ( stream
-                , "%s, version %x.%x.%x.\n"
-                , app_name
-                , major
-                , minor
-                , fix_level
-                );
-    else
-        fprintf ( stream
-                , "%s, version %x.%x.\n"
-                , app_name
-                , major
-                , minor
-                );
-
     return;
 }
 
