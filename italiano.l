@@ -102,9 +102,6 @@
                                         , const int             minor
                                         , const int             fix_level
                                         );
-    extern void warranty                ( FILE * const          stream
-                                        , const char * const    warranty
-                                        );
 
 
 
@@ -683,7 +680,7 @@ void eval (const int argc, char * const * const args)
                             break;
 
                         case 'w':
-                            warranty (stdout, WARRANTY);
+                            gpl2_warranty (stdout);
                             exit (EX_OK);
                             break;
                     };
@@ -971,28 +968,6 @@ inline void version ( FILE * const          stream
                 , minor
                 );
 
-    return;
-}
-
-
-
-/**
- * \brief   The warranty information.
- * \param   stream      The stream to write the information to.
- * \param   warranty    The warranty information to display.
- *
- * This function will write a brief warranty information to the given stream.
- */
-
-inline void warranty (FILE * const stream, const char * const warranty)
-{
-    fprintf ( stream
-            , "This application comes with ABSOLUTELY NO WARRANTY, not even for"
-              " MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE.\n\n"
-              "The GPL 2.0 license specifies the following:\n\n"
-              "%s\n"
-            , warranty
-            );
     return;
 }
 

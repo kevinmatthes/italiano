@@ -46,6 +46,8 @@
  * \brief   Write the GPL 2.0 warranty information to the given stream.
  * \param   stream  The stream to write the GPL 2.0 warranty information to.
  * \return  Whether the text was printed successfully.
+ *
+ * This function will write a warranty information to the given stream.
  */
 
 inline bool gpl2_warranty (FILE * const stream)
@@ -54,7 +56,7 @@ inline bool gpl2_warranty (FILE * const stream)
                     , "This application comes with ABSOLUTELY NO WARRANTY, not"
                       " even for MERCHANTABILITY\nor FITNESS FOR A PARTICULAR "
                       "PURPOSE.\n\nThe GPL 2.0 license specifies the following"
-                      ":" GPL_2_0__WARRANTY
+                      ":\n\n" GPL_2_0__WARRANTY
                     );
 }
 
