@@ -79,12 +79,6 @@
                                         , const int             year_this
                                         , const char * const    people
                                         );
-    extern void license                 ( FILE * const          stream
-                                        , const int             year
-                                        , const int             year_this
-                                        , const char * const    people
-                                        , const char * const    license
-                                        );
     extern int  main                    ( const int             argc
                                         , char * const * const  args
                                         );
@@ -647,12 +641,11 @@ void eval (const int argc, char * const * const args)
                             break;
 
                         case 'l':
-                            license ( stdout
-                                    , 0x7E6
-                                    , VERSION_YEAR
-                                    , AUTHORS
-                                    , LICENSE
-                                    );
+                            gpl2_license ( stdout
+                                         , 0x7E6
+                                         , VERSION_YEAR
+                                         , AUTHORS
+                                         );
                             exit (EX_OK);
                             break;
 
@@ -788,31 +781,6 @@ inline void information ( FILE * const          stream
             , app_name
             );
 
-    return;
-}
-
-
-
-/**
- * \brief   The license information.
- * \param   stream      The stream to write the information to.
- * \param   year        The year of the first commit.
- * \param   year_this   The year of the latest commit.
- * \param   people      The people who contributed to this project.
- * \param   license     The license text.
- *
- * This function will write a brief license information to the given stream.
- */
-
-inline void license ( FILE * const          stream
-                    , const int             year
-                    , const int             year_this
-                    , const char * const    people
-                    , const char * const    license
-                    )
-{
-    gpl2_copyright_line (stream, year, year_this, people);
-    fprintf (stream, "%s\n", license);
     return;
 }
 
