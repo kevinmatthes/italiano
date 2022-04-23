@@ -26,8 +26,8 @@
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
  *
- * This file implements the copyright line of the GPL 2.0 license header.  It
- * will be written to the given stream.
+ * This file implements the copyright line function of the GPL 2.0 license
+ * header.  It will be written to the given stream.
  */
 
 /******************************************************************************/
