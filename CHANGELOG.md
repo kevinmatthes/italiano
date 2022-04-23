@@ -48,6 +48,7 @@
 
 * function `license_line`
 * global variable `monosyllabic`
+* option `-V`
 
 ### Changed
 
