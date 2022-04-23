@@ -171,8 +171,8 @@
 * word:  tutto
 * word:  vola
 * word:  volano
-* word:  volate
 * word:  volare
+* word:  volate
 * word:  voli
 * word:  voliamo
 * word:  volo
