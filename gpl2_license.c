@@ -52,24 +52,14 @@
  * Write the GPL 2.0 license header's copyright line to the given stream.
  */
 
-inline bool gpl2_copyright_line ( FILE * const          stream
-                                , const int             year_first
-                                , const int             year_latest
-                                , const char * const    people
-                                )
+inline bool gpl2_license ( FILE * const          stream
+                         , const int             year_first
+                         , const int             year_latest
+                         , const char * const    people
+                         )
 {
-    return year_first >= year_latest ? fprintf  ( stream
-                                                , "Copyright (C) %d %s\n\n"
-                                                , year_first
-                                                , people
-                                                )
-                                     : fprintf  ( stream
-                                                , "Copyright (C) %d─%d %s\n\n"
-                                                , year_first
-                                                , year_latest
-                                                , people
-                                                )
-                                     ;
+    return gpl2_copyright_line (stream, year_first, year_latest, people)
+        && fprintf (stream, GPL_2_0);
 }
 
 /******************************************************************************/
