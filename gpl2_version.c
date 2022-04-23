@@ -42,14 +42,17 @@
 
 
 /**
- * \brief   Print the copyright line of the GPL 2.0 license header.
- * \param   stream      The stream to write the copyright line to.
- * \param   year_first  The year of the first commit.
- * \param   year_latest The year of the latest commit.
- * \param   people      The people who contributed.
+ * \brief   A minimum version information.
+ * \param   stream      The stream to write the information to.
+ * \param   app_name    The concerning application's name.
+ * \param   major       The concerning application's major version.
+ * \param   minor       The concerning application's minor version.
+ * \param   fix_level   The concerning application's fix level.
  * \return  Whether the text was printed successfully.
  *
- * Write the GPL 2.0 license header's copyright line to the given stream.
+ * This function will write a brief version of the concerning application to the
+ * given stream.  Please note that the version will be output using
+ * **hexadecimal integer** numbers.
  */
 
 inline bool gpl2_license ( FILE * const          stream
