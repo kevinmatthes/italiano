@@ -42,9 +42,34 @@
 
 
 /**
+ * \brief   Print the copyright line of the GPL 2.0 license header.
+ * \param   stream      The stream to write the copyright line to.
+ * \param   year_first  The year of the first commit.
+ * \param   year_latest The year of the latest commit.
+ * \param   people      The people who contributed.
+ * \return  Whether the text was printed successfully.
  *
+ * Write the GPL 2.0 license header's copyright line to the given stream.
  */
 
-// .
+inline bool gpl2_copyright_line ( FILE * const          stream
+                                , const int             year_first
+                                , const int             year_latest
+                                , const char * const    people
+                                )
+{
+    return year_first >= year_latest ? fprintf  ( stream
+                                                , "Copyright (C) %d %s\n\n"
+                                                , year_first
+                                                , people
+                                                )
+                                     : fprintf  ( stream
+                                                , "Copyright (C) %d─%d %s\n\n"
+                                                , year_first
+                                                , year_latest
+                                                , people
+                                                )
+                                     ;
+}
 
 /******************************************************************************/
