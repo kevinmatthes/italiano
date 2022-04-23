@@ -50,6 +50,7 @@
 * create `gpl2_license.c`
 * create `gpl2_version.c`
 * create `gpl2_warranty.c`
+* create `pragma_once.dox`
 
 ### Changed
 
