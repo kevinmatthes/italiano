@@ -626,7 +626,7 @@ void eval (const int argc, char * const * const args)
                             break;
 
                         case 'i':
-                            gpl2_information ( stderr
+                            gpl2_information ( stdout
                                              , args[0x0]
                                              , VERSION_MAJOR
                                              , VERSION_MINOR
