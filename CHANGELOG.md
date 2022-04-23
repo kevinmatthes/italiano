@@ -44,6 +44,14 @@
 
 ## [Unreleased]
 
+### Added
+
+* option `-i`
+
+### Changed
+
+* adjust README description
+
 ## [0.1.6] -- 2022-04-23
 
 ### Added
