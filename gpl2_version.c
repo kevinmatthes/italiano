@@ -50,9 +50,9 @@
  * \param   fix_level   The concerning application's fix level.
  * \return  Whether the text was printed successfully.
  *
- * This function will write a brief version of the concerning application to the
- * given stream.  Please note that the version will be output using
- * **hexadecimal integer** numbers.
+ * This function will write a brief version information for the concerning
+ * application to the given stream.  Please note that the version will be output
+ * using **hexadecimal integer** numbers.
  */
 
 inline bool gpl2_license ( FILE * const          stream
