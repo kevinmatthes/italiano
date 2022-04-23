@@ -26,8 +26,8 @@
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
  *
- * This file implements the GPL 2.0 license header function.  It will be written
- * to the given stream.
+ * This file implements the GPL 2.0 license header function.  The text will be
+ * written to the given stream.
  */
 
 /******************************************************************************/
