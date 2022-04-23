@@ -52,12 +52,12 @@
 
 inline bool gpl2_warranty (FILE * const stream)
 {
-    return fprintf  ( stream
-                    , "This application comes with ABSOLUTELY NO WARRANTY, not"
-                      " even for MERCHANTABILITY\nor FITNESS FOR A PARTICULAR "
-                      "PURPOSE.\n\nThe GPL 2.0 license specifies the following"
-                      ":\n\n" GPL_2_0__WARRANTY
-                    );
+    return fprintf ( stream
+                   , "This application comes with ABSOLUTELY NO WARRANTY, not"
+                     " even for MERCHANTABILITY\nor FITNESS FOR A PARTICULAR "
+                     "PURPOSE.\n\nThe GPL 2.0 license specifies the following"
+                     ":\n\n" GPL_2_0__WARRANTY
+                   );
 }
 
 /******************************************************************************/
