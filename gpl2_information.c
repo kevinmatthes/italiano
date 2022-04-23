@@ -18,15 +18,15 @@
 
 /**
  * \author      Kevin Matthes
- * \brief       The GPL 2.0 license header.
+ * \brief       The GPL 2.0 information.
  * \copyright   (C) 2022 Kevin Matthes.
  *              This file is licensed GPL 2 as of June 1991.
  * \date        2022
- * \file        gpl2_license.c
+ * \file        gpl2_information.c
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
  *
- * This file implements the GPL 2.0 license header function.  The text will be
+ * This file implements the GPL 2.0 information function.  The text will be
  * written to the given stream.
  */
 
