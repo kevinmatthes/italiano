@@ -70,15 +70,6 @@
                                         , char * const * const  args
                                         );
     extern void german                  (const char * const translation);
-    extern void information             ( FILE * const          stream
-                                        , const char * const    app_name
-                                        , const int             major
-                                        , const int             minor
-                                        , const int             fix_level
-                                        , const int             year
-                                        , const int             year_this
-                                        , const char * const    people
-                                        );
     extern int  main                    ( const int             argc
                                         , char * const * const  args
                                         );
@@ -740,47 +731,6 @@ void german (const char * const translation)
 
 
 /**
- * \brief   Write a minimal information to the given stream.
- * \param   stream      The stream to write the information to.
- * \param   app_name    This lexer's name.
- * \param   major       This lexer's major version.
- * \param   minor       This lexer's minor version.
- * \param   fix_level   This lexer's fix level.
- * \param   year        The year of the first commit.
- * \param   year_this   The year of the latest commit.
- * \param   people      The people who contributed to this project.
- *
- * This function writes a minimal information to the given stream.
- */
-
-inline void information ( FILE * const          stream
-                        , const char * const    app_name
-                        , const int             major
-                        , const int             minor
-                        , const int             fix_level
-                        , const int             year
-                        , const int             year_this
-                        , const char * const    people
-                        )
-{
-    gpl2_version (stream, app_name, major, minor, fix_level);
-    gpl2_copyright_line (stream, year, year_this, people);
-
-    fprintf ( stream
-            , "This is free software, see the GPL 2.0 license for copying condi"
-              "tions.\n"
-              "This application comes with ABSOLUTELY NO WARRANTY, not even for"
-              " MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE; run `%s -"
-              "w' for more details.\n\n"
-            , app_name
-            );
-
-    return;
-}
-
-
-
-/**
  * \brief   The main function in order to control the behaviour of the lexer.
  * \param   argc    The count of passed command line arguments.
  * \param   args    The passed command line arguments.
@@ -800,15 +750,15 @@ inline void information ( FILE * const          stream
 int main (const int argc, char * const * const args)
 {
     eval (argc, args);
-    information ( stderr
-                , args[0x0]
-                , VERSION_MAJOR
-                , VERSION_MINOR
-                , VERSION_FIX_LEVEL
-                , 0x7E6
-                , VERSION_YEAR
-                , AUTHORS
-                );
+    gpl2_information ( stderr
+                     , args[0x0]
+                     , VERSION_MAJOR
+                     , VERSION_MINOR
+                     , VERSION_FIX_LEVEL
+                     , 0x7E6
+                     , VERSION_YEAR
+                     , AUTHORS
+                     );
     yylex ();
     yylex_destroy ();
     return EX_OK;
