@@ -57,11 +57,15 @@
  * is useful especially for the interactive mode.
  */
 
-inline bool gpl2_license ( FILE * const          stream
-                         , const int             year_first
-                         , const int             year_latest
-                         , const char * const    people
-                         )
+inline bool gpl2_information ( FILE * const          stream
+                             , const char * const    app_name
+                             , const int             major
+                             , const int             minor
+                             , const int             fix_level
+                             , const int             year_first
+                             , const int             year_latest
+                             , const char * const    people
+                             )
 {
     return gpl2_copyright_line (stream, year_first, year_latest, people)
         &&             fprintf (stream, GPL_2_0)
