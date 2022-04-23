@@ -26,7 +26,8 @@
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
  *
- * This header defines the brief license text of the GPL 2.0 license as a macro.
+ * This header defines utility functions and macros concering the GPL 2.0
+ * license.
  */
 
 /******************************************************************************/
