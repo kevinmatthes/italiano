@@ -51,7 +51,7 @@
 
     #define AUTHORS             "Kevin Matthes"
     #define LICENSE             GPL_2_0
-    #define VERSION_FIX_LEVEL   0x6
+    #define VERSION_FIX_LEVEL   0x7
     #define VERSION_MAJOR       0x0
     #define VERSION_MINOR       0x1
     #define VERSION_YEAR        0x7E6
@@ -623,6 +623,19 @@ void eval (const int argc, char * const * const args)
                                 chatty = true;
                             else
                                 unresolvable_argument (current);
+                            break;
+
+                        case 'i':
+                            gpl2_information ( stderr
+                                             , args[0x0]
+                                             , VERSION_MAJOR
+                                             , VERSION_MINOR
+                                             , VERSION_FIX_LEVEL
+                                             , 0x7E6
+                                             , VERSION_YEAR
+                                             , AUTHORS
+                                             );
+                            exit (EX_OK);
                             break;
 
                         case 'l':
