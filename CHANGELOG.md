@@ -46,6 +46,7 @@
 
 ### Added
 
+* create `gpl2_license_line.c`
 * create `gpl2_warranty.c`
 
 ### Changed
