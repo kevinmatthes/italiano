@@ -120,6 +120,12 @@ extern  bool    gpl2_license        ( FILE * const          stream
                                     , const int             year_latest
                                     , const char * const    people
                                     );
+extern  bool    gpl2_version        ( FILE * const          stream
+                                    , const char * const    app_name
+                                    , const int             major
+                                    , const int             minor
+                                    , const int             fix_level
+                                    );
 extern  bool    gpl2_warranty       (FILE * const stream);
 
 
