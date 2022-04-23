@@ -150,6 +150,14 @@ italiano -V
 
 Show verbose information.  Can be combined with any option.
 
+### `-i`
+
+```
+italiano -i
+```
+
+Show a brief information block and quit.  All further options will be ignored.
+
 ### `-l`
 
 ```
