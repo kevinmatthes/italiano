@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.6] -- 2022-04-23
+
 ### Added
 
 * create `gpl2_copyright_line.c`
