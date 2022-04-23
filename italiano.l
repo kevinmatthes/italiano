@@ -86,11 +86,6 @@
                                         , const char * const    people
                                         , const char * const    license
                                         );
-    extern void license_line            ( FILE * const          stream
-                                        , const int             year
-                                        , const int             year_this
-                                        , const char * const    people
-                                        );
     extern int  main                    ( const int             argc
                                         , char * const * const  args
                                         );
@@ -783,7 +778,7 @@ inline void information ( FILE * const          stream
                         )
 {
     version (stream, app_name, major, minor, fix_level);
-    license_line (stream, year, year_this, people);
+    gpl2_copyright_line (stream, year, year_this, people);
 
     fprintf ( stream
             , "This is free software, see the GPL 2.0 license for copying condi"
@@ -817,43 +812,8 @@ inline void license ( FILE * const          stream
                     , const char * const    license
                     )
 {
-    license_line (stream, year, year_this, people);
+    gpl2_copyright_line (stream, year, year_this, people);
     fprintf (stream, "%s\n", license);
-    return;
-}
-
-
-
-/**
- * \brief   The copyright information line.
- * \param   stream      The stream to write the information to.
- * \param   year        The year of the first commit.
- * \param   year_this   The year of the latest commit.
- * \param   people      The people who contributed to this project.
- *
- * This function will write a brief license information to the given stream.
- */
-
-inline void license_line ( FILE * const          stream
-                         , const int             year
-                         , const int             year_this
-                         , const char * const    people
-                         )
-{
-    if (year >= year_this)
-        fprintf ( stream
-                , "Copyright (C) %d %s\n\n"
-                , year
-                , people
-                );
-    else
-        fprintf ( stream
-                , "Copyright (C) %d─%d %s\n\n"
-                , year
-                , year_this
-                , people
-                );
-
     return;
 }
 
