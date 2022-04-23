@@ -59,7 +59,8 @@ inline bool gpl2_license ( FILE * const          stream
                          )
 {
     return gpl2_copyright_line (stream, year_first, year_latest, people)
-        && fprintf (stream, GPL_2_0);
+        &&             fprintf (stream, GPL_2_0)
+         ;
 }
 
 /******************************************************************************/
