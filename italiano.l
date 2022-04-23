@@ -55,7 +55,6 @@
     #define VERSION_MAJOR       0x0
     #define VERSION_MINOR       0x1
     #define VERSION_YEAR        0x7E6
-    #define WARRANTY            GPL_2_0__WARRANTY
 
 
 
