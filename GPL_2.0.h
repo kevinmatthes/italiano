@@ -46,6 +46,7 @@
  * Includes.
  */
 
+// The C standard library.
 #include <stdbool.h>
 #include <stdio.h>
 
