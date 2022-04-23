@@ -115,6 +115,15 @@ extern  bool    gpl2_copyright_line ( FILE * const          stream
                                     , const int             year_latest
                                     , const char * const    people
                                     );
+extern  bool    gpl2_information    ( FILE * const          stream
+                                    , const char * const    app_name
+                                    , const int             major
+                                    , const int             minor
+                                    , const int             fix_level
+                                    , const int             year_first
+                                    , const int             year_latest
+                                    , const char * const    people
+                                    );
 extern  bool    gpl2_license        ( FILE * const          stream
                                     , const int             year_first
                                     , const int             year_latest
