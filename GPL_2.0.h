@@ -110,12 +110,12 @@
  * Function declarations.
  */
 
-extern  bool    gpl2_license        ( FILE * const          stream
+extern  bool    gpl2_copyright_line ( FILE * const          stream
                                     , const int             year_first
                                     , const int             year_latest
                                     , const char * const    people
                                     );
-extern  bool    gpl2_copyright_line ( FILE * const          stream
+extern  bool    gpl2_license        ( FILE * const          stream
                                     , const int             year_first
                                     , const int             year_latest
                                     , const char * const    people
