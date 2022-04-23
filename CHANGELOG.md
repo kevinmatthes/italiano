@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* create `gpl2_warranty.c`
+
 ### Fixed
 
 * missing line breaks
