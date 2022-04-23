@@ -26,8 +26,8 @@
  * \note        See `LICENSE' for full license.
  *              See `README.md' for project details.
  *
- * This file implements a minimal version information function.  It will be
- * written to the given stream using **hexadecimal integers**.
+ * This file implements a minimal version information function.  The text will
+ * be written to the given stream using **hexadecimal integers**.
  */
 
 /******************************************************************************/
