@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.7] -- 2022-04-25
+
 ### Added
 
 * option `-i`
