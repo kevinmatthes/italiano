@@ -497,6 +497,10 @@ Londra                      {
                                 english ("thirteen");
                                 german  ("dreizehn");
                             };
+[Tt]rentotto                {
+                                english ("thirty-eight");
+                                german  ("achtunddreißig");
+                            };
 [Tt]u                       {
                                 english ("you");
                                 german  ("Du");

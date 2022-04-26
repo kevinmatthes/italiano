@@ -56,6 +56,7 @@
 * word:  sedici
 * word:  settantotto
 * word:  tredici
+* word:  trentotto
 * word:  undici
 * word:  venti
 * word:  zero
