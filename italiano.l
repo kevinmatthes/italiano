@@ -189,6 +189,18 @@
                                 english ("where are you from");
                                 german  ("woher bist Du");
                             };
+[Dd]iciannove               {
+                                english ("nineteen");
+                                german  ("neunzehn");
+                            };
+[Dd]iciassette              {
+                                english ("nineteen");
+                                german  ("neunzehn");
+                            };
+[Dd]iciotto                 {
+                                english ("eighteen");
+                                german  ("achtzehn");
+                            };
 [Dd]ieci                    {
                                 english ("ten");
                                 german  ("zehn");

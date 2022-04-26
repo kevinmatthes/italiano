@@ -46,6 +46,9 @@
 
 ### Added
 
+* word:  diciannove
+* word:  diciassette
+* word:  diciotto
 * word:  dodici
 * word:  dov'
 * word:  quattordici
