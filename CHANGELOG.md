@@ -44,6 +44,12 @@
 
 ## [Unreleased]
 
+## [0.1.9] -- 2022-05-26
+
+### Fixed
+
+* add missing semicolon
+
 ## [0.1.8] -- 2022-05-26
 
 ### Added
