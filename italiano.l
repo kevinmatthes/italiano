@@ -472,6 +472,10 @@ Londra                      {
 
 
 
+[Uu]ndici                   {
+                                english ("eleven");
+                                german  ("elf");
+                            };
 [Uu]no                      {
                                 english ("one");
                                 german  ("eins");

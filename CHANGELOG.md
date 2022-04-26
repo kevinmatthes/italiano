@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* word:  undici
+
 ## [0.1.7] -- 2022-04-25
 
 ### Added
