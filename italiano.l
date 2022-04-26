@@ -422,6 +422,10 @@ Londra                      {
                                 english ("evening");
                                 german  ("Abend");
                             };
+[Ss]ettantotto              {
+                                english ("seventy-eight");
+                                german  ("achtundsiebzig");
+                            };
 [Ss]ette                    {
                                 english ("seven");
                                 german  ("sieben");

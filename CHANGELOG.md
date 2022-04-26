@@ -54,6 +54,7 @@
 * word:  quattordici
 * word:  quindici
 * word:  sedici
+* word:  settantotto
 * word:  tredici
 * word:  undici
 * word:  venti
