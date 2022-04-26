@@ -412,7 +412,7 @@ Londra                      {
 
 [Ss]edici                   {
                                 english ("sixteen");
-                                german  ("sechzehn")
+                                german  ("sechzehn");
                             };
 [Ss]ei                      {
                                 english ("six");
