@@ -57,6 +57,7 @@
 * word:  tredici
 * word:  undici
 * word:  venti
+* word:  zero
 
 ### Fixed
 
