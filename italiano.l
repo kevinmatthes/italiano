@@ -519,6 +519,10 @@ Londra                      {
 
 
 
+[Vv]enti                    {
+                                english ("twenty");
+                                german  ("zwanzig");
+                            };
 [Vv]oi                      {
                                 english ("you");
                                 german  ("ihr");
