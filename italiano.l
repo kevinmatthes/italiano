@@ -194,8 +194,8 @@
                                 german  ("neunzehn");
                             };
 [Dd]iciassette              {
-                                english ("nineteen");
-                                german  ("neunzehn");
+                                english ("seventeen");
+                                german  ("siebzehn");
                             };
 [Dd]iciotto                 {
                                 english ("eighteen");
