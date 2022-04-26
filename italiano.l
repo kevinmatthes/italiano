@@ -465,6 +465,10 @@ Londra                      {
                                 english ("three");
                                 german  ("drei");
                             };
+[Tt]redici                  {
+                                english ("thirteen");
+                                german  ("dreizehn");
+                            };
 [Tt]u                       {
                                 english ("you");
                                 german  ("Du");
