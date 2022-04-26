@@ -387,6 +387,10 @@ Londra                      {
                                 english ("four");
                                 german  ("vier");
                             };
+[Qq]uattordici              {
+                                english ("fourteen");
+                                german  ("vierzehn");
+                            };
 
 
 

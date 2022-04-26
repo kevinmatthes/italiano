@@ -48,6 +48,7 @@
 
 * word:  dodici
 * word:  dov'
+* word:  quattordici
 * word:  tredici
 * word:  undici
 
