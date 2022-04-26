@@ -193,10 +193,6 @@
                                 english ("ten");
                                 german  ("zehn");
                             };
-[Dd]ove                     {
-                                english ("where");
-                                german  ("wo");
-                            };
 [Dd]omanda                  {
                                 english ("question");
                                 german  ("Frage");
@@ -204,6 +200,10 @@
 [Dd]omande                  {
                                 english ("questions");
                                 german  ("Fragen");
+                            };
+[Dd]ove                     {
+                                english ("where");
+                                german  ("wo");
                             };
 [Dd]ue                      {
                                 english ("two");
