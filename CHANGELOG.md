@@ -48,6 +48,10 @@
 
 * word:  undici
 
+### Fixed
+
+* sort vocabs
+
 ## [0.1.7] -- 2022-04-25
 
 ### Added
