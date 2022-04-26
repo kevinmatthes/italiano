@@ -193,6 +193,10 @@
                                 english ("ten");
                                 german  ("zehn");
                             };
+[Dd]odici                   {
+                                english ("twelve");
+                                german  ("zwölf");
+                            };
 [Dd]omanda                  {
                                 english ("question");
                                 german  ("Frage");
