@@ -47,6 +47,7 @@
 ### Added
 
 * word:  dodici
+* word:  dov'
 * word:  undici
 
 ### Fixed

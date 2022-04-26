@@ -205,6 +205,10 @@
                                 english ("questions");
                                 german  ("Fragen");
                             };
+[Dd]ov'                     {
+                                english ("where ");
+                                german  ("wo ");
+                            };
 [Dd]ove                     {
                                 english ("where");
                                 german  ("wo");
