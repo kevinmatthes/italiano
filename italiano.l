@@ -383,13 +383,13 @@ Londra                      {
 
 
 
-[Qq]uattro                  {
-                                english ("four");
-                                german  ("vier");
-                            };
 [Qq]uattordici              {
                                 english ("fourteen");
                                 german  ("vierzehn");
+                            };
+[Qq]uattro                  {
+                                english ("four");
+                                german  ("vier");
                             };
 
 
