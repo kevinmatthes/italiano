@@ -398,6 +398,10 @@ Londra                      {
 
 
 
+[Ss]edici                   {
+                                english ("sixteen");
+                                german  ("sechzehn")
+                            };
 [Ss]ei                      {
                                 english ("six");
                                 german  ("sechs");

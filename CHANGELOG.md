@@ -50,6 +50,7 @@
 * word:  dov'
 * word:  quattordici
 * word:  quindici
+* word:  sedici
 * word:  tredici
 * word:  undici
 
