@@ -44,13 +44,14 @@
 
 ## [Unreleased]
 
-## [0.1.9] -- 2022-05-26
+## [0.1.9] -- 2022-04-26
 
 ### Fixed
 
 * add missing semicolon
+* incorrect release dates
 
-## [0.1.8] -- 2022-05-26
+## [0.1.8] -- 2022-04-26
 
 ### Added
 
