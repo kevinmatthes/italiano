@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.8] -- 2022-05-26
+
 ### Added
 
 * word:  diciannove
