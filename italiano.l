@@ -391,6 +391,10 @@ Londra                      {
                                 english ("four");
                                 german  ("vier");
                             };
+[Qq]uindici                 {
+                                english ("fifteen");
+                                german  ("fünfzehn");
+                            };
 
 
 
