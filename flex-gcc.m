@@ -61,6 +61,12 @@ compiler.call   = [ compiler.self ' ' compiler.flags ' ' compiler.in ' '     ...
                     compiler.link ' -o ' compiler.out                        ...
                   ];
 
+octave.dir  = './libgpl2/';
+octave.in   = 'gcc-ar.m';
+octave.out  = 'libgpl2.a';
+octave.self = 'octave';
+octave.call = [octave.self ' ' octave.in];
+
 scangen.in      = ['italiano' '.l'];
 scangen.out     = 'lex.yy.c';
 scangen.self    = 'flex';
@@ -82,6 +88,17 @@ misc.banner = ['[ ' misc.self ' ] '];
 
 % Begin build instruction.
 disp ([misc.banner 'Begin build instruction.']);
+
+
+
+% Compile mandatory libraries.
+disp ([misc.banner 'Compile mandatory libraries ...']);
+
+directories.self = cd (octave.dir);
+system (octave.call);
+cd (directories.self);
+
+disp ([misc.banner 'Done.']);
 
 
 
