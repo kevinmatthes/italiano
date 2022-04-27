@@ -47,6 +47,7 @@
 ### Added
 
 * submodule `libgpl2`
+* word:  ciao
 
 ### Changed
 
