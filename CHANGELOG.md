@@ -50,6 +50,7 @@
 
 ### Changed
 
+* link against `libgpl2.a` from corresponding submodule
 * update `docs-snippets`
 * update `routines`
 
