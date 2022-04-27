@@ -442,6 +442,10 @@ Londra                      {
                                 english ("seven");
                                 german  ("sieben");
                             };
+[Ss]i                       {
+                                english ("you");
+                                german  ("sich");
+                            };
 [Ss]ì                       {
                                 english ("yes");
                                 german  ("ja");
