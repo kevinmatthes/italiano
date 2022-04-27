@@ -146,6 +146,10 @@
                                 english ("clear");
                                 german  ("klar");
                             };
+[Cc]iao                     {
+                                english ("greetings");
+                                german  ("Grüße");
+                            };
 [Cc]inese                   {
                                 english ("Chinese");
                                 german  ("chinesisch");
