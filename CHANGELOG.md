@@ -53,6 +53,16 @@
 * update `docs-snippets`
 * update `routines`
 
+### Removed
+
+* `GPL_2.0.h`
+* `gpl2_copyright_line.c`
+* `gpl2_information.c`
+* `gpl2_license.c`
+* `gpl2_version.c`
+* `gpl2_warranty.c`
+* `pragma_once.dox`
+
 ## [0.1.9] -- 2022-04-26
 
 ### Fixed
