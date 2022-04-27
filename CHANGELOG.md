@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* submodule `libgpl2`
+
 ### Changed
 
 * update `docs-snippets`
