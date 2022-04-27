@@ -422,6 +422,11 @@ Londra                      {
 
 
 
+[Ss]cusi                    {
+                                american    ("sorry");
+                                british     ("excuse me");
+                                german      ("Entschuldigung");
+                            };
 [Ss]edici                   {
                                 english ("sixteen");
                                 german  ("sechzehn");

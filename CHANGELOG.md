@@ -48,6 +48,7 @@
 
 * submodule `libgpl2`
 * word:  ciao
+* word:  scusi
 * word:  si
 
 ### Changed
