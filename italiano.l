@@ -162,6 +162,14 @@
                                 english ("how");
                                 german  ("wie");
                             };
+[Cc]ome\ si\ chiama         {
+                                english ("what is your name");
+                                german  ("wie heißen Sie");
+                            };
+[Cc]ome\ ti\ chiami         {
+                                english ("what is your name");
+                                german  ("wie heißt Du");
+                            };
 [Cc]orso                    {
                                 english ("course");
                                 german  ("Kurs");
