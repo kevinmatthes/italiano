@@ -52,14 +52,16 @@ compiler.flags  = [ ' -Wall -Werror -Wextra -Wpedantic '                     ...
                     ' -DYY_NO_UNPUT '                                        ...
                   ];
 compiler.in     = '*.c';
-compiler.link   = ' -lfl ';
-compiler.out    = ['./' ''];
+compiler.link   = [ ' -lfl '                                                 ...
+                    ' -L./libgpl2/ -lgpl2 '                                  ...
+                  ];
+compiler.out    = ['./' 'italiano'];
 compiler.self   = 'gcc';
 compiler.call   = [ compiler.self ' ' compiler.flags ' ' compiler.in ' '     ...
                     compiler.link ' -o ' compiler.out                        ...
                   ];
 
-scangen.in      = ['' '.l'];
+scangen.in      = ['italiano' '.l'];
 scangen.out     = 'lex.yy.c';
 scangen.self    = 'flex';
 scangen.call    = [scangen.self ' ' scangen.in];
