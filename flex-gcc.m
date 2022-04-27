@@ -52,29 +52,23 @@ compiler.flags  = [ ' -Wall -Werror -Wextra -Wpedantic '                     ...
                     ' -DYY_NO_UNPUT '                                        ...
                   ];
 compiler.in     = '*.c';
-compiler.link   = [ ' -lfl '                                                 ...
-                    ' -L./libgpl2/ -lgpl2 '                                  ...
-                  ];
-compiler.out    = 'italiano';
-compiler.self   = ' gcc ';
+compiler.link   = ' -lfl ';
+compiler.out    = ['./' ''];
+compiler.self   = 'gcc';
 compiler.call   = [ compiler.self ' ' compiler.flags ' ' compiler.in ' '     ...
                     compiler.link ' -o ' compiler.out                        ...
                   ];
 
-scangen.in      = 'italiano.l';
+scangen.in      = ['' '.l'];
 scangen.out     = 'lex.yy.c';
-scangen.self    = ' flex ';
+scangen.self    = 'flex';
 scangen.call    = [scangen.self ' ' scangen.in];
 
 
 
-% Files.
-files.self  = 'flex-gcc.m';
-
-
-
 % Miscellaneous.
-banner  = ['[ ' files.self ' ] '];
+misc.self   = 'flex-gcc.m';
+misc.banner = ['[ ' misc.self ' ] '];
 
 
 
@@ -85,32 +79,43 @@ banner  = ['[ ' files.self ' ] '];
 %%%%
 
 % Begin build instruction.
-disp ([banner 'Begin build instruction.']);
+disp ([misc.banner 'Begin build instruction.']);
+
+
+
+% Clean outdated compilation.
+fprintf ([misc.banner 'Remove outdated compilation of ' compiler.out ' ... ']);
+
+if length (glob (compiler.out));
+    delete (compiler.out);
+end;
+
+disp ('Done.');
 
 
 
 % Call Flex.
-disp ([banner 'Compile scanner definition with Flex ...']);
+disp ([misc.banner 'Compile scanner definition with Flex ...']);
 
 disp (scangen.call);
 system (scangen.call);
 
-disp ([banner 'Done.']);
+disp ([misc.banner 'Done.']);
 
 
 
 % Call GCC.
-disp ([banner 'Compile C source code with GCC ...']);
+disp ([misc.banner 'Compile C source code with GCC ...']);
 
 disp (compiler.call);
 system (compiler.call);
 
-disp ([banner 'Done.']);
+disp ([misc.banner 'Done.']);
 
 
 
 % Clean build artifacts.
-fprintf ([banner 'Remove build artifacts ... ']);
+fprintf ([misc.banner 'Remove build artifacts ... ']);
 
 if length (glob (scangen.out));
     delete (scangen.out);
@@ -121,6 +126,6 @@ disp ('Done.');
 
 
 % End build instruction.
-disp ([banner 'End build instruction.']);
+disp ([misc.banner 'End build instruction.']);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
