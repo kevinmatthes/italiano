@@ -174,10 +174,11 @@ italiano -s
 
 Suppress verbose information.  Can be combined with any option.
 
-### `-v`
+### `-v`, `--version`
 
 ```
 italiano -v
+italiano --version
 ```
 
 Show the version and quit.  All further options will be ignored.
