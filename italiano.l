@@ -96,6 +96,10 @@
 
 
 
+[Aa](bbiamo|vere)           {
+                                english ("have");
+                                german  ("haben");
+                            };
 [Aa]l                       {
                                 english ("in");
                                 german  ("in");
@@ -107,6 +111,10 @@
 [Aa]ustriac[ao]             {
                                 english ("Austrian");
                                 german  ("österreichisch");
+                            };
+[Aa]vete                    {
+                                english ("have");
+                                german  ("habt");
                             };
 
 
@@ -342,6 +350,25 @@ Berlino                     {
 
 
 
+[Hh]a                       {
+                                english ("has");
+                                german  ("hat")
+                            };
+[Hh]ai                      {
+                                english ("have");
+                                german  ("hast")
+                            };
+[Hh]anno                    {
+                                english ("have");
+                                german  ("haben")
+                            };
+[Hh]o                       {
+                                english ("have");
+                                german  ("habe")
+                            };
+
+
+
 [Ii]nformatica              {
                                 english ("computer science");
                                 german  ("Informatik");
@@ -392,6 +419,10 @@ lei                         {
 Lei\ è                      {
                                 english ("you are");
                                 german  ("Sie sind");
+                            };
+Lei\ ha                     {
+                                english ("you have");
+                                german  ("Sie haben");
                             };
 Lei\ studia                 {
                                 english ("you study");

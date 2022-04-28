@@ -46,6 +46,9 @@
 
 ### Added
 
+* word:  abbiamo
+* word:  avere
+* word:  avete
 * word:  bicicletta
 * word:  compito
 * word:  conferenza
@@ -54,6 +57,10 @@
 * word:  delle
 * word:  estate
 * word:  forma
+* word:  ha
+* word:  hai
+* word:  hanno
+* word:  ho
 * word:  informatica
 * word:  islandese
 * word:  linguistica
