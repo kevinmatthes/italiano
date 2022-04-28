@@ -346,6 +346,10 @@
                                 english ("I study");
                                 german  ("ich studiere");
                             };
+[Ii]slandese                {
+                                english ("Icelandic");
+                                german  ("isländisch");
+                            };
 [Ii]talian[ao]              {
                                 english ("Italian");
                                 german  ("italienisch");

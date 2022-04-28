@@ -49,6 +49,7 @@
 * word:  bicicletta
 * word:  corda
 * word:  informatica
+* word:  islandese
 * word:  linguistica
 * word:  programmatore
 * word:  programmatorice
