@@ -302,6 +302,10 @@
                                 english ("I");
                                 german  ("ich");
                             };
+[Ii]o\ mi\ chiamo           {
+                                english ("I am");
+                                german  ("ich heiße");
+                            };
 [Ii]o\ sono                 {
                                 english ("I am");
                                 german  ("ich bin");
