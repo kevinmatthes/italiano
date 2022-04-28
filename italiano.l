@@ -453,6 +453,14 @@ Londra                      {
                                 english ("please");
                                 german  ("bitte");
                             };
+[Pp]rogrammatore            {
+                                english ("software engineer");
+                                german  ("Softwareingenieur");
+                            };
+[Pp]rogrammatorice          {
+                                english ("software engineer");
+                                german  ("Softwareingenieurin");
+                            };
 
 
 

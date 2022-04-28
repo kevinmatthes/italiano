@@ -48,6 +48,8 @@
 
 * word:  bicicletta
 * word:  corda
+* word:  programmatore
+* word:  programmatorice
 
 ## [0.1.b] -- 2022-04-28
 
