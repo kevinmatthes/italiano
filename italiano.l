@@ -190,6 +190,10 @@
                                 english ("what is your name");
                                 german  ("wie heißt Du");
                             };
+[Cc]orda                    {
+                                english ("cord");
+                                german  ("Schnur");
+                            };
 [Cc]orso                    {
                                 english ("course");
                                 german  ("Kurs");

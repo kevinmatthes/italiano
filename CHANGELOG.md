@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* word:  corda
+
 ## [0.1.b] -- 2022-04-28
 
 ### Added
