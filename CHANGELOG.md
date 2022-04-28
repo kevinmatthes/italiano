@@ -49,6 +49,7 @@
 * word:  caffè
 * word:  chitarra
 * word:  dialogo
+* word:  giornale
 * word:  medico
 
 ### Fixed
