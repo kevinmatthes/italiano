@@ -51,6 +51,7 @@
 * word:  dialogo
 * word:  giornale
 * word:  medico
+* word:  spaghetti
 * word:  zucchero
 
 ### Fixed

@@ -496,6 +496,10 @@ Londra                      {
                                 english ("I am");
                                 german  ("ich bin");
                             };
+[Ss]paghetti                {
+                                english ("spaghetti");
+                                german  ("Spaghetti");
+                            };
 [Ss]pagnol[ao]              {
                                 english ("Spanish");
                                 german  ("spanisch");
