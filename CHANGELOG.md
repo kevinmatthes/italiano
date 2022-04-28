@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1.c] -- 2022-04-28
+
 ### Added
 
 * word:  abbiamo
