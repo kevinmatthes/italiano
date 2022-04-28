@@ -48,6 +48,7 @@
 
 * word:  caffè
 * word:  dialogo
+* word:  medico
 
 ## [0.1.a] -- 2022-04-28
 

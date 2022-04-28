@@ -356,6 +356,10 @@ Londra                      {
 
 
 
+[Mm]edico                   {
+                                english ("doctor");
+                                german  ("Arzt");
+                            };
 [Mm]i                       {
                                 english ("me");
                                 german  ("mich");
