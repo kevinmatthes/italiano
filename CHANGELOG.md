@@ -46,6 +46,7 @@
 
 ### Added
 
+* word:  Barcellona
 * word:  Berlin
 * word:  caffè
 * word:  chitarra

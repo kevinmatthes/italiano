@@ -111,6 +111,10 @@
 
 
 
+[Bb]arcellona               {
+                                english ("Barcelona");
+                                german  ("Barcelona");
+                            };
 [Bb]ello                    {
                                 english ("nice");
                                 german  ("schön");
