@@ -47,6 +47,7 @@
 ### Added
 
 * word:  caffè
+* word:  chitarra
 * word:  dialogo
 * word:  medico
 

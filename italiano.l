@@ -150,6 +150,10 @@
                                 english ("clear");
                                 german  ("klar");
                             };
+[Cc]hitarra                 {
+                                english ("guitar");
+                                german  ("Gitarre");
+                            };
 [Cc]iao                     {
                                 english ("greetings");
                                 german  ("Grüße");
