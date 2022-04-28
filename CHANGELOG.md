@@ -48,6 +48,7 @@
 
 * word:  bicicletta
 * word:  corda
+* word:  linguistica
 * word:  programmatore
 * word:  programmatorice
 

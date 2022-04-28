@@ -369,6 +369,10 @@ Lei\ vola                   {
                                 english ("you fly");
                                 german  ("Sie fliegen");
                             };
+[Ll]inguistica              {
+                                english ("linguistic");
+                                german  ("Linguistik");
+                            };
 Londra                      {
                                 english ("London");
                                 german  ("London");
