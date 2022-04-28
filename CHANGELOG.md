@@ -46,6 +46,7 @@
 
 ### Added
 
+* add citation settings
 * submodule `libgpl2`
 * word:  ciao
 * word:  scusi
