@@ -49,6 +49,7 @@
 * word:  caffè
 * word:  chitarra
 * word:  dialogo
+* word:  gatto
 * word:  giornale
 * word:  medico
 * word:  spaghetti

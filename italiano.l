@@ -279,6 +279,10 @@
 
 
 
+[Gg]atto                    {
+                                english ("cat");
+                                german  ("Katze");
+                            };
 [Gg]iornale                 {
                                 english ("newspaper");
                                 german  ("Zeitung");
