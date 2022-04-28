@@ -608,6 +608,10 @@ Londra                      {
                                 english ("zero");
                                 german  ("null");
                             };
+[Zz]ucchero                 {
+                                english ("sugar");
+                                german  ("Zucker");
+                            };
 
 
 
