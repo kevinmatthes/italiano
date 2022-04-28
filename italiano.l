@@ -352,19 +352,19 @@ Berlino                     {
 
 [Hh]a                       {
                                 english ("has");
-                                german  ("hat")
+                                german  ("hat");
                             };
 [Hh]ai                      {
                                 english ("have");
-                                german  ("hast")
+                                german  ("hast");
                             };
 [Hh]anno                    {
                                 english ("have");
-                                german  ("haben")
+                                german  ("haben");
                             };
 [Hh]o                       {
                                 english ("have");
-                                german  ("habe")
+                                german  ("habe");
                             };
 
 
