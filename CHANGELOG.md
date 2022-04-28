@@ -51,10 +51,15 @@
 ### Changed
 
 * adjust README description
+* unite `authors.yaml` with `project.yaml`
 
 ### Fixed
 
 * add missing semicolons
+
+### Removed
+
+* `authors.yaml`
 
 ## [0.1.c] -- 2022-04-28
 
