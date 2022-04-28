@@ -48,7 +48,10 @@
 
 * word:  bicicletta
 * word:  compito
+* word:  conferenza
+* word:  conferenze
 * word:  corda
+* word:  delle
 * word:  estate
 * word:  forma
 * word:  informatica
@@ -56,6 +59,8 @@
 * word:  linguistica
 * word:  programmatore
 * word:  programmatorice
+* word:  sala
+* word:  sala delle conferenze
 * word:  Venezia
 
 ### Fixed

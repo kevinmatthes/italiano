@@ -198,6 +198,14 @@ Berlino                     {
                                 english ("homework");
                                 german  ("Hausaufgabe");
                             };
+[Cc]onferenza               {
+                                english ("conference");
+                                german  ("Konferenz");
+                            };
+[Cc]onferenze               {
+                                english ("conferences");
+                                german  ("Konferenzen");
+                            };
 [Cc]orda                    {
                                 english ("cord");
                                 german  ("Schnur");
@@ -220,6 +228,10 @@ Berlino                     {
 [Dd]avvero                  {
                                 english ("really");
                                 german  ("wirklich");
+                            };
+[Dd]elle                    {
+                                english ("for");
+                                german  ("für");
                             };
 [Dd]i                       {
                                 english ("of");
@@ -503,6 +515,14 @@ Londra                      {
 
 
 
+[Ss]ala                     {
+                                english ("room");
+                                german  ("Raum");
+                            };
+[Ss]ala\ delle\ conferenze  {
+                                english ("conference room");
+                                german  ("Konferenzraum");
+                            };
 [Ss]cusi                    {
                                 american    ("sorry");
                                 british     ("excuse me");
