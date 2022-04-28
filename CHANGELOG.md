@@ -56,6 +56,7 @@
 * word:  linguistica
 * word:  programmatore
 * word:  programmatorice
+* word:  Venezia
 
 ## [0.1.b] -- 2022-04-28
 

@@ -111,7 +111,7 @@
 
 
 
-[Bb]arcellona               {
+Barcellona                  {
                                 english ("Barcelona");
                                 german  ("Barcelona");
                             };
@@ -123,7 +123,7 @@
                                 english ("welcome");
                                 german  ("willkommen");
                             };
-[Bb]erlino                  {
+Berlino                     {
                                 english ("Berlin");
                                 german  ("Berlin");
                             };
@@ -633,6 +633,10 @@ Londra                      {
 
 
 
+Venezia                     {
+                                english ("Venice");
+                                german  ("Venedig");
+                            };
 [Vv]enti                    {
                                 english ("twenty");
                                 german  ("zwanzig");
