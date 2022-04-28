@@ -373,8 +373,8 @@ Londra                      {
                                 german  ("mich");
                             };
 [Mm]i\ chiamo               {
-                                english ("am called");
-                                german  ("mich nenne");
+                                english ("I am");
+                                german  ("ich heiße");
                             };
 [Mm]irtillo                 {
                                 english ("blueberry");
