@@ -51,6 +51,10 @@
 * word:  dialogo
 * word:  medico
 
+### Fixed
+
+* too simple translations
+
 ## [0.1.a] -- 2022-04-28
 
 ### Added
