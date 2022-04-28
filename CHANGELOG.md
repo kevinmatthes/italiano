@@ -48,6 +48,10 @@
 
 * option `--version`
 
+### Changed
+
+* adjust README description
+
 ### Fixed
 
 * add missing semicolons
