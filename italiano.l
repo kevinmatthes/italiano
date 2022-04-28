@@ -127,6 +127,10 @@
                                 english ("Berlin");
                                 german  ("Berlin");
                             };
+[Bb]icicletta               {
+                                english ("bicycle");
+                                german  ("Fahrrad");
+                            };
 [Bb]uona?                   {
                                 english ("good");
                                 german  ("gut");
