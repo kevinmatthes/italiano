@@ -50,6 +50,7 @@
 * word:  compito
 * word:  corda
 * word:  estate
+* word:  forma
 * word:  informatica
 * word:  islandese
 * word:  linguistica

@@ -300,6 +300,10 @@
 
 
 
+[Ff]orma                 {
+                                english ("form");
+                                german  ("Form");
+                            };
 [Ff]rancese                 {
                                 english ("French");
                                 german  ("französisch");
