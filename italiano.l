@@ -279,6 +279,10 @@
 
 
 
+[Gg]iornale                 {
+                                english ("newspaper");
+                                german  ("Zeitung");
+                            };
 [Gg]iorno                   {
                                 english ("day");
                                 german  ("Tag");
