@@ -45,16 +45,16 @@ cff-version: 1.2.0
 
 # List of authors.
 authors:
-  - family-names: ""
-    given-names:  ""
+  - family-names: "Matthes"
+    given-names:  "Kevin"
 
 # Project information.
-title:    ""
+title:    "italiano"
 subtitle: ""
-url:      ""
+url:      "https://github.com/kevinmatthes/italiano"
 
 # Version information.
-date-released:  YYYY-MM-DD
-version:        0.0.0
+date-released:  2022-04-28
+version:        0.1.a
 
 ################################################################################
