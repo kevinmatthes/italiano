@@ -194,6 +194,10 @@
                                 english ("what is your name");
                                 german  ("wie heißt Du");
                             };
+[Cc]ompito                  {
+                                english ("homework");
+                                german  ("Hausaufgabe");
+                            };
 [Cc]orda                    {
                                 english ("cord");
                                 german  ("Schnur");

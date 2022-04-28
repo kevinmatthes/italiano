@@ -47,6 +47,7 @@
 ### Added
 
 * word:  bicicletta
+* word:  compito
 * word:  corda
 * word:  informatica
 * word:  islandese
