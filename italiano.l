@@ -915,6 +915,16 @@ void eval (const int argc, char * const * const args)
                         language_unset  = false;
                         to_british      = true;
                     }
+                    else if (memcmp (current, "--version", 0x9) == 0x0)
+                    {
+                        gpl2_version ( stdout
+                                     , args[0x0]
+                                     , VERSION_MAJOR
+                                     , VERSION_MINOR
+                                     , VERSION_FIX_LEVEL
+                                     );
+                        exit (EX_OK);
+                    }
                     else
                         unresolvable_argument (current);
                     break;
