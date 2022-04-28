@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* word:  dialogo
+
 ## [0.1.a] -- 2022-04-28
 
 ### Added

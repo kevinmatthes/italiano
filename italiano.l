@@ -201,6 +201,11 @@
                                 english ("where are you from");
                                 german  ("woher bist Du");
                             };
+[Dd]ialogo                  {
+                                american    ("dialog");
+                                british     ("dialogue");
+                                german      ("Dialog");
+                            };
 [Dd]iciannove               {
                                 english ("nineteen");
                                 german  ("neunzehn");
