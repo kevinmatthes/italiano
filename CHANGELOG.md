@@ -49,6 +49,7 @@
 * word:  bicicletta
 * word:  compito
 * word:  corda
+* word:  estate
 * word:  informatica
 * word:  islandese
 * word:  linguistica

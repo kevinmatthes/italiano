@@ -293,6 +293,10 @@
                                 english ("to be");
                                 german  ("sein");
                             };
+[Ee]state                   {
+                                english ("summer");
+                                german  ("Sommer");
+                            };
 
 
 
