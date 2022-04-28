@@ -48,6 +48,7 @@
 
 * word:  caffè
 * word:  chitarra
+* word:  cinema
 * word:  dialogo
 * word:  gatto
 * word:  giornale

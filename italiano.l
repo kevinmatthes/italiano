@@ -158,6 +158,10 @@
                                 english ("greetings");
                                 german  ("Grüße");
                             };
+[Cc]inema                   {
+                                english ("cinema");
+                                german  ("Kino");
+                            };
 [Cc]inese                   {
                                 english ("Chinese");
                                 german  ("chinesisch");
