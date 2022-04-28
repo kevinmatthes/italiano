@@ -318,6 +318,10 @@
 
 
 
+[Ii]nformatica              {
+                                english ("computer science");
+                                german  ("Informatik");
+                            };
 [Ii]nglese                  {
                                 english ("English");
                                 german  ("englisch");
