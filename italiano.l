@@ -119,6 +119,10 @@
                                 english ("welcome");
                                 german  ("willkommen");
                             };
+[Bb]erlino                  {
+                                english ("Berlin");
+                                german  ("Berlin");
+                            };
 [Bb]uona?                   {
                                 english ("good");
                                 german  ("gut");

@@ -46,6 +46,7 @@
 
 ### Added
 
+* word:  Berlin
 * word:  caffè
 * word:  chitarra
 * word:  cinema
