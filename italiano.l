@@ -134,6 +134,10 @@
 
 
 
+[Cc]affè                    {
+                                english ("espresso");
+                                german  ("Espresso");
+                            };
 [Cc]hiami                   {
                                 english ("call");
                                 german  ("nennst");
