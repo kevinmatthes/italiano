@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* option `--version`
+
 ### Fixed
 
 * add missing semicolons
