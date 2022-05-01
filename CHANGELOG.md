@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.2.0] -- 2022-05-01
+
 ### Added
 
 * option `--version`
