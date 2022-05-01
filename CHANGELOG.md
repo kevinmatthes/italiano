@@ -56,6 +56,8 @@
 ### Fixed
 
 * add missing semicolons
+* incorrect translations
+* typos in changelog items
 
 ### Removed
 
@@ -84,7 +86,7 @@
 * word:  islandese
 * word:  linguistica
 * word:  programmatore
-* word:  programmatorice
+* word:  programmatrice
 * word:  sala
 * word:  sala delle conferenze
 * word:  Venezia

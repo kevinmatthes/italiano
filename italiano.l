@@ -524,7 +524,7 @@ Londra                      {
                                 english ("software engineer");
                                 german  ("Softwareingenieur");
                             };
-[Pp]rogrammatorice          {
+[Pp]rogrammatrice           {
                                 english ("software engineer");
                                 german  ("Softwareingenieurin");
                             };
