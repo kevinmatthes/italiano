@@ -50,6 +50,7 @@
 
 ### Changed
 
+* adjust regex for "studiare" conjugation
 * update `docs-snippets`
 * update `libgpl2`
 
