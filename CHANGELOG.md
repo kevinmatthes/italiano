@@ -44,8 +44,9 @@
 
 ## [Unreleased]
 
-### added 
-* word: angelo
+### Added
+
+* word:  angelo
 
 ### Changed
 
