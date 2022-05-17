@@ -53,8 +53,6 @@ url: https://github.com/kevinmatthes/italiano
 
 # References.
 references:
-
-################################################################################
   - type: software
     date-released: 2022-05-13
     version: 0.5
@@ -250,3 +248,5 @@ references:
     license: Apache-2.0
     repository-artifact: https://rubygems.org/gems/cff
     repository-code: https://github.com/citation-file-format/ruby-cff
+
+################################################################################
