@@ -46,6 +46,7 @@
 
 ### Added
 
+* GitHub Action:  automatic CFF validation
 * word:  angelo
 
 ### Changed
