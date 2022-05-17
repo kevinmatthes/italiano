@@ -36,18 +36,17 @@ cff-version: 1.2.0
 message: Please cite this software using these meta data.
 
 # Version information.
-date-released:  2022-05-01
-version:        0.2.0
+date-released: 2022-05-01
+version: 0.2.0
 
-# List of authors.
+# Project information.
+abstract: A very simple translator from Italian to some other languages.
 authors:
   - family-names: Matthes
     given-names: Kevin
   - family-names: Giovanardi
     given-names: Daniela
-
-# Project information.
-abstract: A very simple translator from Italian to some other languages.
+license: GPL-2.0
 repository-code: https://github.com/kevinmatthes/italiano
 title: italiano
 url: https://github.com/kevinmatthes/italiano
