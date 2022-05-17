@@ -7,3 +7,6 @@
 [submodule "libgpl2"]
 	path = libgpl2
 	url = https://github.com/kevinmatthes/libgpl2
+[submodule "blank"]
+	path = blank
+	url = https://github.com/kevinmatthes/blank
