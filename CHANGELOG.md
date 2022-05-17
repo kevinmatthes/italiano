@@ -55,6 +55,10 @@
 * update `docs-snippets`
 * update `libgpl2`
 
+### Fixed
+
+* incorrect CFF file
+
 ## [0.2.0] -- 2022-05-01
 
 ### Added
