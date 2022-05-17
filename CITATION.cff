@@ -41,10 +41,10 @@ version:        0.2.0
 
 # List of authors.
 authors:
-  - family-names: "Matthes"
-    given-names:  "Kevin"
-  - family-names:  "Giovanardi"
-    given-names:   "Daniela"
+  - family-names: Matthes
+    given-names: Kevin
+  - family-names: Giovanardi
+    given-names: Daniela
 
 # Project information.
 abstract: A very simple translator from Italian to some other languages.
