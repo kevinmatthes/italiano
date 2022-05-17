@@ -51,9 +51,10 @@ authors:
     given-names:   "Daniela"
 
 # Project information.
-title:    "italiano"
-subtitle: "A Very Simple Translator from Italian to Some Other Languages"
-url:      "https://github.com/kevinmatthes/italiano"
+abstract: A very simple translator from Italian to some other languages.
+repository-code: https://github.com/kevinmatthes/italiano
+title: italiano
+url: https://github.com/kevinmatthes/italiano
 
 # Version information.
 date-released:  2022-05-01
