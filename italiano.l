@@ -808,7 +808,7 @@ inline void echo (const char * const string)
  * will be written accordingly to `yyout`.  This is, if the initial character of
  * the recognised lexeme is a lower case one, the given string will be echoed
  * unchanged; else, the initial character of the given string will be converted
- * to an upper case one before it is written to the configurated output stream.
+ * to an upper case one before it is written to the configured output stream.
  */
 
 void echo_upper (const char * const string)
@@ -820,6 +820,7 @@ void echo_upper (const char * const string)
     }
     else
         echo (string);
+
     return;
 }
 
