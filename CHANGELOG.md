@@ -46,6 +46,7 @@
 
 ### Added
 
+* add references to `CITATION.cff`
 * GitHub Action:  automatic CFF validation
 * word:  angelo
 
