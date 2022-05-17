@@ -47,6 +47,8 @@ cff-version: 1.2.0
 authors:
   - family-names: "Matthes"
     given-names:  "Kevin"
+  - family-names:  "Giovanardi"
+    given-names:   "Daniela"
 
 # Project information.
 title:    "italiano"
