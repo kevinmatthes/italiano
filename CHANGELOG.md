@@ -61,6 +61,7 @@
 ### Fixed
 
 * incorrect CFF file
+* typos in docstrings
 
 ## [0.2.0] -- 2022-05-01
 
