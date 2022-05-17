@@ -65,6 +65,7 @@
     extern void american                (const char * const translation);
     extern void british                 (const char * const translation);
     extern void echo                    (const char * const string);
+    extern void echo_upper              (const char * const string);
     extern void english                 (const char * const translation);
     extern void eval                    ( const int             argc
                                         , char * const * const  args
@@ -794,6 +795,31 @@ void british (const char * const translation)
 inline void echo (const char * const string)
 {
     fprintf (yyout, "%s", string);
+    return;
+}
+
+
+
+/**
+ * \brief   Echo the given string with respect to the case of `yytext`.
+ * \param   string  The string to echo.
+ *
+ * Depending on the case of the initial character of `yytext`, the given string
+ * will be written accordingly to `yyout`.  This is, if the initial character of
+ * the recognised lexeme is a lower case one, the given string will be echoed
+ * unchanged; else, the initial character of the given string will be converted
+ * to an upper case one before it is written to the configurated output stream.
+ */
+
+void echo_upper (const char * const string)
+{
+    if (isupper (yytext[0x0]))
+    {
+        fprintf (yyout, "%c", toupper (string[0x0]));
+        echo (& string[0x1]);
+    }
+    else
+        echo (string);
     return;
 }
 
