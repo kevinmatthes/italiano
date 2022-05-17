@@ -743,8 +743,8 @@ Venezia                     {
  * \brief   The translation into US American English.
  * \param   translation The meaning in the output language.
  *
- * If configurated, this lexer will write the given meaning in US American
- * English to `yyout`.
+ * If configured, this lexer will write the given meaning in US American English
+ * to `yyout`.
  */
 
 void american (const char * const translation)
@@ -761,8 +761,8 @@ void american (const char * const translation)
  * \brief   The translation into British English.
  * \param   translation The meaning in the output language.
  *
- * If configurated, this lexer will write the given meaning in British English
- * to `yyout`.
+ * If configured, this lexer will write the given meaning in British English to
+ * `yyout`.
  */
 
 void british (const char * const translation)
@@ -776,10 +776,10 @@ void british (const char * const translation)
 
 
 /**
- * \brief   Write a string to the configurated output stream.
+ * \brief   Write a string to the configured output stream.
  * \param   string  The string to write to the output stream.
  *
- * Write the given string to the configurated output stream.
+ * Write the given string to the configured output stream.
  */
 
 inline void echo (const char * const string)
@@ -820,7 +820,7 @@ void echo_upper (const char * const string)
  * \brief   The translation into English.
  * \param   translation The meaning in the output language.
  *
- * If configurated, this lexer will write the given meaning in both US American
+ * If configured, this lexer will write the given meaning in both US American
  * and British English to `yyout`.
  */
 
@@ -979,8 +979,7 @@ void eval (const int argc, char * const * const args)
  * \brief   The translation into German.
  * \param   translation The meaning in the output language.
  *
- * If configurated, this lexer will write the given meaning in German to
- * `yyout`.
+ * If configured, this lexer will write the given meaning in German to `yyout`.
  */
 
 void german (const char * const translation)
@@ -1033,7 +1032,7 @@ int main (const int argc, char * const * const args)
  * \brief   Quit the application because of unset target languages.
  *
  * This lexer needs exactly one language it can translate to.  If no one is
- * configurated, there is no need to keep this translator running.
+ * configured, there is no need to keep this translator running.
  *
  * This function will write a brief error message to `stderr` and quit the
  * application with code 64.
