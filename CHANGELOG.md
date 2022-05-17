@@ -44,6 +44,9 @@
 
 ## [Unreleased]
 
+### added 
+* word: angelo
+
 ### Changed
 
 * update `docs-snippets`
