@@ -749,13 +749,8 @@ Venezia                     {
 
 void american (const char * const translation)
 {
-    if (to_american && isupper (yytext[0x0]))
-    {
-        fprintf (yyout, "%c", toupper (translation[0x0]));
-        echo (& translation[0x1]);
-    }
-    else if (to_american)
-        echo (translation);
+    if (to_american)
+        echo_upper (translation);
 
     return;
 }
@@ -772,13 +767,8 @@ void american (const char * const translation)
 
 void british (const char * const translation)
 {
-    if (to_british && isupper (yytext[0x0]))
-    {
-        fprintf (yyout, "%c", toupper (translation[0x0]));
-        echo (& translation[0x1]);
-    }
-    else if (to_british)
-        echo (translation);
+    if (to_british)
+        echo_upper (translation);
 
     return;
 }
@@ -995,13 +985,8 @@ void eval (const int argc, char * const * const args)
 
 void german (const char * const translation)
 {
-    if (to_german && isupper (yytext[0x0]))
-    {
-        fprintf (yyout, "%c", toupper (translation[0x0]));
-        echo (& translation[0x1]);
-    }
-    else if (to_german)
-        echo (translation);
+    if (to_german)
+        echo_upper (translation);
 
     return;
 }
