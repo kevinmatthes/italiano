@@ -47,12 +47,14 @@
 ### Added
 
 * add references to `CITATION.cff`
+* function `echo_upper`
 * GitHub Action:  automatic CFF validation
 * word:  angelo
 
 ### Changed
 
 * adjust regex for "studiare" conjugation
+* outsource case handling to `echo_upper`
 * update `docs-snippets`
 * update `libgpl2`
 
