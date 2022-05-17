@@ -104,6 +104,8 @@
                                 english ("in");
                                 german  ("in");
                             };
+[Aa]ngelo {english ("angel");
+                  german ("Engel");};
 [Aa]rrivederci              {
                                 english ("good bye");
                                 german  ("auf Wiedersehen");
