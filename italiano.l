@@ -623,7 +623,7 @@ Londra                      {
                                 english ("studies");
                                 german  ("studiert");
                             };
-[Ss]tudia((m|n)o|re)        {
+[Ss]tudia([mn]o|re)         {
                                 english ("study");
                                 german  ("studieren");
                             };
