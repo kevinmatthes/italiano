@@ -88,3 +88,14 @@ references:
     type: software-code
     url: https://github.com/kevinmatthes/docs-snippets
     version: 0.0.0
+  - abstract: A set of utilities concerning the GPL 2.0 license.
+    authors:
+      - family-names: Matthes
+        given-names: Kevin
+    date-released: 2022-05-16
+    license: GPL-2.0
+    repository-code: https://github.com/kevinmatthes/libgpl2
+    title: libgpl2
+    type: software-code
+    url: https://github.com/kevinmatthes/libpl2
+    version: 1.2
