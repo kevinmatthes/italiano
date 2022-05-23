@@ -50,6 +50,7 @@
 * function `echo_upper`
 * GitHub Action:  automatic CFF validation
 * word:  angelo
+* word:  formaggio
 
 ### Changed
 
