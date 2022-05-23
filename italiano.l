@@ -325,9 +325,13 @@ Berlino                     {
 
 
 
-[Ff]orma                 {
+[Ff]orma                    {
                                 english ("form");
                                 german  ("Form");
+                            };
+[Ff]ormaggio                {
+                                english ("cheese");
+                                german  ("Käse");
                             };
 [Ff]rancese                 {
                                 english ("French");
